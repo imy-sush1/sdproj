@@ -16,5 +16,30 @@ namespace Consultation.App
         {
             InitializeComponent();
         }
+
+        private void autoLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBoxAutoComplete1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void autoLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void autoLabel5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
