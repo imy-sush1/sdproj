@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainView));
             sidePanel = new Syncfusion.Windows.Forms.Tools.GradientPanel();
             buttonSecurity = new Button();
             label3 = new Label();
@@ -88,7 +87,7 @@
             buttonSecurity.FlatStyle = FlatStyle.Flat;
             buttonSecurity.Font = new Font("Inter", 11.25F);
             buttonSecurity.ForeColor = SystemColors.ControlText;
-            buttonSecurity.Image = (Image)resources.GetObject("buttonSecurity.Image");
+            buttonSecurity.Image = Properties.Icons.material_symbols__admin_panel_settings_outline;
             buttonSecurity.ImageAlign = ContentAlignment.MiddleLeft;
             buttonSecurity.Location = new Point(40, 696);
             buttonSecurity.Name = "buttonSecurity";
@@ -116,7 +115,7 @@
             buttonPreference.FlatStyle = FlatStyle.Flat;
             buttonPreference.Font = new Font("Inter", 11.25F);
             buttonPreference.ForeColor = SystemColors.ControlText;
-            buttonPreference.Image = (Image)resources.GetObject("buttonPreference.Image");
+            buttonPreference.Image = Properties.Icons.lsicon__setting_outline;
             buttonPreference.ImageAlign = ContentAlignment.MiddleLeft;
             buttonPreference.Location = new Point(40, 648);
             buttonPreference.Name = "buttonPreference";
@@ -133,7 +132,7 @@
             buttonReports.FlatStyle = FlatStyle.Flat;
             buttonReports.Font = new Font("Inter", 11.25F);
             buttonReports.ForeColor = SystemColors.ControlText;
-            buttonReports.Image = (Image)resources.GetObject("buttonReports.Image");
+            buttonReports.Image = Properties.Icons.streamline__graph_bar_increase;
             buttonReports.ImageAlign = ContentAlignment.MiddleLeft;
             buttonReports.Location = new Point(40, 528);
             buttonReports.Name = "buttonReports";
@@ -150,7 +149,7 @@
             buttonFaculty.FlatStyle = FlatStyle.Flat;
             buttonFaculty.Font = new Font("Inter", 11.25F);
             buttonFaculty.ForeColor = SystemColors.ControlText;
-            buttonFaculty.Image = (Image)resources.GetObject("buttonFaculty.Image");
+            buttonFaculty.Image = Properties.Icons.material_symbols__person_2_outline;
             buttonFaculty.ImageAlign = ContentAlignment.MiddleLeft;
             buttonFaculty.Location = new Point(40, 480);
             buttonFaculty.Name = "buttonFaculty";
@@ -178,7 +177,7 @@
             buttonStudents.FlatStyle = FlatStyle.Flat;
             buttonStudents.Font = new Font("Inter", 11.25F);
             buttonStudents.ForeColor = SystemColors.ControlText;
-            buttonStudents.Image = (Image)resources.GetObject("buttonStudents.Image");
+            buttonStudents.Image = Properties.Icons.material_symbols__groups_2;
             buttonStudents.ImageAlign = ContentAlignment.MiddleLeft;
             buttonStudents.Location = new Point(40, 432);
             buttonStudents.Name = "buttonStudents";
@@ -195,7 +194,7 @@
             buttonConsulation.FlatStyle = FlatStyle.Flat;
             buttonConsulation.Font = new Font("Inter", 11.25F);
             buttonConsulation.ForeColor = SystemColors.ControlText;
-            buttonConsulation.Image = (Image)resources.GetObject("buttonConsulation.Image");
+            buttonConsulation.Image = Properties.Icons.material_symbols__chat_bubble_outline;
             buttonConsulation.ImageAlign = ContentAlignment.MiddleLeft;
             buttonConsulation.Location = new Point(40, 296);
             buttonConsulation.Name = "buttonConsulation";
@@ -212,7 +211,7 @@
             buttonBulletin.FlatStyle = FlatStyle.Flat;
             buttonBulletin.Font = new Font("Inter", 11.25F);
             buttonBulletin.ForeColor = SystemColors.ControlText;
-            buttonBulletin.Image = (Image)resources.GetObject("buttonBulletin.Image");
+            buttonBulletin.Image = Properties.Icons.material_symbols__format_list_bulleted;
             buttonBulletin.ImageAlign = ContentAlignment.MiddleLeft;
             buttonBulletin.Location = new Point(40, 248);
             buttonBulletin.Name = "buttonBulletin";
@@ -240,7 +239,7 @@
             buttonDashboard.FlatStyle = FlatStyle.Flat;
             buttonDashboard.Font = new Font("Inter", 11.25F);
             buttonDashboard.ForeColor = SystemColors.ControlText;
-            buttonDashboard.Image = (Image)resources.GetObject("buttonDashboard.Image");
+            buttonDashboard.Image = Properties.Icons.material_symbols__dashboard_outline;
             buttonDashboard.ImageAlign = ContentAlignment.MiddleLeft;
             buttonDashboard.Location = new Point(40, 200);
             buttonDashboard.Name = "buttonDashboard";
@@ -271,7 +270,8 @@
             // 
             // headerPanel
             // 
-            headerPanel.BackColor = Color.Silver;
+            headerPanel.BackColor = Color.White;
+            headerPanel.BorderStyle = BorderStyle.Fixed3D;
             headerPanel.Dock = DockStyle.Top;
             headerPanel.ForeColor = SystemColors.ControlText;
             headerPanel.Location = new Point(260, 0);
@@ -324,6 +324,7 @@
             Controls.Add(mainPanel);
             Controls.Add(headerPanel);
             Controls.Add(sidePanel);
+            IsMdiContainer = true;
             Name = "MainView";
             Text = "MainView";
             WindowState = FormWindowState.Maximized;

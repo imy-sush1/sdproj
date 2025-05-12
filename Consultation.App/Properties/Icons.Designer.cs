@@ -22,14 +22,14 @@ namespace Consultation.App.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    internal class Icons {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
+        internal Icons() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace Consultation.App.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Consultation.App.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Consultation.App.Properties.Icons", typeof(Icons).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,9 +63,9 @@ namespace Consultation.App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_05_07_145700 {
+        internal static System.Drawing.Bitmap lsicon__setting_outline {
             get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-05-07 145700", resourceCulture);
+                object obj = ResourceManager.GetObject("lsicon--setting-outline", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Consultation.App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_05_07_150306 {
+        internal static System.Drawing.Bitmap material_symbols__admin_panel_settings_outline {
             get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-05-07 150306", resourceCulture);
+                object obj = ResourceManager.GetObject("material-symbols--admin-panel-settings-outline", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace Consultation.App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_05_08_143318 {
+        internal static System.Drawing.Bitmap material_symbols__chat_bubble_outline {
             get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-05-08 143318", resourceCulture);
+                object obj = ResourceManager.GetObject("material-symbols--chat-bubble-outline", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace Consultation.App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2025_05_08_144602 {
+        internal static System.Drawing.Bitmap material_symbols__dashboard_outline {
             get {
-                object obj = ResourceManager.GetObject("Screenshot 2025-05-08 144602", resourceCulture);
+                object obj = ResourceManager.GetObject("material-symbols--dashboard-outline", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,39 @@ namespace Consultation.App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Untitled {
+        internal static System.Drawing.Bitmap material_symbols__format_list_bulleted {
             get {
-                object obj = ResourceManager.GetObject("Untitled", resourceCulture);
+                object obj = ResourceManager.GetObject("material-symbols--format-list-bulleted", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap material_symbols__groups_2 {
+            get {
+                object obj = ResourceManager.GetObject("material-symbols--groups-2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap material_symbols__person_2_outline {
+            get {
+                object obj = ResourceManager.GetObject("material-symbols--person-2-outline", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap streamline__graph_bar_increase {
+            get {
+                object obj = ResourceManager.GetObject("streamline--graph-bar-increase", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
