@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace syncfuu.Views
+namespace Consultation.App.Views
 {
     public partial class MainView : Form
     {
