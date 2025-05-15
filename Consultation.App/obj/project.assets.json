@@ -804,11 +804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project Files\\Visual Studio\\repo\\proto_sd\\Consultation.App\\Consultation.App.csproj",
+      "projectUniqueName": "D:\\Project Files\\Visual Studio\\repo\\proto_sd_project\\Consultation.App\\Consultation.App.csproj",
       "projectName": "Consultation.App",
-      "projectPath": "D:\\Project Files\\Visual Studio\\repo\\proto_sd\\Consultation.App\\Consultation.App.csproj",
+      "projectPath": "D:\\Project Files\\Visual Studio\\repo\\proto_sd_project\\Consultation.App\\Consultation.App.csproj",
       "packagesPath": "C:\\Users\\leejo\\.nuget\\packages\\",
-      "outputPath": "D:\\Project Files\\Visual Studio\\repo\\proto_sd\\Consultation.App\\obj\\",
+      "outputPath": "D:\\Project Files\\Visual Studio\\repo\\proto_sd_project\\Consultation.App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Programs\\Microsoft Visual Studio\\Shared\\NuGetPackages"
