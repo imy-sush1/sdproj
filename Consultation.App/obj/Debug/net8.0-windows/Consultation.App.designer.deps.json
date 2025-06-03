@@ -17,17 +17,38 @@
           }
         }
       },
+      "MaterialSkin.2/2.3.1": {
+        "runtime": {
+          "lib/net5.0-windows7.0/MaterialSkin.dll": {
+            "assemblyVersion": "2.3.1.0",
+            "fileVersion": "2.3.1.0"
+          }
+        }
+      },
       "Microsoft.WinForms.Designer.SDK/1.6.0": {
         "dependencies": {
           "System.CodeDom": "7.0.0",
           "System.Composition": "6.0.0"
         }
       },
+      "Syncfusion.Core.WinForms/29.2.8": {
+        "dependencies": {
+          "Microsoft.WinForms.Designer.SDK": "1.6.0",
+          "Syncfusion.Licensing": "29.2.8",
+          "Syncfusion.Shared.Base": "29.2.8"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Core.WinForms.dll": {
+            "assemblyVersion": "29.2.8.0",
+            "fileVersion": "29.2.8.0"
+          }
+        }
+      },
       "Syncfusion.Grid.Windows/29.1.41": {
         "dependencies": {
           "Microsoft.WinForms.Designer.SDK": "1.6.0",
-          "Syncfusion.Licensing": "29.1.41",
-          "Syncfusion.Shared.Base": "29.1.41",
+          "Syncfusion.Licensing": "29.2.8",
+          "Syncfusion.Shared.Base": "29.2.8",
           "Syncfusion.Shared.Windows": "29.1.41"
         },
         "runtime": {
@@ -37,30 +58,30 @@
           }
         }
       },
-      "Syncfusion.Licensing/29.1.41": {
+      "Syncfusion.Licensing/29.2.8": {
         "runtime": {
           "lib/net8.0/Syncfusion.Licensing.dll": {
-            "assemblyVersion": "29.1.41.0",
-            "fileVersion": "29.1.41.0"
+            "assemblyVersion": "29.2.8.0",
+            "fileVersion": "29.2.8.0"
           }
         }
       },
-      "Syncfusion.Shared.Base/29.1.41": {
+      "Syncfusion.Shared.Base/29.2.8": {
         "dependencies": {
           "Microsoft.WinForms.Designer.SDK": "1.6.0",
-          "Syncfusion.Licensing": "29.1.41"
+          "Syncfusion.Licensing": "29.2.8"
         },
         "runtime": {
           "lib/net8.0-windows7.0/Syncfusion.Shared.Base.dll": {
-            "assemblyVersion": "29.1.41.0",
-            "fileVersion": "29.1.41.0"
+            "assemblyVersion": "29.2.8.0",
+            "fileVersion": "29.2.8.0"
           }
         }
       },
       "Syncfusion.Shared.Windows/29.1.41": {
         "dependencies": {
-          "Syncfusion.Licensing": "29.1.41",
-          "Syncfusion.Shared.Base": "29.1.41"
+          "Syncfusion.Licensing": "29.2.8",
+          "Syncfusion.Shared.Base": "29.2.8"
         },
         "runtime": {
           "lib/net8.0-windows7.0/Syncfusion.Shared.Windows.dll": {
@@ -71,7 +92,7 @@
       },
       "Syncfusion.Shared.WPF/29.1.41": {
         "dependencies": {
-          "Syncfusion.Licensing": "29.1.41"
+          "Syncfusion.Licensing": "29.2.8"
         },
         "runtime": {
           "lib/net8.0-windows7.0/Syncfusion.Shared.WPF.dll": {
@@ -82,7 +103,7 @@
       },
       "Syncfusion.SpellChecker.Base/29.1.41": {
         "dependencies": {
-          "Syncfusion.Licensing": "29.1.41"
+          "Syncfusion.Licensing": "29.2.8"
         },
         "runtime": {
           "lib/net8.0-windows7.0/Syncfusion.SpellChecker.Base.dll": {
@@ -93,8 +114,8 @@
       },
       "Syncfusion.Tools.Base/29.1.41": {
         "dependencies": {
-          "Syncfusion.Licensing": "29.1.41",
-          "Syncfusion.Shared.Base": "29.1.41"
+          "Syncfusion.Licensing": "29.2.8",
+          "Syncfusion.Shared.Base": "29.2.8"
         },
         "runtime": {
           "lib/net8.0-windows7.0/Syncfusion.Tools.Base.dll": {
@@ -107,8 +128,8 @@
         "dependencies": {
           "Microsoft.WinForms.Designer.SDK": "1.6.0",
           "Syncfusion.Grid.Windows": "29.1.41",
-          "Syncfusion.Licensing": "29.1.41",
-          "Syncfusion.Shared.Base": "29.1.41",
+          "Syncfusion.Licensing": "29.2.8",
+          "Syncfusion.Shared.Base": "29.2.8",
           "Syncfusion.Shared.Windows": "29.1.41",
           "Syncfusion.SpellChecker.Base": "29.1.41",
           "Syncfusion.Tools.Base": "29.1.41"
@@ -122,7 +143,7 @@
       },
       "Syncfusion.Tools.WPF/29.1.41": {
         "dependencies": {
-          "Syncfusion.Licensing": "29.1.41",
+          "Syncfusion.Licensing": "29.2.8",
           "Syncfusion.Shared.WPF": "29.1.41"
         },
         "runtime": {
@@ -229,12 +250,26 @@
       "path": "guna.ui2.winforms/2.0.4.7",
       "hashPath": "guna.ui2.winforms.2.0.4.7.nupkg.sha512"
     },
+    "MaterialSkin.2/2.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w2vFxLNk4InCDU7pXDfBqPfv55HhBtuu8HRfEqQpeS3sNTS1pUzDs/hS0b5JW2/tKvt+P1of9OINP8a9omWDBg==",
+      "path": "materialskin.2/2.3.1",
+      "hashPath": "materialskin.2.2.3.1.nupkg.sha512"
+    },
     "Microsoft.WinForms.Designer.SDK/1.6.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-BDIY84GbvQ4ensnD1zuZUmWIypl2muqUm4SM9qZ48OmaN8G5dmos38Dt35aEzMy0sN2Ci6UaJPiY1gwmw5eo7A==",
       "path": "microsoft.winforms.designer.sdk/1.6.0",
       "hashPath": "microsoft.winforms.designer.sdk.1.6.0.nupkg.sha512"
+    },
+    "Syncfusion.Core.WinForms/29.2.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NHMTauPUwvOm980Iwb3aZr3BqDKS//fgUHh5FCwFPkT6vuiyDORFirp0ASslsL2tN8htUcIdggr9s0uHnH1SPw==",
+      "path": "syncfusion.core.winforms/29.2.8",
+      "hashPath": "syncfusion.core.winforms.29.2.8.nupkg.sha512"
     },
     "Syncfusion.Grid.Windows/29.1.41": {
       "type": "package",
@@ -243,19 +278,19 @@
       "path": "syncfusion.grid.windows/29.1.41",
       "hashPath": "syncfusion.grid.windows.29.1.41.nupkg.sha512"
     },
-    "Syncfusion.Licensing/29.1.41": {
+    "Syncfusion.Licensing/29.2.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ODsd3B+Fa2Gj3TLhUgroqxi4cNBuX76TFqqo8JGEwQ3UnUNM0Fl7XmH6DHoCO5NX/fPTL9HhA0U5n/FfW44Fgw==",
-      "path": "syncfusion.licensing/29.1.41",
-      "hashPath": "syncfusion.licensing.29.1.41.nupkg.sha512"
+      "sha512": "sha512-TUJ2SbJMiz61FgAL2RYSEfYow/LcnH4AMORipTZRFhQmSA5y3vCA9tnuhvSXtDMoIvZIv7jGxIDIL1oZtM6YhA==",
+      "path": "syncfusion.licensing/29.2.8",
+      "hashPath": "syncfusion.licensing.29.2.8.nupkg.sha512"
     },
-    "Syncfusion.Shared.Base/29.1.41": {
+    "Syncfusion.Shared.Base/29.2.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kZkqPi/3GJyZNoZslk3DS7uFXF3HEYzJK4lVT5uwJXEa3XWK6b4sGxDn98+WdiTjetJ1iKH/ysu96qmLUNjFeQ==",
-      "path": "syncfusion.shared.base/29.1.41",
-      "hashPath": "syncfusion.shared.base.29.1.41.nupkg.sha512"
+      "sha512": "sha512-II4SAvmavpfylwgVDl6qxrKAgG6r4vbESlDWW25cdThmIFq7AzmkNrj/jMe6h3EfqJEbLPc3+GznZJ5k+nVx6A==",
+      "path": "syncfusion.shared.base/29.2.8",
+      "hashPath": "syncfusion.shared.base.29.2.8.nupkg.sha512"
     },
     "Syncfusion.Shared.Windows/29.1.41": {
       "type": "package",

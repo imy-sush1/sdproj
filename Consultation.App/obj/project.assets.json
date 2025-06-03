@@ -17,6 +17,18 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
+      "MaterialSkin.2/2.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows7.0/MaterialSkin.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/MaterialSkin.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "Microsoft.WinForms.Designer.SDK/1.6.0": {
         "type": "package",
         "dependencies": {
@@ -39,6 +51,24 @@
           "build/netcoreapp3.1/Microsoft.WinForms.Designer.SDK.targets": {}
         }
       },
+      "Syncfusion.Core.WinForms/29.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.WinForms.Designer.SDK": "1.6.0",
+          "Syncfusion.Licensing": "29.2.8",
+          "Syncfusion.Shared.Base": "29.2.8"
+        },
+        "compile": {
+          "lib/net8.0-windows7.0/Syncfusion.Core.WinForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Syncfusion.Core.WinForms.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Syncfusion.Grid.Windows/29.1.41": {
         "type": "package",
         "dependencies": {
@@ -58,7 +88,7 @@
           }
         }
       },
-      "Syncfusion.Licensing/29.1.41": {
+      "Syncfusion.Licensing/29.2.8": {
         "type": "package",
         "compile": {
           "lib/net8.0/Syncfusion.Licensing.dll": {}
@@ -67,11 +97,11 @@
           "lib/net8.0/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Shared.Base/29.1.41": {
+      "Syncfusion.Shared.Base/29.2.8": {
         "type": "package",
         "dependencies": {
           "Microsoft.WinForms.Designer.SDK": "1.6.0",
-          "Syncfusion.Licensing": "29.1.41"
+          "Syncfusion.Licensing": "29.2.8"
         },
         "compile": {
           "lib/net8.0-windows7.0/Syncfusion.Shared.Base.dll": {
@@ -359,6 +389,23 @@
         "lib/netcoreapp3.1/Guna.UI2.dll"
       ]
     },
+    "MaterialSkin.2/2.3.1": {
+      "sha512": "w2vFxLNk4InCDU7pXDfBqPfv55HhBtuu8HRfEqQpeS3sNTS1pUzDs/hS0b5JW2/tKvt+P1of9OINP8a9omWDBg==",
+      "type": "package",
+      "path": "materialskin.2/2.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net45/MaterialSkin.dll",
+        "lib/net461/MaterialSkin.dll",
+        "lib/net48/MaterialSkin.dll",
+        "lib/net5.0-windows7.0/MaterialSkin.dll",
+        "materialskin.2.2.3.1.nupkg.sha512",
+        "materialskin.2.nuspec",
+        "nugetIcon.png"
+      ]
+    },
     "Microsoft.WinForms.Designer.SDK/1.6.0": {
       "sha512": "BDIY84GbvQ4ensnD1zuZUmWIypl2muqUm4SM9qZ48OmaN8G5dmos38Dt35aEzMy0sN2Ci6UaJPiY1gwmw5eo7A==",
       "type": "package",
@@ -387,6 +434,28 @@
         "ref/netcoreapp3.1/Microsoft.WinForms.Utilities.Shared.xml"
       ]
     },
+    "Syncfusion.Core.WinForms/29.2.8": {
+      "sha512": "NHMTauPUwvOm980Iwb3aZr3BqDKS//fgUHh5FCwFPkT6vuiyDORFirp0ASslsL2tN8htUcIdggr9s0uHnH1SPw==",
+      "type": "package",
+      "path": "syncfusion.core.winforms/29.2.8",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net462/Syncfusion.Core.WinForms.dll",
+        "lib/net462/Syncfusion.Core.WinForms.xml",
+        "lib/net8.0-windows7.0/Syncfusion.Core.WinForms.dll",
+        "lib/net8.0-windows7.0/Syncfusion.Core.WinForms.xml",
+        "lib/net9.0-windows7.0/Syncfusion.Core.WinForms.dll",
+        "lib/net9.0-windows7.0/Syncfusion.Core.WinForms.xml",
+        "syncfusion.core.winforms.29.2.8.nupkg.sha512",
+        "syncfusion.core.winforms.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
     "Syncfusion.Grid.Windows/29.1.41": {
       "sha512": "G4RFm1kJXlyw1QDdH5/9n+5FyjhhKBL4PfnmibHRSGGs4QxB2J+Sd3qkDwal96VNIR/11jXxt9bAF0Yexp9PBw==",
       "type": "package",
@@ -413,10 +482,10 @@
         "tools/VisualStudioToolsManifest.xml"
       ]
     },
-    "Syncfusion.Licensing/29.1.41": {
-      "sha512": "ODsd3B+Fa2Gj3TLhUgroqxi4cNBuX76TFqqo8JGEwQ3UnUNM0Fl7XmH6DHoCO5NX/fPTL9HhA0U5n/FfW44Fgw==",
+    "Syncfusion.Licensing/29.2.8": {
+      "sha512": "TUJ2SbJMiz61FgAL2RYSEfYow/LcnH4AMORipTZRFhQmSA5y3vCA9tnuhvSXtDMoIvZIv7jGxIDIL1oZtM6YhA==",
       "type": "package",
-      "path": "syncfusion.licensing/29.1.41",
+      "path": "syncfusion.licensing/29.2.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -430,15 +499,15 @@
         "lib/net9.0/Syncfusion.Licensing.dll",
         "lib/netstandard2.0/Syncfusion.Licensing.dll",
         "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.29.1.41.nupkg.sha512",
+        "syncfusion.licensing.29.2.8.nupkg.sha512",
         "syncfusion.licensing.nuspec",
         "syncfusion_logo.png"
       ]
     },
-    "Syncfusion.Shared.Base/29.1.41": {
-      "sha512": "kZkqPi/3GJyZNoZslk3DS7uFXF3HEYzJK4lVT5uwJXEa3XWK6b4sGxDn98+WdiTjetJ1iKH/ysu96qmLUNjFeQ==",
+    "Syncfusion.Shared.Base/29.2.8": {
+      "sha512": "II4SAvmavpfylwgVDl6qxrKAgG6r4vbESlDWW25cdThmIFq7AzmkNrj/jMe6h3EfqJEbLPc3+GznZJ5k+nVx6A==",
       "type": "package",
-      "path": "syncfusion.shared.base/29.1.41",
+      "path": "syncfusion.shared.base/29.2.8",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -455,7 +524,7 @@
         "lib/net9.0-windows7.0/Design/WinForms/Syncfusion.Shared.Base.Client.dll",
         "lib/net9.0-windows7.0/Syncfusion.Shared.Base.dll",
         "lib/net9.0-windows7.0/Syncfusion.Shared.Base.xml",
-        "syncfusion.shared.base.29.1.41.nupkg.sha512",
+        "syncfusion.shared.base.29.2.8.nupkg.sha512",
         "syncfusion.shared.base.nuspec",
         "syncfusion_logo.png",
         "tools/VisualStudioToolsManifest.xml"
@@ -793,6 +862,8 @@
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "Guna.UI2.WinForms >= 2.0.4.7",
+      "MaterialSkin.2 >= 2.3.1",
+      "Syncfusion.Core.WinForms >= 29.2.8",
       "Syncfusion.Tools.WPF >= 29.1.41",
       "Syncfusion.Tools.Windows >= 29.1.41"
     ]
@@ -850,6 +921,14 @@
           "Guna.UI2.WinForms": {
             "target": "Package",
             "version": "[2.0.4.7, )"
+          },
+          "MaterialSkin.2": {
+            "target": "Package",
+            "version": "[2.3.1, )"
+          },
+          "Syncfusion.Core.WinForms": {
+            "target": "Package",
+            "version": "[29.2.8, )"
           },
           "Syncfusion.Tools.WPF": {
             "target": "Package",

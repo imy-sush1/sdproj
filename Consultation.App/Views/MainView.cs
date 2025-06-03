@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Consultation.App.Views.IViews;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,7 +11,7 @@ using System.Windows.Forms;
 
 namespace Consultation.App.Views
 {
-    public partial class MainView : Form
+    public partial class MainView : Form, IMainView
     {
         public MainView()
         {
@@ -31,5 +32,9 @@ namespace Consultation.App.Views
         public event EventHandler ReportsEvent;
         public event EventHandler PreferenceEvent;
 
+        public void SetMessage(string message)
+        {
+            MessageBox.Show(message);
+        }
     }
 }

@@ -2,7 +2,34 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="Views\DashboardView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Dashboard\Activity Feed Panel\Bulletin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\Dashboard\Activity Feed Panel\BulletinCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\Dashboard\Activity Feed Panel\Consultation2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\Dashboard\Activity Feed Panel\ConsultationCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\Dashboard\MainDashboardUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\Dashboard\Upcoming Schedule\Today.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\Dashboard\Upcoming Schedule\TodayCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Views\MainView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\TestViews\BulletinView.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

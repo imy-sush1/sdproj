@@ -8,5 +8,7 @@
         event EventHandler SFManagementEvent;
         event EventHandler ReportsEvent;
         event EventHandler PreferenceEvent;
+
+        void SetMessage(string message);
     }
 }

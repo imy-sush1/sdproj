@@ -35,4 +35,14 @@ D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-w
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\ref\Consultation.App.dll
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.MainView.resources
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Properties.Icons.resources
-D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.TestViews.DashboardView.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Dashboard.Activity_Feed_Panel.Bulletin.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Dashboard.Activity_Feed_Panel.BulletinCard.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Dashboard.Activity_Feed_Panel.Consultation2.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Dashboard.Activity_Feed_Panel.ConsultationCard.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Dashboard.MainDashboardUserControl.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Dashboard.Upcoming_Schedule.Today.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Dashboard.Upcoming_Schedule.TodayCard.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.DashboardView.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\bin\Debug\net8.0-windows\MaterialSkin.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\bin\Debug\net8.0-windows\Syncfusion.Core.WinForms.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.TestViews.BulletinView.resources

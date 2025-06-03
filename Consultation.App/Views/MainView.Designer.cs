@@ -45,7 +45,6 @@
             pictureBoxLogo = new PictureBox();
             headerPanel = new Panel();
             label4 = new Label();
-            mainPanel = new Panel();
             ((System.ComponentModel.ISupportInitialize)sidePanel).BeginInit();
             sidePanel.SuspendLayout();
             profilePanel.SuspendLayout();
@@ -287,20 +286,11 @@
             label4.TabIndex = 12;
             label4.Text = "Form Name";
             // 
-            // mainPanel
-            // 
-            mainPanel.Dock = DockStyle.Fill;
-            mainPanel.Location = new Point(260, 100);
-            mainPanel.Name = "mainPanel";
-            mainPanel.Size = new Size(1644, 941);
-            mainPanel.TabIndex = 2;
-            // 
             // MainView
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1904, 1041);
-            Controls.Add(mainPanel);
             Controls.Add(headerPanel);
             Controls.Add(sidePanel);
             IsMdiContainer = true;
@@ -336,7 +326,6 @@
         private Label labelProfileRole;
         private Label labelProfileName;
         private PictureBox pictureBoxProfile;
-        private Panel mainPanel;
         private Label label4;
     }
 }
