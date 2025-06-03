@@ -1,5 +1,4 @@
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.csproj.AssemblyReference.cache
-D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Reports.resources
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.csproj.GenerateResource.cache
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.GeneratedMSBuildEditorConfig.editorconfig
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.AssemblyInfoInputs.cache
@@ -36,3 +35,4 @@ D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-w
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\ref\Consultation.App.dll
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.MainView.resources
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Properties.Icons.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.TestViews.DashboardView.resources

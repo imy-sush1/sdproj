@@ -33,8 +33,8 @@
             buttonPreference = new Button();
             buttonReports = new Button();
             label2 = new Label();
-            buttonStudents = new Button();
-            buttonConsulation = new Button();
+            buttonSFManagement = new Button();
+            buttonConsultation = new Button();
             buttonBulletin = new Button();
             label1 = new Label();
             buttonDashboard = new Button();
@@ -44,26 +44,28 @@
             pictureBoxProfile = new PictureBox();
             pictureBoxLogo = new PictureBox();
             headerPanel = new Panel();
+            label4 = new Label();
             mainPanel = new Panel();
             ((System.ComponentModel.ISupportInitialize)sidePanel).BeginInit();
             sidePanel.SuspendLayout();
             profilePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProfile).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).BeginInit();
+            headerPanel.SuspendLayout();
             SuspendLayout();
             // 
             // sidePanel
             // 
             sidePanel.BackColor = SystemColors.ActiveCaption;
-            sidePanel.BackgroundColor = new Syncfusion.Drawing.BrushInfo(Syncfusion.Drawing.GradientStyle.Vertical, Color.FromArgb(222, 59, 64), Color.FromArgb(222, 167, 59));
+            sidePanel.BackgroundColor = new Syncfusion.Drawing.BrushInfo(Syncfusion.Drawing.GradientStyle.Vertical, Color.FromArgb(117, 7, 39), Color.FromArgb(197, 62, 63));
             sidePanel.Border3DStyle = Border3DStyle.Flat;
             sidePanel.BorderStyle = BorderStyle.None;
             sidePanel.Controls.Add(label3);
             sidePanel.Controls.Add(buttonPreference);
             sidePanel.Controls.Add(buttonReports);
             sidePanel.Controls.Add(label2);
-            sidePanel.Controls.Add(buttonStudents);
-            sidePanel.Controls.Add(buttonConsulation);
+            sidePanel.Controls.Add(buttonSFManagement);
+            sidePanel.Controls.Add(buttonConsultation);
             sidePanel.Controls.Add(buttonBulletin);
             sidePanel.Controls.Add(label1);
             sidePanel.Controls.Add(buttonDashboard);
@@ -80,10 +82,10 @@
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
-            label3.Font = new Font("Inter", 14.25F);
+            label3.Font = new Font("Inter", 14.25F, FontStyle.Bold);
             label3.Location = new Point(24, 600);
             label3.Name = "label3";
-            label3.Size = new Size(85, 27);
+            label3.Size = new Size(89, 27);
             label3.TabIndex = 11;
             label3.Text = "Settings";
             // 
@@ -96,9 +98,9 @@
             buttonPreference.ForeColor = SystemColors.ControlText;
             buttonPreference.Image = Properties.Icons.lsicon__setting_outline;
             buttonPreference.ImageAlign = ContentAlignment.MiddleLeft;
-            buttonPreference.Location = new Point(40, 640);
+            buttonPreference.Location = new Point(30, 640);
             buttonPreference.Name = "buttonPreference";
-            buttonPreference.Size = new Size(208, 56);
+            buttonPreference.Size = new Size(228, 56);
             buttonPreference.TabIndex = 10;
             buttonPreference.Text = "Preference and Security";
             buttonPreference.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -113,9 +115,9 @@
             buttonReports.ForeColor = SystemColors.ControlText;
             buttonReports.Image = Properties.Icons.streamline__graph_bar_increase;
             buttonReports.ImageAlign = ContentAlignment.MiddleLeft;
-            buttonReports.Location = new Point(40, 512);
+            buttonReports.Location = new Point(30, 512);
             buttonReports.Name = "buttonReports";
-            buttonReports.Size = new Size(208, 42);
+            buttonReports.Size = new Size(228, 42);
             buttonReports.TabIndex = 9;
             buttonReports.Text = "Reports";
             buttonReports.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -125,48 +127,48 @@
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Inter", 14.25F);
+            label2.Font = new Font("Inter", 14.25F, FontStyle.Bold);
             label2.Location = new Point(24, 424);
             label2.Name = "label2";
-            label2.Size = new Size(130, 27);
+            label2.Size = new Size(134, 27);
             label2.TabIndex = 7;
             label2.Text = "Management";
             // 
-            // buttonStudents
+            // buttonSFManagement
             // 
-            buttonStudents.BackColor = Color.Transparent;
-            buttonStudents.FlatAppearance.BorderSize = 0;
-            buttonStudents.FlatStyle = FlatStyle.Flat;
-            buttonStudents.Font = new Font("Inter", 11.25F);
-            buttonStudents.ForeColor = SystemColors.ControlText;
-            buttonStudents.Image = Properties.Icons.material_symbols__groups_2;
-            buttonStudents.ImageAlign = ContentAlignment.MiddleLeft;
-            buttonStudents.Location = new Point(40, 464);
-            buttonStudents.Name = "buttonStudents";
-            buttonStudents.Size = new Size(208, 48);
-            buttonStudents.TabIndex = 6;
-            buttonStudents.Text = "Students and Faculty";
-            buttonStudents.TextAlign = ContentAlignment.MiddleLeft;
-            buttonStudents.TextImageRelation = TextImageRelation.ImageBeforeText;
-            buttonStudents.UseVisualStyleBackColor = false;
+            buttonSFManagement.BackColor = Color.Transparent;
+            buttonSFManagement.FlatAppearance.BorderSize = 0;
+            buttonSFManagement.FlatStyle = FlatStyle.Flat;
+            buttonSFManagement.Font = new Font("Inter", 11.25F);
+            buttonSFManagement.ForeColor = SystemColors.ControlText;
+            buttonSFManagement.Image = Properties.Icons.material_symbols__groups_2;
+            buttonSFManagement.ImageAlign = ContentAlignment.MiddleLeft;
+            buttonSFManagement.Location = new Point(30, 464);
+            buttonSFManagement.Name = "buttonSFManagement";
+            buttonSFManagement.Size = new Size(228, 48);
+            buttonSFManagement.TabIndex = 6;
+            buttonSFManagement.Text = "Students and Faculty";
+            buttonSFManagement.TextAlign = ContentAlignment.MiddleLeft;
+            buttonSFManagement.TextImageRelation = TextImageRelation.ImageBeforeText;
+            buttonSFManagement.UseVisualStyleBackColor = false;
             // 
-            // buttonConsulation
+            // buttonConsultation
             // 
-            buttonConsulation.BackColor = Color.Transparent;
-            buttonConsulation.FlatAppearance.BorderSize = 0;
-            buttonConsulation.FlatStyle = FlatStyle.Flat;
-            buttonConsulation.Font = new Font("Inter", 11.25F);
-            buttonConsulation.ForeColor = SystemColors.ControlText;
-            buttonConsulation.Image = Properties.Icons.material_symbols__chat_bubble_outline;
-            buttonConsulation.ImageAlign = ContentAlignment.MiddleLeft;
-            buttonConsulation.Location = new Point(40, 328);
-            buttonConsulation.Name = "buttonConsulation";
-            buttonConsulation.Size = new Size(208, 48);
-            buttonConsulation.TabIndex = 5;
-            buttonConsulation.Text = "Consulation";
-            buttonConsulation.TextAlign = ContentAlignment.MiddleLeft;
-            buttonConsulation.TextImageRelation = TextImageRelation.ImageBeforeText;
-            buttonConsulation.UseVisualStyleBackColor = false;
+            buttonConsultation.BackColor = Color.Transparent;
+            buttonConsultation.FlatAppearance.BorderSize = 0;
+            buttonConsultation.FlatStyle = FlatStyle.Flat;
+            buttonConsultation.Font = new Font("Inter", 11.25F);
+            buttonConsultation.ForeColor = SystemColors.ControlText;
+            buttonConsultation.Image = Properties.Icons.material_symbols__chat_bubble_outline;
+            buttonConsultation.ImageAlign = ContentAlignment.MiddleLeft;
+            buttonConsultation.Location = new Point(30, 328);
+            buttonConsultation.Name = "buttonConsultation";
+            buttonConsultation.Size = new Size(228, 48);
+            buttonConsultation.TabIndex = 5;
+            buttonConsultation.Text = "Consulation";
+            buttonConsultation.TextAlign = ContentAlignment.MiddleLeft;
+            buttonConsultation.TextImageRelation = TextImageRelation.ImageBeforeText;
+            buttonConsultation.UseVisualStyleBackColor = false;
             // 
             // buttonBulletin
             // 
@@ -177,9 +179,9 @@
             buttonBulletin.ForeColor = SystemColors.ControlText;
             buttonBulletin.Image = Properties.Icons.material_symbols__format_list_bulleted;
             buttonBulletin.ImageAlign = ContentAlignment.MiddleLeft;
-            buttonBulletin.Location = new Point(40, 280);
+            buttonBulletin.Location = new Point(30, 280);
             buttonBulletin.Name = "buttonBulletin";
-            buttonBulletin.Size = new Size(208, 42);
+            buttonBulletin.Size = new Size(228, 42);
             buttonBulletin.TabIndex = 4;
             buttonBulletin.Text = "Bulletin";
             buttonBulletin.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -189,10 +191,10 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Inter", 14.25F);
+            label1.Font = new Font("Inter", 14.25F, FontStyle.Bold);
             label1.Location = new Point(24, 192);
             label1.Name = "label1";
-            label1.Size = new Size(56, 27);
+            label1.Size = new Size(58, 27);
             label1.TabIndex = 3;
             label1.Text = "Main";
             // 
@@ -205,9 +207,9 @@
             buttonDashboard.ForeColor = SystemColors.ControlText;
             buttonDashboard.Image = Properties.Icons.material_symbols__dashboard_outline;
             buttonDashboard.ImageAlign = ContentAlignment.MiddleLeft;
-            buttonDashboard.Location = new Point(40, 232);
+            buttonDashboard.Location = new Point(30, 232);
             buttonDashboard.Name = "buttonDashboard";
-            buttonDashboard.Size = new Size(208, 42);
+            buttonDashboard.Size = new Size(228, 42);
             buttonDashboard.TabIndex = 2;
             buttonDashboard.Text = "Dashboard";
             buttonDashboard.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -266,13 +268,24 @@
             // headerPanel
             // 
             headerPanel.BackColor = Color.White;
-            headerPanel.BorderStyle = BorderStyle.Fixed3D;
+            headerPanel.Controls.Add(label4);
             headerPanel.Dock = DockStyle.Top;
             headerPanel.ForeColor = SystemColors.ControlText;
             headerPanel.Location = new Point(260, 0);
             headerPanel.Name = "headerPanel";
             headerPanel.Size = new Size(1644, 100);
             headerPanel.TabIndex = 1;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Inter", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Location = new Point(20, 27);
+            label4.Name = "label4";
+            label4.Size = new Size(200, 45);
+            label4.TabIndex = 12;
+            label4.Text = "Form Name";
             // 
             // mainPanel
             // 
@@ -301,6 +314,8 @@
             profilePanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProfile).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).EndInit();
+            headerPanel.ResumeLayout(false);
+            headerPanel.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -311,16 +326,17 @@
         private PictureBox pictureBoxLogo;
         private Button buttonDashboard;
         private Label label1;
-        private Button buttonConsulation;
+        private Button buttonConsultation;
         private Button buttonBulletin;
         private Label label3;
         private Button buttonPreference;
         private Button buttonReports;
         private Label label2;
-        private Button buttonStudents;
+        private Button buttonSFManagement;
         private Label labelProfileRole;
         private Label labelProfileName;
         private PictureBox pictureBoxProfile;
         private Panel mainPanel;
+        private Label label4;
     }
 }
