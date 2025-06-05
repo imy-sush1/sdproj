@@ -78,7 +78,7 @@ namespace Consultation.App.Presenters
         {
             childForm.MdiParent = (Form)_mainView;
             childForm.Dock = DockStyle.Fill;
-            childForm.FormBorderStyle = FormBorderStyle.None;
+            //childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.WindowState = FormWindowState.Normal;
             childForm.ShowInTaskbar = false;
             childForm.BringToFront();
