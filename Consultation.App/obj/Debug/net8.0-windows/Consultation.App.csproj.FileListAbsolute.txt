@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.csproj.AssemblyReference.cache
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.csproj.GenerateResource.cache
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.GeneratedMSBuildEditorConfig.editorconfig
@@ -46,3 +47,57 @@ D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-w
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\bin\Debug\net8.0-windows\MaterialSkin.dll
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\bin\Debug\net8.0-windows\Syncfusion.Core.WinForms.dll
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.TestViews.BulletinView.resources
+=======
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Reports.resources
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\Consultation.App.exe
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\Consultation.App.deps.json
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\Consultation.App.runtimeconfig.json
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\Consultation.App.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\Consultation.App.pdb
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\Guna.UI2.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\MaterialSkin.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\Syncfusion.Grid.Windows.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\Syncfusion.Licensing.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\Syncfusion.Shared.Base.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\Syncfusion.Shared.Windows.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\Syncfusion.Shared.WPF.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\Syncfusion.SpellChecker.Base.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\Syncfusion.Tools.Base.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\Syncfusion.Tools.Windows.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\Syncfusion.Tools.WPF.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.csproj.AssemblyReference.cache
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.ConsultationManagement.AddSchedule.resources
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.ConsultationManagement.ArchiveCard.resources
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.ConsultationManagement.ArchiveWindow.resources
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.ConsultationManagement.ConsultationCard.resources
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.ConsultationManagement.ConsultationWindow.resources
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.ConsultationManagement.CSWindow.resources
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Properties.Icons.resources
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Reports.resources
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.MainView.resources
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.csproj.GenerateResource.cache
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.AssemblyInfoInputs.cache
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.AssemblyInfo.cs
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.csproj.CoreCompileInputs.cache
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.sourcelink.json
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\Consulta.18DDE475.Up2Date
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\refint\Consultation.App.dll
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.pdb
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.genruntimeconfig.cache
+C:\Users\PC\Source\Repos\proto-sd-project\Consultation.App\obj\Debug\net8.0-windows\ref\Consultation.App.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.ConsultationManagement.AddSchedule.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.ConsultationManagement.ArchiveCard.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.ConsultationManagement.ArchiveWindow.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.ConsultationManagement.ConsultationCard.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.ConsultationManagement.ConsultationWindow.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.ConsultationManagement.CSWindow.resources
+>>>>>>> Stashed changes
