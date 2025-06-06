@@ -26,15 +26,5 @@
     "C:\\Users\\leejo\\.nuget\\packages\\system.composition.typedparts\\6.0.0\\system.composition.typedparts.6.0.0.nupkg.sha512",
     "C:\\Users\\leejo\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "message": "Problem reading the cache file D:\\Project Files\\Visual Studio\\repo\\proto_sd\\Consultation.App\\obj\\project.nuget.cache : '<' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0.",
-      "projectPath": "D:\\Project Files\\Visual Studio\\repo\\proto_sd\\Consultation.App\\Consultation.App.csproj",
-      "warningLevel": 1,
-      "filePath": "D:\\Project Files\\Visual Studio\\repo\\proto_sd\\Consultation.App\\Consultation.App.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }
