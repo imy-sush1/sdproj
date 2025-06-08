@@ -2,28 +2,49 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="Views\TestViews\MdiParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\UserControl\ConsultationManagement\AddSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\UserControl\ConsultationManagement\ArchiveCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\UserControl\ConsultationManagement\ArchiveWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\UserControl\ConsultationManagement\ConsultationCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\ConsultationView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\UserControl\ConsultationManagement\CSWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Views\DashboardView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Views\Dashboard\Activity Feed Panel\Bulletin.cs">
+    <Compile Update="Views\UserControl\Dashboard\Activity Feed Panel\Bulletin.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Views\Dashboard\Activity Feed Panel\BulletinCard.cs">
+    <Compile Update="Views\UserControl\Dashboard\Activity Feed Panel\BulletinCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Views\Dashboard\Activity Feed Panel\Consultation2.cs">
+    <Compile Update="Views\UserControl\Dashboard\Activity Feed Panel\Consultation2.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Views\Dashboard\Activity Feed Panel\ConsultationCard.cs">
+    <Compile Update="Views\UserControl\Dashboard\Activity Feed Panel\ConsultationCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Views\Dashboard\MainDashboardUserControl.cs">
+    <Compile Update="Views\UserControl\Dashboard\MainDashboardUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Views\Dashboard\Upcoming Schedule\Today.cs">
+    <Compile Update="Views\UserControl\Dashboard\Upcoming Schedule\Today.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Views\Dashboard\Upcoming Schedule\TodayCard.cs">
+    <Compile Update="Views\UserControl\Dashboard\Upcoming Schedule\TodayCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Views\MainView.cs">

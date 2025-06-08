@@ -43,14 +43,14 @@
             labelProfileName = new Label();
             pictureBoxProfile = new PictureBox();
             pictureBoxLogo = new PictureBox();
-            headerPanel = new Panel();
             label4 = new Label();
+            materialCard1 = new MaterialSkin.Controls.MaterialCard();
             ((System.ComponentModel.ISupportInitialize)sidePanel).BeginInit();
             sidePanel.SuspendLayout();
             profilePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProfile).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).BeginInit();
-            headerPanel.SuspendLayout();
+            materialCard1.SuspendLayout();
             SuspendLayout();
             // 
             // sidePanel
@@ -82,6 +82,7 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Inter", 14.25F, FontStyle.Bold);
+            label3.ForeColor = SystemColors.ControlLightLight;
             label3.Location = new Point(24, 600);
             label3.Name = "label3";
             label3.Size = new Size(89, 27);
@@ -94,7 +95,7 @@
             buttonPreference.FlatAppearance.BorderSize = 0;
             buttonPreference.FlatStyle = FlatStyle.Flat;
             buttonPreference.Font = new Font("Inter", 11.25F);
-            buttonPreference.ForeColor = SystemColors.ControlText;
+            buttonPreference.ForeColor = SystemColors.ControlLightLight;
             buttonPreference.Image = Properties.Icons.lsicon__setting_outline;
             buttonPreference.ImageAlign = ContentAlignment.MiddleLeft;
             buttonPreference.Location = new Point(30, 640);
@@ -111,7 +112,7 @@
             buttonReports.FlatAppearance.BorderSize = 0;
             buttonReports.FlatStyle = FlatStyle.Flat;
             buttonReports.Font = new Font("Inter", 11.25F);
-            buttonReports.ForeColor = SystemColors.ControlText;
+            buttonReports.ForeColor = SystemColors.ControlLightLight;
             buttonReports.Image = Properties.Icons.streamline__graph_bar_increase;
             buttonReports.ImageAlign = ContentAlignment.MiddleLeft;
             buttonReports.Location = new Point(30, 512);
@@ -127,6 +128,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Inter", 14.25F, FontStyle.Bold);
+            label2.ForeColor = SystemColors.ControlLightLight;
             label2.Location = new Point(24, 424);
             label2.Name = "label2";
             label2.Size = new Size(134, 27);
@@ -139,7 +141,7 @@
             buttonSFManagement.FlatAppearance.BorderSize = 0;
             buttonSFManagement.FlatStyle = FlatStyle.Flat;
             buttonSFManagement.Font = new Font("Inter", 11.25F);
-            buttonSFManagement.ForeColor = SystemColors.ControlText;
+            buttonSFManagement.ForeColor = SystemColors.ControlLightLight;
             buttonSFManagement.Image = Properties.Icons.material_symbols__groups_2;
             buttonSFManagement.ImageAlign = ContentAlignment.MiddleLeft;
             buttonSFManagement.Location = new Point(30, 464);
@@ -157,7 +159,7 @@
             buttonConsultation.FlatAppearance.BorderSize = 0;
             buttonConsultation.FlatStyle = FlatStyle.Flat;
             buttonConsultation.Font = new Font("Inter", 11.25F);
-            buttonConsultation.ForeColor = SystemColors.ControlText;
+            buttonConsultation.ForeColor = SystemColors.ControlLightLight;
             buttonConsultation.Image = Properties.Icons.material_symbols__chat_bubble_outline;
             buttonConsultation.ImageAlign = ContentAlignment.MiddleLeft;
             buttonConsultation.Location = new Point(30, 328);
@@ -175,7 +177,7 @@
             buttonBulletin.FlatAppearance.BorderSize = 0;
             buttonBulletin.FlatStyle = FlatStyle.Flat;
             buttonBulletin.Font = new Font("Inter", 11.25F);
-            buttonBulletin.ForeColor = SystemColors.ControlText;
+            buttonBulletin.ForeColor = SystemColors.ControlLightLight;
             buttonBulletin.Image = Properties.Icons.material_symbols__format_list_bulleted;
             buttonBulletin.ImageAlign = ContentAlignment.MiddleLeft;
             buttonBulletin.Location = new Point(30, 280);
@@ -191,6 +193,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Inter", 14.25F, FontStyle.Bold);
+            label1.ForeColor = SystemColors.ControlLightLight;
             label1.Location = new Point(24, 192);
             label1.Name = "label1";
             label1.Size = new Size(58, 27);
@@ -203,7 +206,7 @@
             buttonDashboard.FlatAppearance.BorderSize = 0;
             buttonDashboard.FlatStyle = FlatStyle.Flat;
             buttonDashboard.Font = new Font("Inter", 11.25F);
-            buttonDashboard.ForeColor = SystemColors.ControlText;
+            buttonDashboard.ForeColor = SystemColors.ControlLightLight;
             buttonDashboard.Image = Properties.Icons.material_symbols__dashboard_outline;
             buttonDashboard.ImageAlign = ContentAlignment.MiddleLeft;
             buttonDashboard.Location = new Point(30, 232);
@@ -264,34 +267,38 @@
             pictureBoxLogo.TabIndex = 0;
             pictureBoxLogo.TabStop = false;
             // 
-            // headerPanel
-            // 
-            headerPanel.BackColor = Color.White;
-            headerPanel.Controls.Add(label4);
-            headerPanel.Dock = DockStyle.Top;
-            headerPanel.ForeColor = SystemColors.ControlText;
-            headerPanel.Location = new Point(260, 0);
-            headerPanel.Name = "headerPanel";
-            headerPanel.Size = new Size(1644, 100);
-            headerPanel.TabIndex = 1;
-            // 
             // label4
             // 
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Inter", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(20, 27);
+            label4.Location = new Point(17, 29);
             label4.Name = "label4";
             label4.Size = new Size(200, 45);
             label4.TabIndex = 12;
             label4.Text = "Form Name";
+            // 
+            // materialCard1
+            // 
+            materialCard1.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard1.Controls.Add(label4);
+            materialCard1.Depth = 0;
+            materialCard1.Dock = DockStyle.Top;
+            materialCard1.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard1.Location = new Point(260, 0);
+            materialCard1.Margin = new Padding(14);
+            materialCard1.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard1.Name = "materialCard1";
+            materialCard1.Padding = new Padding(14);
+            materialCard1.Size = new Size(1644, 100);
+            materialCard1.TabIndex = 3;
             // 
             // MainView
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1904, 1041);
-            Controls.Add(headerPanel);
+            Controls.Add(materialCard1);
             Controls.Add(sidePanel);
             IsMdiContainer = true;
             Name = "MainView";
@@ -304,14 +311,13 @@
             profilePanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProfile).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).EndInit();
-            headerPanel.ResumeLayout(false);
-            headerPanel.PerformLayout();
+            materialCard1.ResumeLayout(false);
+            materialCard1.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
         private Syncfusion.Windows.Forms.Tools.GradientPanel sidePanel;
-        private Panel headerPanel;
         private Panel profilePanel;
         private PictureBox pictureBoxLogo;
         private Button buttonDashboard;
@@ -327,5 +333,6 @@
         private Label labelProfileName;
         private PictureBox pictureBoxProfile;
         private Label label4;
+        private MaterialSkin.Controls.MaterialCard materialCard1;
     }
 }
