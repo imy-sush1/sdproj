@@ -53,3 +53,4 @@ D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-w
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.ConsultationManagement.CSWindow.resources
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.ConsultationManagement.ConsultationView.resources
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.TestViews.MdiParent.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.LogInView.resources

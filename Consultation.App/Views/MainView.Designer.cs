@@ -43,7 +43,7 @@
             labelProfileName = new Label();
             pictureBoxProfile = new PictureBox();
             pictureBoxLogo = new PictureBox();
-            label4 = new Label();
+            labelForm = new Label();
             materialCard1 = new MaterialSkin.Controls.MaterialCard();
             ((System.ComponentModel.ISupportInitialize)sidePanel).BeginInit();
             sidePanel.SuspendLayout();
@@ -267,21 +267,21 @@
             pictureBoxLogo.TabIndex = 0;
             pictureBoxLogo.TabStop = false;
             // 
-            // label4
+            // labelForm
             // 
-            label4.AutoSize = true;
-            label4.BackColor = Color.Transparent;
-            label4.Font = new Font("Inter", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(17, 29);
-            label4.Name = "label4";
-            label4.Size = new Size(200, 45);
-            label4.TabIndex = 12;
-            label4.Text = "Form Name";
+            labelForm.AutoSize = true;
+            labelForm.BackColor = Color.Transparent;
+            labelForm.Font = new Font("Inter", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelForm.Location = new Point(17, 29);
+            labelForm.Name = "labelForm";
+            labelForm.Size = new Size(200, 45);
+            labelForm.TabIndex = 12;
+            labelForm.Text = "Form Name";
             // 
             // materialCard1
             // 
             materialCard1.BackColor = Color.FromArgb(255, 255, 255);
-            materialCard1.Controls.Add(label4);
+            materialCard1.Controls.Add(labelForm);
             materialCard1.Depth = 0;
             materialCard1.Dock = DockStyle.Top;
             materialCard1.ForeColor = Color.FromArgb(222, 0, 0, 0);
@@ -332,7 +332,7 @@
         private Label labelProfileRole;
         private Label labelProfileName;
         private PictureBox pictureBoxProfile;
-        private Label label4;
+        private Label labelForm;
         private MaterialSkin.Controls.MaterialCard materialCard1;
     }
 }

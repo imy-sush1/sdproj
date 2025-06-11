@@ -22,18 +22,15 @@ namespace Consultation.App.Presenters
             Preference
         }
 
-        // Track currently active form and its type
         private ChildForms _currentForm;
         private Form _activeForm;
 
-        // Store child form instances for reuse
         private readonly Dictionary<ChildForms, Form> _childForms = new();
 
         public MainPresenter(IMainView mainView)
         {
             _mainView = mainView;
 
-            // Hook up event handlers
             _mainView.DashboardEvent += DashboardEvent;
             _mainView.BulletinEvent += BulletinEvent;
             _mainView.ConsultationEvent += ConsultationEvent;
@@ -41,7 +38,6 @@ namespace Consultation.App.Presenters
             _mainView.ReportsEvent += ReportsEvent;
             _mainView.PreferenceEvent += PreferenceEvent;
 
-            // Load default child form
             LoadChildForm(ChildForms.Dashboard);
             _currentForm = ChildForms.Dashboard;
         }
@@ -85,33 +81,32 @@ namespace Consultation.App.Presenters
             _mainView.SetMessage("Preference Event Triggered");
         }
 
-        // Load and display child form
         private void LoadChildForm(ChildForms formType)
         {
-            // Hide currently active form
             if (_activeForm != null && !_activeForm.IsDisposed)
             {
                 _activeForm.Hide();
             }
 
-            // Create or reuse the child form
             if (!_childForms.TryGetValue(formType, out var form) || form.IsDisposed)
             {
                 form = CreateFormByType(formType);
                 _childForms[formType] = form;
             }
 
-            // Set MDI properties
-            form.MdiParent = (Form)_mainView; // Consider exposing MdiParentForm from IMainView
+            // Must be done before showing
+            form.FormBorderStyle = FormBorderStyle.None;
+            form.MdiParent = (Form)_mainView;
             form.Dock = DockStyle.Fill;
             form.ShowInTaskbar = false;
-            form.BringToFront();
-            form.Show();
 
             _activeForm = form;
+            form.Show();
+            form.BringToFront();
         }
 
-        // Factory method to create forms
+
+
         private Form CreateFormByType(ChildForms formType)
         {
             return formType switch

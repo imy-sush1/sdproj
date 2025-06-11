@@ -50,7 +50,6 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "DashboardView";
             Text = "Form1";
-            WindowState = FormWindowState.Maximized;
             ResumeLayout(false);
         }
 
