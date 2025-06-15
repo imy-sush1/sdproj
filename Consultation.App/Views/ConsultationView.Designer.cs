@@ -73,10 +73,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Archivo", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Microsoft Sans Serif", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(17, 9);
             label1.Name = "label1";
-            label1.Size = new Size(352, 73);
+            label1.Size = new Size(328, 55);
             label1.TabIndex = 2;
             label1.Text = "Consultations";
             // 
@@ -95,7 +95,7 @@
             guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox1.IconLeft = (Image)resources.GetObject("guna2TextBox1.IconLeft");
             guna2TextBox1.IconLeftSize = new Size(15, 15);
-            guna2TextBox1.Location = new Point(1317, 33);
+            guna2TextBox1.Location = new Point(1336, 33);
             guna2TextBox1.Name = "guna2TextBox1";
             guna2TextBox1.PlaceholderText = "Search";
             guna2TextBox1.SelectedText = "";
@@ -150,7 +150,7 @@
             guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             guna2Button1.FillColor = Color.Transparent;
-            guna2Button1.Font = new Font("Inter SemiBold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            guna2Button1.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2Button1.ForeColor = Color.Red;
             guna2Button1.Location = new Point(1343, 17);
             guna2Button1.Name = "guna2Button1";
@@ -179,7 +179,7 @@
             btnArchive.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnArchive.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             btnArchive.FillColor = Color.Transparent;
-            btnArchive.Font = new Font("Inter", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnArchive.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnArchive.ForeColor = Color.DimGray;
             btnArchive.Location = new Point(158, 9);
             btnArchive.Name = "btnArchive";
@@ -199,7 +199,7 @@
             btnConsultation.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnConsultation.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             btnConsultation.FillColor = Color.Transparent;
-            btnConsultation.Font = new Font("Inter", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnConsultation.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnConsultation.ForeColor = Color.DimGray;
             btnConsultation.Location = new Point(15, 9);
             btnConsultation.Name = "btnConsultation";
@@ -223,7 +223,7 @@
             guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
             guna2BorderlessForm1.TransparentWhileDrag = true;
             // 
-            // ConsultationWindow
+            // ConsultationView
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -233,7 +233,7 @@
             Controls.Add(materialCard2);
             Controls.Add(materialCard1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "ConsultationWindow";
+            Name = "ConsultationView";
             Text = "ConsultationWindow";
             materialCard1.ResumeLayout(false);
             materialCard1.PerformLayout();

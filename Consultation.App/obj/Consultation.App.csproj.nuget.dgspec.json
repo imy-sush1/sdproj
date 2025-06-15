@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project Files\\Visual Studio\\repo\\proto_sd\\Consultation.App\\Consultation.App.csproj": {}
+    "C:\\Users\\ADMIN\\source\\repos\\proto-sd-project\\reports\\Consultation.App\\Consultation.App.csproj": {}
   },
   "projects": {
-    "D:\\Project Files\\Visual Studio\\repo\\proto_sd\\Consultation.App\\Consultation.App.csproj": {
+    "C:\\Users\\ADMIN\\source\\repos\\proto-sd-project\\reports\\Consultation.App\\Consultation.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project Files\\Visual Studio\\repo\\proto_sd\\Consultation.App\\Consultation.App.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\proto-sd-project\\reports\\Consultation.App\\Consultation.App.csproj",
         "projectName": "Consultation.App",
-        "projectPath": "D:\\Project Files\\Visual Studio\\repo\\proto_sd\\Consultation.App\\Consultation.App.csproj",
-        "packagesPath": "C:\\Users\\leejo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project Files\\Visual Studio\\repo\\proto_sd\\Consultation.App\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\source\\repos\\proto-sd-project\\reports\\Consultation.App\\Consultation.App.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\source\\repos\\proto-sd-project\\reports\\Consultation.App\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Programs\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\leejo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,20 +39,31 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "Guna.Charts.WinForms": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "Guna.UI2.WinForms": {
               "target": "Package",
               "version": "[2.0.4.7, )"
             },
+            "LiveCharts.WinForms": {
+              "target": "Package",
+              "version": "[0.9.7.1, )"
+            },
             "MaterialSkin.2": {
               "target": "Package",
               "version": "[2.3.1, )"
+            },
+            "Syncfusion.Chart.Windows": {
+              "target": "Package",
+              "version": "[29.1.38, )"
             },
             "Syncfusion.Core.WinForms": {
               "target": "Package",
@@ -69,6 +76,10 @@
             "Syncfusion.Tools.Windows": {
               "target": "Package",
               "version": "[29.1.41, )"
+            },
+            "WinForms.DataVisualization": {
+              "target": "Package",
+              "version": "[1.10.0, )"
             }
           },
           "imports": [
@@ -90,7 +101,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5,6 +5,9 @@
     <Compile Update="Views\LogInView.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Views\Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Views\TestViews\MdiParent.cs">
       <SubType>Form</SubType>
     </Compile>
