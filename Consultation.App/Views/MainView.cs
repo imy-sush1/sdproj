@@ -1,4 +1,5 @@
 ﻿using Consultation.App.Views.IViews;
+using Syncfusion.WinForms.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,7 +12,7 @@ using System.Windows.Forms;
 
 namespace Consultation.App.Views
 {
-    public partial class MainView : Form, IMainView
+    public partial class MainView : SfForm, IMainView
     {
         public MainView()
         {

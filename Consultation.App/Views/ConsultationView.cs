@@ -5,19 +5,19 @@ namespace Consultation.App.ConsultationManagement
 {
     public partial class ConsultationView : Form
     {
-        private CSWindow csWindow; 
+        private CSWindow csWindow;
 
         public ConsultationView()
         {
             InitializeComponent();
 
-        
+
             ShowConsultationView();
         }
 
         private void ShowConsultationView()
         {
-            MoveUnderline(btnConsultation); 
+            MoveUnderline(btnConsultation);
             if (csWindow == null)
             {
                 csWindow = new CSWindow();
@@ -56,6 +56,11 @@ namespace Consultation.App.ConsultationManagement
 
             AddSchedule addSchedule = new AddSchedule(csWindow);
             addSchedule.ShowDialog();
+        }
+
+        private void ConsultationView_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -235,6 +235,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "ConsultationView";
             Text = "ConsultationWindow";
+            Load += ConsultationView_Load;
             materialCard1.ResumeLayout(false);
             materialCard1.PerformLayout();
             materialCard2.ResumeLayout(false);

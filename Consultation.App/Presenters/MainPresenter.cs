@@ -73,7 +73,11 @@ namespace Consultation.App.Presenters
 
         private void ReportsEvent(object? sender, EventArgs e)
         {
-            _mainView.SetMessage("Reports Event Triggered");
+            if (_currentForm != ChildForms.Reports)
+            {
+                LoadChildForm(ChildForms.Reports);
+                _currentForm = ChildForms.Reports;
+            }
         }
 
         private void PreferenceEvent(object? sender, EventArgs e)
@@ -113,6 +117,7 @@ namespace Consultation.App.Presenters
             {
                 ChildForms.Dashboard => new DashboardView(),
                 ChildForms.Bulletin => new BulletinView(),
+                ChildForms.Reports => new ReportsView(),
                 _ => new Form() { Text = "Not Implemented" }
             };
         }

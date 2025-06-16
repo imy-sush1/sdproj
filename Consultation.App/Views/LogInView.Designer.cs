@@ -58,16 +58,17 @@
             gradientPanel1.BackColor = SystemColors.ControlLight;
             gradientPanel1.BackgroundColor = new Syncfusion.Drawing.BrushInfo(Syncfusion.Drawing.GradientStyle.Vertical, Color.Red, Color.Orange);
             gradientPanel1.Controls.Add(pictureBox1);
-            gradientPanel1.Location = new Point(371, 0);
+            gradientPanel1.Dock = DockStyle.Fill;
+            gradientPanel1.Location = new Point(2, 2);
             gradientPanel1.Name = "gradientPanel1";
-            gradientPanel1.Size = new Size(341, 535);
+            gradientPanel1.Size = new Size(708, 528);
             gradientPanel1.TabIndex = 0;
             // 
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(66, 138);
+            pictureBox1.Location = new Point(438, 138);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(228, 228);
             pictureBox1.TabIndex = 0;
@@ -88,9 +89,10 @@
             panel1.Controls.Add(SignInTextBox);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(pictureBox2);
-            panel1.Location = new Point(0, 0);
+            panel1.Dock = DockStyle.Left;
+            panel1.Location = new Point(2, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(373, 535);
+            panel1.Size = new Size(373, 528);
             panel1.TabIndex = 1;
             // 
             // ForgotPasswordButton
@@ -98,17 +100,19 @@
             ForgotPasswordButton.BackColor = Color.Transparent;
             ForgotPasswordButton.FlatAppearance.BorderSize = 0;
             ForgotPasswordButton.FlatStyle = FlatStyle.Flat;
-            ForgotPasswordButton.Location = new Point(11, 491);
+            ForgotPasswordButton.Font = new Font("Inter", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ForgotPasswordButton.Location = new Point(3, 493);
             ForgotPasswordButton.Name = "ForgotPasswordButton";
-            ForgotPasswordButton.Size = new Size(119, 32);
+            ForgotPasswordButton.Size = new Size(152, 32);
             ForgotPasswordButton.TabIndex = 8;
             ForgotPasswordButton.Text = "Forgot Password?";
             ForgotPasswordButton.UseVisualStyleBackColor = false;
             // 
             // ShowPassButton
             // 
+            ShowPassButton.Font = new Font("Inter", 12F);
             ShowPassButton.Image = (Image)resources.GetObject("ShowPassButton.Image");
-            ShowPassButton.Location = new Point(304, 272);
+            ShowPassButton.Location = new Point(314, 269);
             ShowPassButton.Name = "ShowPassButton";
             ShowPassButton.Size = new Size(27, 23);
             ShowPassButton.TabIndex = 10;
@@ -118,29 +122,29 @@
             // ErrorPassLabel
             // 
             ErrorPassLabel.AutoSize = true;
-            ErrorPassLabel.Font = new Font("Segoe UI", 9F);
+            ErrorPassLabel.Font = new Font("Inter", 12F);
             ErrorPassLabel.Location = new Point(49, 276);
             ErrorPassLabel.Name = "ErrorPassLabel";
-            ErrorPassLabel.Size = new Size(0, 15);
+            ErrorPassLabel.Size = new Size(0, 23);
             ErrorPassLabel.TabIndex = 9;
             // 
             // resultlabel1
             // 
             resultlabel1.AutoSize = true;
-            resultlabel1.Font = new Font("Segoe UI", 9F);
+            resultlabel1.Font = new Font("Inter", 12F);
             resultlabel1.ForeColor = Color.Black;
             resultlabel1.Location = new Point(49, 185);
             resultlabel1.Name = "resultlabel1";
-            resultlabel1.Size = new Size(0, 15);
+            resultlabel1.Size = new Size(0, 23);
             resultlabel1.TabIndex = 8;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 12F);
+            label3.Font = new Font("Inter", 12F);
             label3.Location = new Point(179, 382);
             label3.Name = "label3";
-            label3.Size = new Size(28, 21);
+            label3.Size = new Size(28, 23);
             label3.TabIndex = 7;
             label3.Text = "Or";
             // 
@@ -148,7 +152,7 @@
             // 
             GoogleSignInButton.BackColor = Color.Brown;
             GoogleSignInButton.FlatStyle = FlatStyle.Flat;
-            GoogleSignInButton.Font = new Font("Segoe UI", 12F);
+            GoogleSignInButton.Font = new Font("Inter", 12F);
             GoogleSignInButton.ForeColor = Color.White;
             GoogleSignInButton.Location = new Point(95, 415);
             GoogleSignInButton.Name = "GoogleSignInButton";
@@ -161,7 +165,7 @@
             // 
             SignInButton.BackColor = Color.Brown;
             SignInButton.FlatStyle = FlatStyle.Flat;
-            SignInButton.Font = new Font("Segoe UI", 12F);
+            SignInButton.Font = new Font("Inter", 12F);
             SignInButton.ForeColor = Color.White;
             SignInButton.Location = new Point(95, 328);
             SignInButton.Name = "SignInButton";
@@ -173,44 +177,42 @@
             // 
             // PasswordTextBoxV2
             // 
-            PasswordTextBoxV2.BeforeTouchSize = new Size(307, 35);
-            PasswordTextBoxV2.Font = new Font("Segoe UI", 12F);
+            PasswordTextBoxV2.BeforeTouchSize = new Size(307, 27);
+            PasswordTextBoxV2.Font = new Font("Inter", 12F);
             PasswordTextBoxV2.Location = new Point(36, 267);
-            PasswordTextBoxV2.Multiline = true;
             PasswordTextBoxV2.Name = "PasswordTextBoxV2";
             PasswordTextBoxV2.PasswordChar = '*';
-            PasswordTextBoxV2.Size = new Size(307, 35);
+            PasswordTextBoxV2.Size = new Size(307, 27);
             PasswordTextBoxV2.TabIndex = 4;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F);
+            label2.Font = new Font("Inter", 12F);
             label2.ForeColor = Color.Gray;
             label2.Location = new Point(36, 232);
             label2.Name = "label2";
-            label2.Size = new Size(79, 21);
+            label2.Size = new Size(89, 23);
             label2.TabIndex = 3;
             label2.Text = "Password:";
             // 
             // SignInTextBox
             // 
-            SignInTextBox.BeforeTouchSize = new Size(307, 35);
-            SignInTextBox.Font = new Font("Segoe UI", 12F);
+            SignInTextBox.BeforeTouchSize = new Size(307, 27);
+            SignInTextBox.Font = new Font("Inter", 12F);
             SignInTextBox.Location = new Point(36, 175);
-            SignInTextBox.Multiline = true;
             SignInTextBox.Name = "SignInTextBox";
-            SignInTextBox.Size = new Size(307, 35);
+            SignInTextBox.Size = new Size(307, 27);
             SignInTextBox.TabIndex = 2;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 12F);
+            label1.Font = new Font("Inter", 12F);
             label1.ForeColor = Color.Gray;
             label1.Location = new Point(36, 140);
             label1.Name = "label1";
-            label1.Size = new Size(242, 21);
+            label1.Size = new Size(262, 23);
             label1.TabIndex = 1;
             label1.Text = "Sign-In with Umindanao Account:";
             // 
@@ -232,6 +234,8 @@
             Controls.Add(gradientPanel1);
             Name = "LogInView";
             StartPosition = FormStartPosition.CenterScreen;
+            Style.MdiChild.IconHorizontalAlignment = HorizontalAlignment.Center;
+            Style.MdiChild.IconVerticalAlignment = System.Windows.Forms.VisualStyles.VerticalAlignment.Center;
             Text = "Log_In";
             Load += Log_In_Load;
             ((System.ComponentModel.ISupportInitialize)gradientPanel1).EndInit();

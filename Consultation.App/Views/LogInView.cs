@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Syncfusion.WinForms.Controls;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,12 +12,12 @@ using System.Windows.Forms;
 
 namespace Consultation.App.Views
 {
-    public partial class LogInView : Form
+    public partial class LogInView : SfForm
     {
         public LogInView()
         {
             InitializeComponent();
-
+            this.AllowRoundedCorners = true;
             SignInTextBox.TextChanged += SignInTextBox_TextChanged;
             PasswordTextBoxV2.TextChanged += PasswordTextBoxV2_TextChanged;
         }

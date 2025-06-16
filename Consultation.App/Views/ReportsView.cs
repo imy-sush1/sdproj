@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Consultation.App.Views
 {
-    public partial class Reports : Form
+    public partial class ReportsView : Form
     {
-        public Reports()
+        public ReportsView()
         {
             InitializeComponent();
         }
@@ -39,10 +39,11 @@ namespace Consultation.App.Views
 
         private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            private void Form1_Load(object sender, EventArgs e)
-            {
-                guna2ComboBox1.Items.AddRange(new string[] { "Last 30 days", "All Courses", "All Teachers", "All Types" });
-            }
+
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            guna2ComboBox1.Items.AddRange(new string[] { "Last 30 days", "All Courses", "All Teachers", "All Types" });
         }
     }
 }

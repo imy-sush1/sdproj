@@ -47,6 +47,9 @@
             // gradientPanel1
             // 
             gradientPanel1.BackgroundColor = new Syncfusion.Drawing.BrushInfo(Syncfusion.Drawing.GradientStyle.ForwardDiagonal, Color.Linen, Color.OrangeRed);
+            gradientPanel1.Border3DStyle = Border3DStyle.Flat;
+            gradientPanel1.BorderSingle = ButtonBorderStyle.None;
+            gradientPanel1.BorderStyle = BorderStyle.None;
             gradientPanel1.Controls.Add(label2);
             gradientPanel1.Dock = DockStyle.Fill;
             gradientPanel1.Location = new Point(0, 0);

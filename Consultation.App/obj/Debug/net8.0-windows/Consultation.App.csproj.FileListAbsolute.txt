@@ -120,3 +120,13 @@ C:\Users\ADMIN\source\repos\proto-sd-project\reports\Consultation.App\bin\Debug\
 C:\Users\ADMIN\source\repos\proto-sd-project\reports\Consultation.App\bin\Debug\net8.0-windows\Syncfusion.Grouping.Base.dll
 C:\Users\ADMIN\source\repos\proto-sd-project\reports\Consultation.App\bin\Debug\net8.0-windows\WinForms.DataVisualization.Utilities.dll
 C:\Users\ADMIN\source\repos\proto-sd-project\reports\Consultation.App\bin\Debug\net8.0-windows\WinForms.DataVisualization.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\bin\Debug\net8.0-windows\Guna.Charts.WinForms.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\bin\Debug\net8.0-windows\LiveCharts.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\bin\Debug\net8.0-windows\LiveCharts.WinForms.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\bin\Debug\net8.0-windows\Syncfusion.Chart.Base.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\bin\Debug\net8.0-windows\Syncfusion.Chart.Windows.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\bin\Debug\net8.0-windows\Syncfusion.Grouping.Base.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\bin\Debug\net8.0-windows\WinForms.DataVisualization.Utilities.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\bin\Debug\net8.0-windows\WinForms.DataVisualization.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.ReportsView.resources
