@@ -17,6 +17,7 @@ namespace Consultation.App.Views
         public MainView()
         {
             InitializeComponent();
+            profilePanel.BackColor = Color.FromArgb(50, 0, 0, 0);
             buttonDashboard.Click += (s, e) => DashboardEvent?.Invoke(s, e);
             buttonConsultation.Click += (s, e) => ConsultationEvent?.Invoke(s, e);
             buttonBulletin.Click += (s, e) => BulletinEvent?.Invoke(s, e);
@@ -33,6 +34,10 @@ namespace Consultation.App.Views
         public event EventHandler ReportsEvent;
         public event EventHandler PreferenceEvent;
 
+        public void Header(string header)
+        {
+            this.Text = header;
+        }
         public void SetMessage(string message)
         {
             MessageBox.Show(message);

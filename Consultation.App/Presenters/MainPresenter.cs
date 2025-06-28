@@ -48,6 +48,7 @@ namespace Consultation.App.Presenters
             if (_currentForm != ChildForms.Dashboard)
             {
                 LoadChildForm(ChildForms.Dashboard);
+                _mainView.Header("Dashboard");
                 _currentForm = ChildForms.Dashboard;
             }
         }
@@ -57,6 +58,7 @@ namespace Consultation.App.Presenters
             if (_currentForm != ChildForms.Bulletin)
             {
                 LoadChildForm(ChildForms.Bulletin);
+                _mainView.Header("Bulletin Management");
                 _currentForm = ChildForms.Bulletin;
             }
         }
@@ -76,6 +78,7 @@ namespace Consultation.App.Presenters
             if (_currentForm != ChildForms.Reports)
             {
                 LoadChildForm(ChildForms.Reports);
+                _mainView.Header("Reports");
                 _currentForm = ChildForms.Reports;
             }
         }

@@ -9,6 +9,7 @@
         event EventHandler ReportsEvent;
         event EventHandler PreferenceEvent;
 
+        void Header(string header);
         void SetMessage(string message);
     }
 }

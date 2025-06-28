@@ -68,7 +68,7 @@
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(438, 138);
+            pictureBox1.Location = new Point(425, 138);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(228, 228);
             pictureBox1.TabIndex = 0;
@@ -142,7 +142,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Inter", 12F);
-            label3.Location = new Point(179, 382);
+            label3.Location = new Point(167, 382);
             label3.Name = "label3";
             label3.Size = new Size(28, 23);
             label3.TabIndex = 7;
@@ -154,7 +154,7 @@
             GoogleSignInButton.FlatStyle = FlatStyle.Flat;
             GoogleSignInButton.Font = new Font("Inter", 12F);
             GoogleSignInButton.ForeColor = Color.White;
-            GoogleSignInButton.Location = new Point(95, 415);
+            GoogleSignInButton.Location = new Point(83, 415);
             GoogleSignInButton.Name = "GoogleSignInButton";
             GoogleSignInButton.Size = new Size(197, 40);
             GoogleSignInButton.TabIndex = 6;
@@ -167,7 +167,7 @@
             SignInButton.FlatStyle = FlatStyle.Flat;
             SignInButton.Font = new Font("Inter", 12F);
             SignInButton.ForeColor = Color.White;
-            SignInButton.Location = new Point(95, 328);
+            SignInButton.Location = new Point(83, 328);
             SignInButton.Name = "SignInButton";
             SignInButton.Size = new Size(197, 40);
             SignInButton.TabIndex = 5;
@@ -236,7 +236,6 @@
             StartPosition = FormStartPosition.CenterScreen;
             Style.MdiChild.IconHorizontalAlignment = HorizontalAlignment.Center;
             Style.MdiChild.IconVerticalAlignment = System.Windows.Forms.VisualStyles.VerticalAlignment.Center;
-            Text = "Log_In";
             Load += Log_In_Load;
             ((System.ComponentModel.ISupportInitialize)gradientPanel1).EndInit();
             gradientPanel1.ResumeLayout(false);
