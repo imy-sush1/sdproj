@@ -130,3 +130,10 @@ D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\bin\Debug\net8.0-w
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\bin\Debug\net8.0-windows\WinForms.DataVisualization.Utilities.dll
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\bin\Debug\net8.0-windows\WinForms.DataVisualization.dll
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.ReportsView.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.NotificationView.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.Controls.Notification.NotificationCard.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.FacultyCard.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Student_Faculty.FacultyListCard.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.StudentCard.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Student_Faculty.StudentListCard.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.UserManagementView.resources

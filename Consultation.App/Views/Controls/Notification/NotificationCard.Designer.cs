@@ -1,4 +1,4 @@
-﻿namespace Consultation.App.Views.UserControl.Notification
+﻿namespace Consultation.App.Views.Controls.Notification
 {
     partial class NotificationCard
     {
@@ -28,8 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            //this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            SuspendLayout();
+            // 
+            // NotificationCard
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            Name = "NotificationCard";
+            Size = new Size(371, 83);
+            ResumeLayout(false);
         }
 
         #endregion

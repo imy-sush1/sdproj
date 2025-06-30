@@ -17,7 +17,7 @@ namespace Consultation.App.Presenters
             Dashboard,
             Bulletin,
             Consultation,
-            SFManagement,
+            UserManagement,
             Reports,
             Preference
         }
@@ -70,7 +70,12 @@ namespace Consultation.App.Presenters
 
         private void SFManagementEvent(object? sender, EventArgs e)
         {
-            _mainView.SetMessage("SF Management Event Triggered");
+            if (_currentForm != ChildForms.UserManagement)
+            {
+                LoadChildForm(ChildForms.UserManagement);
+                _mainView.Header("User Management");
+                _currentForm = ChildForms.UserManagement;
+            }
         }
 
         private void ReportsEvent(object? sender, EventArgs e)
@@ -102,7 +107,7 @@ namespace Consultation.App.Presenters
             }
 
             // Must be done before showing
-            form.FormBorderStyle = FormBorderStyle.None;
+            //form.FormBorderStyle = FormBorderStyle.None;
             form.MdiParent = (Form)_mainView;
             form.Dock = DockStyle.Fill;
             form.ShowInTaskbar = false;
@@ -121,6 +126,7 @@ namespace Consultation.App.Presenters
                 ChildForms.Dashboard => new DashboardView(),
                 ChildForms.Bulletin => new BulletinView(),
                 ChildForms.Reports => new ReportsView(),
+                ChildForms.UserManagement => new UserManagementView(),
                 _ => new Form() { Text = "Not Implemented" }
             };
         }

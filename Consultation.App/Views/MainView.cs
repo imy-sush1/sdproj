@@ -22,7 +22,7 @@ namespace Consultation.App.Views
             buttonConsultation.Click += (s, e) => ConsultationEvent?.Invoke(s, e);
             buttonBulletin.Click += (s, e) => BulletinEvent?.Invoke(s, e);
             buttonSFManagement.Click += (s, e) => SFManagementEvent?.Invoke(s, e);
-            buttonReports.Click += (s, e) => ReportsEvent?.Invoke(s, e);
+            //buttonReports.Click += (s, e) => ReportsEvent?.Invoke(s, e);
             buttonPreference.Click += (s, e) => PreferenceEvent?.Invoke(s, e);
 
         }

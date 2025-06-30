@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Consultation.App.Views.UserControl.Notification
+namespace Student_Faculty
 {
-    public partial class NotificationCard : UserControl
+    public partial class FacultyListCard : UserControl
     {
-        public NotificationCard()
+        public FacultyListCard()
         {
             InitializeComponent();
         }
