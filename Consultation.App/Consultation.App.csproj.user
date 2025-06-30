@@ -5,6 +5,9 @@
     <Compile Update="Views\LogInView.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Views\NotificationView.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Views\ReportsView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +61,9 @@
     </Compile>
     <Compile Update="Views\TestViews\BulletinView.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\UserControl\Notification\NotificationCard.cs">
+      <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
 </Project>

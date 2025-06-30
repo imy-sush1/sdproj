@@ -31,7 +31,6 @@
             sidePanel = new Syncfusion.Windows.Forms.Tools.GradientPanel();
             label3 = new Label();
             buttonPreference = new Button();
-            buttonReports = new Button();
             label2 = new Label();
             buttonSFManagement = new Button();
             buttonConsultation = new Button();
@@ -61,7 +60,6 @@
             sidePanel.BorderStyle = BorderStyle.None;
             sidePanel.Controls.Add(label3);
             sidePanel.Controls.Add(buttonPreference);
-            sidePanel.Controls.Add(buttonReports);
             sidePanel.Controls.Add(label2);
             sidePanel.Controls.Add(buttonSFManagement);
             sidePanel.Controls.Add(buttonConsultation);
@@ -72,9 +70,9 @@
             sidePanel.Controls.Add(pictureBoxLogo);
             sidePanel.Dock = DockStyle.Left;
             sidePanel.ForeColor = SystemColors.ControlText;
-            sidePanel.Location = new Point(0, 0);
+            sidePanel.Location = new Point(2, 2);
             sidePanel.Name = "sidePanel";
-            sidePanel.Size = new Size(260, 1041);
+            sidePanel.Size = new Size(260, 1037);
             sidePanel.TabIndex = 0;
             // 
             // label3
@@ -83,7 +81,7 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Inter", 14.25F, FontStyle.Bold);
             label3.ForeColor = SystemColors.ControlLightLight;
-            label3.Location = new Point(24, 600);
+            label3.Location = new Point(24, 554);
             label3.Name = "label3";
             label3.Size = new Size(89, 27);
             label3.TabIndex = 11;
@@ -98,30 +96,13 @@
             buttonPreference.ForeColor = SystemColors.ControlLightLight;
             buttonPreference.Image = Properties.Icons.lsicon__setting_outline;
             buttonPreference.ImageAlign = ContentAlignment.MiddleLeft;
-            buttonPreference.Location = new Point(30, 640);
+            buttonPreference.Location = new Point(30, 594);
             buttonPreference.Name = "buttonPreference";
             buttonPreference.Size = new Size(228, 56);
             buttonPreference.TabIndex = 10;
             buttonPreference.Text = "Preference and Security";
             buttonPreference.TextImageRelation = TextImageRelation.ImageBeforeText;
             buttonPreference.UseVisualStyleBackColor = false;
-            // 
-            // buttonReports
-            // 
-            buttonReports.BackColor = Color.Transparent;
-            buttonReports.FlatAppearance.BorderSize = 0;
-            buttonReports.FlatStyle = FlatStyle.Flat;
-            buttonReports.Font = new Font("Inter", 11.25F);
-            buttonReports.ForeColor = SystemColors.ControlLightLight;
-            buttonReports.Image = Properties.Icons.streamline__graph_bar_increase;
-            buttonReports.ImageAlign = ContentAlignment.MiddleLeft;
-            buttonReports.Location = new Point(30, 512);
-            buttonReports.Name = "buttonReports";
-            buttonReports.Size = new Size(228, 42);
-            buttonReports.TabIndex = 9;
-            buttonReports.Text = "Reports";
-            buttonReports.TextImageRelation = TextImageRelation.ImageBeforeText;
-            buttonReports.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
@@ -148,7 +129,7 @@
             buttonSFManagement.Name = "buttonSFManagement";
             buttonSFManagement.Size = new Size(228, 48);
             buttonSFManagement.TabIndex = 6;
-            buttonSFManagement.Text = "Students and Faculty";
+            buttonSFManagement.Text = "User Management";
             buttonSFManagement.TextAlign = ContentAlignment.MiddleLeft;
             buttonSFManagement.TextImageRelation = TextImageRelation.ImageBeforeText;
             buttonSFManagement.UseVisualStyleBackColor = false;
@@ -223,7 +204,7 @@
             profilePanel.Controls.Add(labelProfileName);
             profilePanel.Controls.Add(pictureBoxProfile);
             profilePanel.Dock = DockStyle.Bottom;
-            profilePanel.Location = new Point(0, 946);
+            profilePanel.Location = new Point(0, 942);
             profilePanel.Name = "profilePanel";
             profilePanel.Size = new Size(260, 95);
             profilePanel.TabIndex = 1;
@@ -285,12 +266,12 @@
             materialCard1.Depth = 0;
             materialCard1.Dock = DockStyle.Top;
             materialCard1.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            materialCard1.Location = new Point(260, 0);
+            materialCard1.Location = new Point(262, 2);
             materialCard1.Margin = new Padding(14);
             materialCard1.MouseState = MaterialSkin.MouseState.HOVER;
             materialCard1.Name = "materialCard1";
             materialCard1.Padding = new Padding(14);
-            materialCard1.Size = new Size(1644, 100);
+            materialCard1.Size = new Size(1640, 100);
             materialCard1.TabIndex = 3;
             // 
             // MainView
@@ -302,7 +283,9 @@
             Controls.Add(sidePanel);
             IsMdiContainer = true;
             Name = "MainView";
-            Text = "MainView";
+            Style.MdiChild.IconHorizontalAlignment = HorizontalAlignment.Center;
+            Style.MdiChild.IconVerticalAlignment = System.Windows.Forms.VisualStyles.VerticalAlignment.Center;
+            Text = "UMECA";
             WindowState = FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)sidePanel).EndInit();
             sidePanel.ResumeLayout(false);
@@ -326,7 +309,6 @@
         private Button buttonBulletin;
         private Label label3;
         private Button buttonPreference;
-        private Button buttonReports;
         private Label label2;
         private Button buttonSFManagement;
         private Label labelProfileRole;
