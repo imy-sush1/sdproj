@@ -34,9 +34,9 @@
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.AutoScroll = true;
-            flowLayoutPanel1.Location = new Point(18, 3);
+            flowLayoutPanel1.Location = new Point(13, 0);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(879, 594);
+            flowLayoutPanel1.Size = new Size(962, 585);
             flowLayoutPanel1.TabIndex = 0;
             // 
             // Consultation2
@@ -45,7 +45,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(flowLayoutPanel1);
             Name = "Consultation2";
-            Size = new Size(900, 600);
+            Size = new Size(975, 595);
             ResumeLayout(false);
         }
 

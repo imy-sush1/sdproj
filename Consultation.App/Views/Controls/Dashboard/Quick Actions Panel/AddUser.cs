@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Consultation.App.Dashboard.Upcoming_Schedule
+namespace Consultation.App.Views.Controls.Dashboard.Quick_Actions_Panel
 {
-    public partial class Today : UserControl
+    public partial class AddUser : UserControl
     {
-        public Today()
+        public AddUser()
         {
             InitializeComponent();
-
-            for (int i = 0; i < 10; i++)
-            {
-                flowLayoutPanel1.Controls.Add(new TodayCard());
-            }
         }
     }
 }

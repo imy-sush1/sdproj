@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Consultation.App.Dashboard.Upcoming_Schedule
+namespace Consultation.App.Views.Controls.Dashboard.Quick_Actions_Panel
 {
-    public partial class TodayCard : UserControl
+    public partial class CreateNewBulletin : UserControl
     {
-        public TodayCard()
+        public CreateNewBulletin()
         {
             InitializeComponent();
         }

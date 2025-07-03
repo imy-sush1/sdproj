@@ -28,32 +28,73 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             ActivityFeedPanel = new MaterialSkin.Controls.MaterialCard();
-            autoLabel1 = new Syncfusion.Windows.Forms.Tools.AutoLabel();
+            createNewBulletin1 = new Views.Controls.Dashboard.Quick_Actions_Panel.CreateNewBulletin();
+            ActivityFeedLabel = new Syncfusion.Windows.Forms.Tools.AutoLabel();
             materialCard2 = new MaterialSkin.Controls.MaterialCard();
             ConsultationButton = new Syncfusion.WinForms.Controls.SfButton();
             BulletinButton = new Syncfusion.WinForms.Controls.SfButton();
             materialCard3 = new MaterialSkin.Controls.MaterialCard();
+            BulltinPublishedCount = new Label();
             autoLabel5 = new Syncfusion.Windows.Forms.Tools.AutoLabel();
             panel1 = new Panel();
             WelcomeLabel = new Syncfusion.Windows.Forms.Tools.AutoLabel();
             autoLabel3 = new Syncfusion.Windows.Forms.Tools.AutoLabel();
             materialCard4 = new MaterialSkin.Controls.MaterialCard();
+            PendingApprovalsCount = new Label();
             autoLabel6 = new Syncfusion.Windows.Forms.Tools.AutoLabel();
+            panel2 = new Panel();
             materialCard5 = new MaterialSkin.Controls.MaterialCard();
+            ConsultationsCompletedCount = new Label();
             autoLabel7 = new Syncfusion.Windows.Forms.Tools.AutoLabel();
             panel3 = new Panel();
             materialCard6 = new MaterialSkin.Controls.MaterialCard();
+            PendingTasksCount = new Label();
             autoLabel8 = new Syncfusion.Windows.Forms.Tools.AutoLabel();
             materialCard7 = new MaterialSkin.Controls.MaterialCard();
+            systemSettings1 = new Views.Controls.Dashboard.Quick_Actions_Panel.SystemSettings();
+            addUser1 = new Views.Controls.Dashboard.Quick_Actions_Panel.AddUser();
+            scheduleConsultation1 = new Views.Controls.Dashboard.Quick_Actions_Panel.ScheduleConsultation();
             materialCard8 = new MaterialSkin.Controls.MaterialCard();
-            ThisWeekButton = new Syncfusion.WinForms.Controls.SfButton();
-            TodayButton = new Syncfusion.WinForms.Controls.SfButton();
             sfButton2 = new Syncfusion.WinForms.Controls.SfButton();
-            autoLabel4 = new Syncfusion.Windows.Forms.Tools.AutoLabel();
-            panel2 = new Panel();
+            QuickActionsLabel = new Syncfusion.Windows.Forms.Tools.AutoLabel();
             panel4 = new Panel();
-            today1 = new Consultation.App.Dashboard.Upcoming_Schedule.Today();
+            materialCard1 = new MaterialSkin.Controls.MaterialCard();
+            ConByDepLabel = new Label();
+            materialCard9 = new MaterialSkin.Controls.MaterialCard();
+            materialCard15 = new MaterialSkin.Controls.MaterialCard();
+            NumOfConsCEng = new Label();
+            label11 = new Label();
+            label12 = new Label();
+            panel10 = new Panel();
+            materialCard14 = new MaterialSkin.Controls.MaterialCard();
+            NumOfConsCheEng = new Label();
+            label9 = new Label();
+            label10 = new Label();
+            panel9 = new Panel();
+            materialCard13 = new MaterialSkin.Controls.MaterialCard();
+            NumOfConsMEEng = new Label();
+            label7 = new Label();
+            label8 = new Label();
+            panel8 = new Panel();
+            materialCard12 = new MaterialSkin.Controls.MaterialCard();
+            NumOfConsEEng = new Label();
+            label5 = new Label();
+            label6 = new Label();
+            panel7 = new Panel();
+            materialCard11 = new MaterialSkin.Controls.MaterialCard();
+            NumOfConsEEEng = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            panel6 = new Panel();
+            materialCard10 = new MaterialSkin.Controls.MaterialCard();
+            NumOfConsComEng = new Label();
+            label2 = new Label();
+            label1 = new Label();
+            panel5 = new Panel();
+            cardLayout1 = new Syncfusion.Windows.Forms.Tools.CardLayout(components);
+            UserName = new Label();
             materialCard2.SuspendLayout();
             materialCard3.SuspendLayout();
             materialCard4.SuspendLayout();
@@ -61,6 +102,15 @@
             materialCard6.SuspendLayout();
             materialCard7.SuspendLayout();
             materialCard8.SuspendLayout();
+            materialCard1.SuspendLayout();
+            materialCard9.SuspendLayout();
+            materialCard15.SuspendLayout();
+            materialCard14.SuspendLayout();
+            materialCard13.SuspendLayout();
+            materialCard12.SuspendLayout();
+            materialCard11.SuspendLayout();
+            materialCard10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)cardLayout1).BeginInit();
             SuspendLayout();
             // 
             // ActivityFeedPanel
@@ -68,38 +118,50 @@
             ActivityFeedPanel.BackColor = Color.FromArgb(255, 255, 255);
             ActivityFeedPanel.Depth = 0;
             ActivityFeedPanel.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            ActivityFeedPanel.Location = new Point(53, 351);
+            ActivityFeedPanel.Location = new Point(53, 317);
             ActivityFeedPanel.Margin = new Padding(14);
             ActivityFeedPanel.MouseState = MaterialSkin.MouseState.HOVER;
             ActivityFeedPanel.Name = "ActivityFeedPanel";
             ActivityFeedPanel.Padding = new Padding(14);
-            ActivityFeedPanel.Size = new Size(900, 600);
+            ActivityFeedPanel.Size = new Size(975, 595);
             ActivityFeedPanel.TabIndex = 0;
             // 
-            // autoLabel1
+            // createNewBulletin1
             // 
-            autoLabel1.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            autoLabel1.Location = new Point(17, 20);
-            autoLabel1.Name = "autoLabel1";
-            autoLabel1.Position = Syncfusion.Windows.Forms.Tools.AutoLabelPosition.Custom;
-            autoLabel1.Size = new Size(136, 25);
-            autoLabel1.TabIndex = 1;
-            autoLabel1.Text = "Activity Feed";
+            createNewBulletin1.BackColor = Color.White;
+            createNewBulletin1.Location = new Point(11, 12);
+            createNewBulletin1.Name = "createNewBulletin1";
+            createNewBulletin1.Size = new Size(255, 64);
+            createNewBulletin1.TabIndex = 0;
+            createNewBulletin1.Load += createNewBulletin1_Load;
+            createNewBulletin1.CursorChanged += createNewBulletin1_Load;
+            createNewBulletin1.MouseEnter += createNewBulletin1_Load;
+            createNewBulletin1.MouseLeave += createNewBulletin1_Load;
+            // 
+            // ActivityFeedLabel
+            // 
+            ActivityFeedLabel.Font = new Font("Archivo Medium", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            ActivityFeedLabel.Location = new Point(17, 20);
+            ActivityFeedLabel.Name = "ActivityFeedLabel";
+            ActivityFeedLabel.Position = Syncfusion.Windows.Forms.Tools.AutoLabelPosition.Custom;
+            ActivityFeedLabel.Size = new Size(150, 29);
+            ActivityFeedLabel.TabIndex = 1;
+            ActivityFeedLabel.Text = "Activity Feed";
             // 
             // materialCard2
             // 
             materialCard2.BackColor = Color.FromArgb(255, 255, 255);
             materialCard2.Controls.Add(ConsultationButton);
             materialCard2.Controls.Add(BulletinButton);
-            materialCard2.Controls.Add(autoLabel1);
+            materialCard2.Controls.Add(ActivityFeedLabel);
             materialCard2.Depth = 0;
             materialCard2.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            materialCard2.Location = new Point(53, 280);
+            materialCard2.Location = new Point(53, 242);
             materialCard2.Margin = new Padding(14);
             materialCard2.MouseState = MaterialSkin.MouseState.HOVER;
             materialCard2.Name = "materialCard2";
             materialCard2.Padding = new Padding(14);
-            materialCard2.Size = new Size(900, 70);
+            materialCard2.Size = new Size(975, 70);
             materialCard2.TabIndex = 2;
             // 
             // ConsultationButton
@@ -107,13 +169,13 @@
             ConsultationButton.BackColor = SystemColors.ButtonHighlight;
             ConsultationButton.FlatStyle = FlatStyle.Popup;
             ConsultationButton.FocusRectangleVisible = true;
-            ConsultationButton.Font = new Font("Microsoft Sans Serif", 9.749999F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ConsultationButton.ForeColor = Color.DimGray;
-            ConsultationButton.Location = new Point(772, 20);
+            ConsultationButton.Font = new Font("Inter Medium", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            ConsultationButton.ForeColor = Color.Black;
+            ConsultationButton.Location = new Point(837, 20);
             ConsultationButton.Name = "ConsultationButton";
             ConsultationButton.Size = new Size(111, 28);
             ConsultationButton.Style.BackColor = SystemColors.ButtonHighlight;
-            ConsultationButton.Style.ForeColor = Color.DimGray;
+            ConsultationButton.Style.ForeColor = Color.Black;
             ConsultationButton.TabIndex = 11;
             ConsultationButton.Text = "Consultations";
             ConsultationButton.UseVisualStyleBackColor = false;
@@ -124,13 +186,13 @@
             BulletinButton.BackColor = SystemColors.ButtonHighlight;
             BulletinButton.FlatStyle = FlatStyle.Popup;
             BulletinButton.FocusRectangleVisible = true;
-            BulletinButton.Font = new Font("Microsoft Sans Serif", 9.749999F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BulletinButton.ForeColor = Color.FromArgb(192, 0, 0);
-            BulletinButton.Location = new Point(685, 20);
+            BulletinButton.Font = new Font("Inter Medium", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            BulletinButton.ForeColor = Color.Black;
+            BulletinButton.Location = new Point(720, 20);
             BulletinButton.Name = "BulletinButton";
-            BulletinButton.Size = new Size(96, 28);
+            BulletinButton.Size = new Size(111, 28);
             BulletinButton.Style.BackColor = SystemColors.ButtonHighlight;
-            BulletinButton.Style.ForeColor = Color.FromArgb(192, 0, 0);
+            BulletinButton.Style.ForeColor = Color.Black;
             BulletinButton.TabIndex = 2;
             BulletinButton.Text = "Bulletins";
             BulletinButton.UseVisualStyleBackColor = false;
@@ -139,6 +201,7 @@
             // materialCard3
             // 
             materialCard3.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard3.Controls.Add(BulltinPublishedCount);
             materialCard3.Controls.Add(autoLabel5);
             materialCard3.Controls.Add(panel1);
             materialCard3.Depth = 0;
@@ -148,24 +211,34 @@
             materialCard3.MouseState = MaterialSkin.MouseState.HOVER;
             materialCard3.Name = "materialCard3";
             materialCard3.Padding = new Padding(14);
-            materialCard3.Size = new Size(325, 150);
+            materialCard3.Size = new Size(325, 112);
             materialCard3.TabIndex = 3;
+            // 
+            // BulltinPublishedCount
+            // 
+            BulltinPublishedCount.AutoSize = true;
+            BulltinPublishedCount.Font = new Font("Inter Medium", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            BulltinPublishedCount.ForeColor = Color.DimGray;
+            BulltinPublishedCount.Location = new Point(29, 47);
+            BulltinPublishedCount.Name = "BulltinPublishedCount";
+            BulltinPublishedCount.Size = new Size(63, 19);
+            BulltinPublishedCount.TabIndex = 7;
+            BulltinPublishedCount.Text = "label13";
             // 
             // autoLabel5
             // 
-            autoLabel5.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            autoLabel5.ForeColor = Color.DimGray;
+            autoLabel5.Font = new Font("Inter", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            autoLabel5.ForeColor = Color.Black;
             autoLabel5.Location = new Point(29, 14);
             autoLabel5.Name = "autoLabel5";
             autoLabel5.Position = Syncfusion.Windows.Forms.Tools.AutoLabelPosition.Custom;
-            autoLabel5.Size = new Size(158, 20);
+            autoLabel5.Size = new Size(158, 19);
             autoLabel5.TabIndex = 6;
-            autoLabel5.Text = "New Consultations";
+            autoLabel5.Text = "Bulletins Published";
             // 
             // panel1
             // 
             panel1.BackColor = Color.DodgerBlue;
-            panel1.BorderStyle = BorderStyle.FixedSingle;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(16, 150);
@@ -173,14 +246,14 @@
             // 
             // WelcomeLabel
             // 
-            WelcomeLabel.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            WelcomeLabel.Font = new Font("Archivo", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             WelcomeLabel.ForeColor = Color.Black;
             WelcomeLabel.Location = new Point(45, 19);
             WelcomeLabel.Name = "WelcomeLabel";
             WelcomeLabel.Position = Syncfusion.Windows.Forms.Tools.AutoLabelPosition.Custom;
-            WelcomeLabel.Size = new Size(167, 37);
+            WelcomeLabel.Size = new Size(168, 43);
             WelcomeLabel.TabIndex = 4;
-            WelcomeLabel.Text = "Welcome ";
+            WelcomeLabel.Text = "Welcome,";
             // 
             // autoLabel3
             // 
@@ -196,149 +269,184 @@
             // materialCard4
             // 
             materialCard4.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard4.Controls.Add(PendingApprovalsCount);
             materialCard4.Controls.Add(autoLabel6);
+            materialCard4.Controls.Add(panel2);
             materialCard4.Depth = 0;
             materialCard4.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            materialCard4.Location = new Point(448, 102);
+            materialCard4.Location = new Point(462, 102);
             materialCard4.Margin = new Padding(14);
             materialCard4.MouseState = MaterialSkin.MouseState.HOVER;
             materialCard4.Name = "materialCard4";
             materialCard4.Padding = new Padding(14);
-            materialCard4.Size = new Size(325, 150);
+            materialCard4.Size = new Size(325, 112);
             materialCard4.TabIndex = 6;
+            // 
+            // PendingApprovalsCount
+            // 
+            PendingApprovalsCount.AutoSize = true;
+            PendingApprovalsCount.Font = new Font("Inter Medium", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            PendingApprovalsCount.ForeColor = Color.DimGray;
+            PendingApprovalsCount.Location = new Point(29, 47);
+            PendingApprovalsCount.Name = "PendingApprovalsCount";
+            PendingApprovalsCount.Size = new Size(63, 19);
+            PendingApprovalsCount.TabIndex = 12;
+            PendingApprovalsCount.Text = "label13";
             // 
             // autoLabel6
             // 
-            autoLabel6.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            autoLabel6.ForeColor = Color.DimGray;
-            autoLabel6.Location = new Point(31, 14);
+            autoLabel6.Font = new Font("Inter", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            autoLabel6.ForeColor = Color.Black;
+            autoLabel6.Location = new Point(29, 14);
             autoLabel6.Name = "autoLabel6";
             autoLabel6.Position = Syncfusion.Windows.Forms.Tools.AutoLabelPosition.Custom;
-            autoLabel6.Size = new Size(149, 20);
+            autoLabel6.Size = new Size(157, 19);
             autoLabel6.TabIndex = 7;
-            autoLabel6.Text = "Upcoming Events";
+            autoLabel6.Text = "Pending Approvals";
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.DarkOrange;
+            panel2.Location = new Point(0, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(16, 150);
+            panel2.TabIndex = 11;
             // 
             // materialCard5
             // 
             materialCard5.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard5.Controls.Add(ConsultationsCompletedCount);
             materialCard5.Controls.Add(autoLabel7);
-            materialCard5.Controls.Add(panel3);
             materialCard5.Depth = 0;
             materialCard5.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            materialCard5.Location = new Point(849, 102);
+            materialCard5.Location = new Point(874, 102);
             materialCard5.Margin = new Padding(14);
             materialCard5.MouseState = MaterialSkin.MouseState.HOVER;
             materialCard5.Name = "materialCard5";
             materialCard5.Padding = new Padding(14);
-            materialCard5.Size = new Size(325, 150);
+            materialCard5.Size = new Size(325, 112);
             materialCard5.TabIndex = 7;
+            // 
+            // ConsultationsCompletedCount
+            // 
+            ConsultationsCompletedCount.AutoSize = true;
+            ConsultationsCompletedCount.Font = new Font("Inter Medium", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            ConsultationsCompletedCount.ForeColor = Color.DimGray;
+            ConsultationsCompletedCount.Location = new Point(29, 47);
+            ConsultationsCompletedCount.Name = "ConsultationsCompletedCount";
+            ConsultationsCompletedCount.Size = new Size(63, 19);
+            ConsultationsCompletedCount.TabIndex = 14;
+            ConsultationsCompletedCount.Text = "label13";
             // 
             // autoLabel7
             // 
-            autoLabel7.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            autoLabel7.ForeColor = Color.DimGray;
-            autoLabel7.Location = new Point(34, 14);
+            autoLabel7.Font = new Font("Inter", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            autoLabel7.ForeColor = Color.Black;
+            autoLabel7.Location = new Point(29, 14);
             autoLabel7.Name = "autoLabel7";
             autoLabel7.Position = Syncfusion.Windows.Forms.Tools.AutoLabelPosition.Custom;
-            autoLabel7.Size = new Size(132, 20);
+            autoLabel7.Size = new Size(209, 19);
             autoLabel7.TabIndex = 13;
-            autoLabel7.Text = "Active Bulletins";
+            autoLabel7.Text = "Consultations Completed";
             // 
             // panel3
             // 
             panel3.BackColor = Color.Red;
-            panel3.Location = new Point(0, 0);
+            panel3.Location = new Point(874, 102);
             panel3.Name = "panel3";
-            panel3.Size = new Size(16, 150);
+            panel3.Size = new Size(16, 112);
             panel3.TabIndex = 1;
             // 
             // materialCard6
             // 
             materialCard6.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard6.Controls.Add(PendingTasksCount);
             materialCard6.Controls.Add(autoLabel8);
             materialCard6.Depth = 0;
             materialCard6.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            materialCard6.Location = new Point(1243, 102);
+            materialCard6.Location = new Point(1282, 102);
             materialCard6.Margin = new Padding(14);
             materialCard6.MouseState = MaterialSkin.MouseState.HOVER;
             materialCard6.Name = "materialCard6";
             materialCard6.Padding = new Padding(14);
-            materialCard6.Size = new Size(325, 150);
+            materialCard6.Size = new Size(325, 112);
             materialCard6.TabIndex = 8;
+            // 
+            // PendingTasksCount
+            // 
+            PendingTasksCount.AutoSize = true;
+            PendingTasksCount.Font = new Font("Inter Medium", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            PendingTasksCount.ForeColor = Color.DimGray;
+            PendingTasksCount.Location = new Point(29, 47);
+            PendingTasksCount.Name = "PendingTasksCount";
+            PendingTasksCount.Size = new Size(63, 19);
+            PendingTasksCount.TabIndex = 15;
+            PendingTasksCount.Text = "label13";
             // 
             // autoLabel8
             // 
-            autoLabel8.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            autoLabel8.ForeColor = Color.DimGray;
-            autoLabel8.Location = new Point(34, 14);
+            autoLabel8.Font = new Font("Inter", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            autoLabel8.ForeColor = Color.Black;
+            autoLabel8.Location = new Point(29, 14);
             autoLabel8.Name = "autoLabel8";
             autoLabel8.Position = Syncfusion.Windows.Forms.Tools.AutoLabelPosition.Custom;
-            autoLabel8.Size = new Size(126, 20);
+            autoLabel8.Size = new Size(123, 19);
             autoLabel8.TabIndex = 14;
             autoLabel8.Text = "Pending Tasks";
             // 
             // materialCard7
             // 
             materialCard7.BackColor = Color.FromArgb(255, 255, 255);
-            materialCard7.Controls.Add(today1);
+            materialCard7.Controls.Add(systemSettings1);
+            materialCard7.Controls.Add(addUser1);
+            materialCard7.Controls.Add(scheduleConsultation1);
+            materialCard7.Controls.Add(createNewBulletin1);
             materialCard7.Depth = 0;
             materialCard7.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            materialCard7.Location = new Point(994, 351);
+            materialCard7.Location = new Point(1056, 317);
             materialCard7.Margin = new Padding(14);
             materialCard7.MouseState = MaterialSkin.MouseState.HOVER;
             materialCard7.Name = "materialCard7";
             materialCard7.Padding = new Padding(14);
-            materialCard7.Size = new Size(574, 600);
+            materialCard7.Size = new Size(551, 152);
             materialCard7.TabIndex = 9;
+            // 
+            // systemSettings1
+            // 
+            systemSettings1.Location = new Point(283, 82);
+            systemSettings1.Name = "systemSettings1";
+            systemSettings1.Size = new Size(255, 62);
+            systemSettings1.TabIndex = 0;
+            // 
+            // addUser1
+            // 
+            addUser1.Location = new Point(283, 12);
+            addUser1.Name = "addUser1";
+            addUser1.Size = new Size(255, 62);
+            addUser1.TabIndex = 0;
+            // 
+            // scheduleConsultation1
+            // 
+            scheduleConsultation1.BackColor = Color.White;
+            scheduleConsultation1.Location = new Point(11, 82);
+            scheduleConsultation1.Name = "scheduleConsultation1";
+            scheduleConsultation1.Size = new Size(255, 62);
+            scheduleConsultation1.TabIndex = 0;
             // 
             // materialCard8
             // 
             materialCard8.BackColor = Color.FromArgb(255, 255, 255);
-            materialCard8.Controls.Add(ThisWeekButton);
-            materialCard8.Controls.Add(TodayButton);
             materialCard8.Controls.Add(sfButton2);
-            materialCard8.Controls.Add(autoLabel4);
+            materialCard8.Controls.Add(QuickActionsLabel);
             materialCard8.Depth = 0;
             materialCard8.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            materialCard8.Location = new Point(994, 280);
+            materialCard8.Location = new Point(1056, 242);
             materialCard8.Margin = new Padding(14);
             materialCard8.MouseState = MaterialSkin.MouseState.HOVER;
             materialCard8.Name = "materialCard8";
             materialCard8.Padding = new Padding(14);
-            materialCard8.Size = new Size(574, 70);
+            materialCard8.Size = new Size(551, 70);
             materialCard8.TabIndex = 10;
-            // 
-            // ThisWeekButton
-            // 
-            ThisWeekButton.BackColor = SystemColors.ButtonHighlight;
-            ThisWeekButton.FlatStyle = FlatStyle.Popup;
-            ThisWeekButton.Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            ThisWeekButton.ForeColor = Color.DimGray;
-            ThisWeekButton.Location = new Point(461, 20);
-            ThisWeekButton.Name = "ThisWeekButton";
-            ThisWeekButton.Size = new Size(96, 28);
-            ThisWeekButton.Style.BackColor = SystemColors.ButtonHighlight;
-            ThisWeekButton.Style.ForeColor = Color.DimGray;
-            ThisWeekButton.TabIndex = 13;
-            ThisWeekButton.Text = "This Week";
-            ThisWeekButton.UseVisualStyleBackColor = false;
-            ThisWeekButton.Click += ThisWeekButton_Click;
-            // 
-            // TodayButton
-            // 
-            TodayButton.BackColor = SystemColors.ButtonHighlight;
-            TodayButton.FlatStyle = FlatStyle.Popup;
-            TodayButton.Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            TodayButton.ForeColor = Color.DimGray;
-            TodayButton.Location = new Point(359, 20);
-            TodayButton.Name = "TodayButton";
-            TodayButton.Size = new Size(96, 28);
-            TodayButton.Style.BackColor = SystemColors.ButtonHighlight;
-            TodayButton.Style.ForeColor = Color.DimGray;
-            TodayButton.TabIndex = 12;
-            TodayButton.Text = "Today";
-            TodayButton.UseVisualStyleBackColor = false;
-            TodayButton.Click += TodayButton_Click;
             // 
             // sfButton2
             // 
@@ -351,46 +459,429 @@
             sfButton2.TabIndex = 2;
             sfButton2.Text = "Bulletins";
             // 
-            // autoLabel4
+            // QuickActionsLabel
             // 
-            autoLabel4.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            autoLabel4.Location = new Point(17, 20);
-            autoLabel4.Name = "autoLabel4";
-            autoLabel4.Position = Syncfusion.Windows.Forms.Tools.AutoLabelPosition.Custom;
-            autoLabel4.Size = new Size(204, 25);
-            autoLabel4.TabIndex = 1;
-            autoLabel4.Text = "Upcoming Schedule";
-            // 
-            // panel2
-            // 
-            panel2.BackColor = Color.DarkOrange;
-            panel2.Location = new Point(448, 102);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(16, 150);
-            panel2.TabIndex = 11;
+            QuickActionsLabel.Font = new Font("Archivo Medium", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            QuickActionsLabel.Location = new Point(17, 20);
+            QuickActionsLabel.Name = "QuickActionsLabel";
+            QuickActionsLabel.Position = Syncfusion.Windows.Forms.Tools.AutoLabelPosition.Custom;
+            QuickActionsLabel.Size = new Size(157, 29);
+            QuickActionsLabel.TabIndex = 1;
+            QuickActionsLabel.Text = "Quick Actions";
             // 
             // panel4
             // 
             panel4.BackColor = Color.DarkTurquoise;
-            panel4.Location = new Point(1243, 102);
+            panel4.Location = new Point(1282, 102);
             panel4.Name = "panel4";
-            panel4.Size = new Size(16, 150);
+            panel4.Size = new Size(16, 112);
             panel4.TabIndex = 12;
             // 
-            // today1
+            // materialCard1
             // 
-            today1.Location = new Point(0, 0);
-            today1.Name = "today1";
-            today1.Size = new Size(574, 600);
-            today1.TabIndex = 0;
+            materialCard1.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard1.Controls.Add(ConByDepLabel);
+            materialCard1.Depth = 0;
+            materialCard1.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard1.Location = new Point(1056, 495);
+            materialCard1.Margin = new Padding(14);
+            materialCard1.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard1.Name = "materialCard1";
+            materialCard1.Padding = new Padding(14);
+            materialCard1.Size = new Size(551, 70);
+            materialCard1.TabIndex = 13;
+            // 
+            // ConByDepLabel
+            // 
+            ConByDepLabel.AutoSize = true;
+            ConByDepLabel.Font = new Font("Archivo Medium", 15.75F, FontStyle.Bold);
+            ConByDepLabel.Location = new Point(17, 20);
+            ConByDepLabel.Name = "ConByDepLabel";
+            ConByDepLabel.Size = new Size(306, 29);
+            ConByDepLabel.TabIndex = 0;
+            ConByDepLabel.Text = "Consultation by Department";
+            // 
+            // materialCard9
+            // 
+            materialCard9.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard9.Controls.Add(materialCard15);
+            materialCard9.Controls.Add(materialCard14);
+            materialCard9.Controls.Add(materialCard13);
+            materialCard9.Controls.Add(materialCard12);
+            materialCard9.Controls.Add(materialCard11);
+            materialCard9.Controls.Add(materialCard10);
+            materialCard9.Depth = 0;
+            materialCard9.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard9.Location = new Point(1056, 568);
+            materialCard9.Margin = new Padding(14);
+            materialCard9.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard9.Name = "materialCard9";
+            materialCard9.Padding = new Padding(14);
+            materialCard9.Size = new Size(551, 344);
+            materialCard9.TabIndex = 14;
+            // 
+            // materialCard15
+            // 
+            materialCard15.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard15.Controls.Add(NumOfConsCEng);
+            materialCard15.Controls.Add(label11);
+            materialCard15.Controls.Add(label12);
+            materialCard15.Controls.Add(panel10);
+            materialCard15.Depth = 0;
+            materialCard15.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard15.Location = new Point(283, 232);
+            materialCard15.Margin = new Padding(14);
+            materialCard15.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard15.Name = "materialCard15";
+            materialCard15.Padding = new Padding(14);
+            materialCard15.Size = new Size(255, 95);
+            materialCard15.TabIndex = 5;
+            // 
+            // NumOfConsCEng
+            // 
+            NumOfConsCEng.AutoSize = true;
+            NumOfConsCEng.Font = new Font("Inter", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            NumOfConsCEng.ForeColor = Color.Gray;
+            NumOfConsCEng.Location = new Point(215, 40);
+            NumOfConsCEng.Name = "NumOfConsCEng";
+            NumOfConsCEng.Size = new Size(38, 19);
+            NumOfConsCEng.TabIndex = 5;
+            NumOfConsCEng.Text = "120";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Inter Medium", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label11.Location = new Point(87, 49);
+            label11.Name = "label11";
+            label11.Size = new Size(103, 19);
+            label11.TabIndex = 4;
+            label11.Text = "Engineering";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Inter Medium", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label12.Location = new Point(87, 30);
+            label12.Name = "label12";
+            label12.Size = new Size(42, 19);
+            label12.TabIndex = 3;
+            label12.Text = "Civil";
+            // 
+            // panel10
+            // 
+            panel10.BackgroundImage = Properties.Icons.civil_engineering;
+            panel10.BackgroundImageLayout = ImageLayout.Stretch;
+            panel10.Location = new Point(17, 15);
+            panel10.Name = "panel10";
+            panel10.Size = new Size(64, 64);
+            panel10.TabIndex = 2;
+            // 
+            // materialCard14
+            // 
+            materialCard14.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard14.Controls.Add(NumOfConsCheEng);
+            materialCard14.Controls.Add(label9);
+            materialCard14.Controls.Add(label10);
+            materialCard14.Controls.Add(panel9);
+            materialCard14.Depth = 0;
+            materialCard14.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard14.Location = new Point(283, 124);
+            materialCard14.Margin = new Padding(14);
+            materialCard14.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard14.Name = "materialCard14";
+            materialCard14.Padding = new Padding(14);
+            materialCard14.Size = new Size(255, 95);
+            materialCard14.TabIndex = 4;
+            // 
+            // NumOfConsCheEng
+            // 
+            NumOfConsCheEng.AutoSize = true;
+            NumOfConsCheEng.Font = new Font("Inter", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            NumOfConsCheEng.ForeColor = Color.Gray;
+            NumOfConsCheEng.Location = new Point(215, 40);
+            NumOfConsCheEng.Name = "NumOfConsCheEng";
+            NumOfConsCheEng.Size = new Size(31, 19);
+            NumOfConsCheEng.TabIndex = 5;
+            NumOfConsCheEng.Text = "30";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Inter Medium", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label9.Location = new Point(87, 49);
+            label9.Name = "label9";
+            label9.Size = new Size(103, 19);
+            label9.TabIndex = 4;
+            label9.Text = "Engineering";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Inter Medium", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label10.Location = new Point(87, 30);
+            label10.Name = "label10";
+            label10.Size = new Size(81, 19);
+            label10.TabIndex = 3;
+            label10.Text = "Chemical";
+            // 
+            // panel9
+            // 
+            panel9.BackgroundImage = Properties.Icons.chemical_engineering;
+            panel9.BackgroundImageLayout = ImageLayout.Stretch;
+            panel9.Location = new Point(17, 15);
+            panel9.Name = "panel9";
+            panel9.Size = new Size(64, 64);
+            panel9.TabIndex = 2;
+            // 
+            // materialCard13
+            // 
+            materialCard13.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard13.Controls.Add(NumOfConsMEEng);
+            materialCard13.Controls.Add(label7);
+            materialCard13.Controls.Add(label8);
+            materialCard13.Controls.Add(panel8);
+            materialCard13.Depth = 0;
+            materialCard13.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard13.Location = new Point(283, 14);
+            materialCard13.Margin = new Padding(14);
+            materialCard13.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard13.Name = "materialCard13";
+            materialCard13.Padding = new Padding(14);
+            materialCard13.Size = new Size(255, 95);
+            materialCard13.TabIndex = 3;
+            // 
+            // NumOfConsMEEng
+            // 
+            NumOfConsMEEng.AutoSize = true;
+            NumOfConsMEEng.Font = new Font("Inter", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            NumOfConsMEEng.ForeColor = Color.Gray;
+            NumOfConsMEEng.Location = new Point(215, 40);
+            NumOfConsMEEng.Name = "NumOfConsMEEng";
+            NumOfConsMEEng.Size = new Size(31, 19);
+            NumOfConsMEEng.TabIndex = 5;
+            NumOfConsMEEng.Text = "30";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Inter Medium", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label7.Location = new Point(87, 49);
+            label7.Name = "label7";
+            label7.Size = new Size(103, 19);
+            label7.TabIndex = 4;
+            label7.Text = "Engineering";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Inter Medium", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label8.Location = new Point(87, 30);
+            label8.Name = "label8";
+            label8.Size = new Size(98, 19);
+            label8.TabIndex = 3;
+            label8.Text = "Mechanical";
+            // 
+            // panel8
+            // 
+            panel8.BackgroundImage = Properties.Icons.mechanical_engineering;
+            panel8.BackgroundImageLayout = ImageLayout.Stretch;
+            panel8.Location = new Point(17, 15);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(64, 64);
+            panel8.TabIndex = 2;
+            // 
+            // materialCard12
+            // 
+            materialCard12.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard12.Controls.Add(NumOfConsEEng);
+            materialCard12.Controls.Add(label5);
+            materialCard12.Controls.Add(label6);
+            materialCard12.Controls.Add(panel7);
+            materialCard12.Depth = 0;
+            materialCard12.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard12.Location = new Point(11, 232);
+            materialCard12.Margin = new Padding(14);
+            materialCard12.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard12.Name = "materialCard12";
+            materialCard12.Padding = new Padding(14);
+            materialCard12.Size = new Size(255, 95);
+            materialCard12.TabIndex = 2;
+            // 
+            // NumOfConsEEng
+            // 
+            NumOfConsEEng.AutoSize = true;
+            NumOfConsEEng.Font = new Font("Inter", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            NumOfConsEEng.ForeColor = Color.Gray;
+            NumOfConsEEng.Location = new Point(215, 40);
+            NumOfConsEEng.Name = "NumOfConsEEng";
+            NumOfConsEEng.Size = new Size(31, 19);
+            NumOfConsEEng.TabIndex = 5;
+            NumOfConsEEng.Text = "30";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Inter Medium", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.Location = new Point(87, 49);
+            label5.Name = "label5";
+            label5.Size = new Size(103, 19);
+            label5.TabIndex = 4;
+            label5.Text = "Engineering";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Inter Medium", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.Location = new Point(87, 30);
+            label6.Name = "label6";
+            label6.Size = new Size(80, 19);
+            label6.TabIndex = 3;
+            label6.Text = "Electrical";
+            // 
+            // panel7
+            // 
+            panel7.BackgroundImage = Properties.Icons.electrical_engineering;
+            panel7.BackgroundImageLayout = ImageLayout.Stretch;
+            panel7.Location = new Point(17, 15);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(64, 64);
+            panel7.TabIndex = 2;
+            // 
+            // materialCard11
+            // 
+            materialCard11.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard11.Controls.Add(NumOfConsEEEng);
+            materialCard11.Controls.Add(label3);
+            materialCard11.Controls.Add(label4);
+            materialCard11.Controls.Add(panel6);
+            materialCard11.Depth = 0;
+            materialCard11.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard11.Location = new Point(11, 124);
+            materialCard11.Margin = new Padding(14);
+            materialCard11.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard11.Name = "materialCard11";
+            materialCard11.Padding = new Padding(14);
+            materialCard11.Size = new Size(255, 95);
+            materialCard11.TabIndex = 1;
+            // 
+            // NumOfConsEEEng
+            // 
+            NumOfConsEEEng.AutoSize = true;
+            NumOfConsEEEng.Font = new Font("Inter", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            NumOfConsEEEng.ForeColor = Color.Gray;
+            NumOfConsEEEng.Location = new Point(215, 40);
+            NumOfConsEEEng.Name = "NumOfConsEEEng";
+            NumOfConsEEEng.Size = new Size(31, 19);
+            NumOfConsEEEng.TabIndex = 5;
+            NumOfConsEEEng.Text = "30";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Inter Medium", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(87, 49);
+            label3.Name = "label3";
+            label3.Size = new Size(103, 19);
+            label3.TabIndex = 4;
+            label3.Text = "Engineering";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Inter Medium", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Location = new Point(87, 30);
+            label4.Name = "label4";
+            label4.Size = new Size(97, 19);
+            label4.TabIndex = 3;
+            label4.Text = "Electronics";
+            // 
+            // panel6
+            // 
+            panel6.BackgroundImage = Properties.Icons.electronics_engineering;
+            panel6.BackgroundImageLayout = ImageLayout.Stretch;
+            panel6.Location = new Point(17, 15);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(64, 64);
+            panel6.TabIndex = 2;
+            // 
+            // materialCard10
+            // 
+            materialCard10.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard10.Controls.Add(NumOfConsComEng);
+            materialCard10.Controls.Add(label2);
+            materialCard10.Controls.Add(label1);
+            materialCard10.Controls.Add(panel5);
+            materialCard10.Depth = 0;
+            materialCard10.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard10.Location = new Point(11, 14);
+            materialCard10.Margin = new Padding(14);
+            materialCard10.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard10.Name = "materialCard10";
+            materialCard10.Padding = new Padding(14);
+            materialCard10.Size = new Size(255, 95);
+            materialCard10.TabIndex = 0;
+            // 
+            // NumOfConsComEng
+            // 
+            NumOfConsComEng.AutoSize = true;
+            NumOfConsComEng.Font = new Font("Inter", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            NumOfConsComEng.ForeColor = Color.Gray;
+            NumOfConsComEng.Location = new Point(215, 40);
+            NumOfConsComEng.Name = "NumOfConsComEng";
+            NumOfConsComEng.Size = new Size(31, 19);
+            NumOfConsComEng.TabIndex = 3;
+            NumOfConsComEng.Text = "30";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Inter Medium", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(87, 49);
+            label2.Name = "label2";
+            label2.Size = new Size(103, 19);
+            label2.TabIndex = 2;
+            label2.Text = "Engineering";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Inter Medium", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(87, 30);
+            label1.Name = "label1";
+            label1.Size = new Size(88, 19);
+            label1.TabIndex = 1;
+            label1.Text = "Computer";
+            // 
+            // panel5
+            // 
+            panel5.BackgroundImage = Properties.Icons.computer_engineering;
+            panel5.BackgroundImageLayout = ImageLayout.Stretch;
+            panel5.Location = new Point(17, 17);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(64, 64);
+            panel5.TabIndex = 0;
+            // 
+            // UserName
+            // 
+            UserName.AutoSize = true;
+            UserName.Font = new Font("Archivo", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            UserName.Location = new Point(204, 19);
+            UserName.Name = "UserName";
+            UserName.Size = new Size(101, 43);
+            UserName.TabIndex = 15;
+            UserName.Text = "User!";
             // 
             // MainDashboardUserControl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
+            Controls.Add(UserName);
+            Controls.Add(materialCard9);
+            Controls.Add(materialCard1);
             Controls.Add(panel4);
-            Controls.Add(panel2);
+            Controls.Add(panel3);
             Controls.Add(materialCard8);
             Controls.Add(materialCard7);
             Controls.Add(materialCard6);
@@ -403,7 +894,7 @@
             Controls.Add(ActivityFeedPanel);
             ForeColor = Color.Red;
             Name = "MainDashboardUserControl";
-            Size = new Size(1620, 980);
+            Size = new Size(1660, 920);
             Load += MainDashboardUserControl_Load;
             materialCard2.ResumeLayout(false);
             materialCard2.PerformLayout();
@@ -418,12 +909,28 @@
             materialCard7.ResumeLayout(false);
             materialCard8.ResumeLayout(false);
             materialCard8.PerformLayout();
+            materialCard1.ResumeLayout(false);
+            materialCard1.PerformLayout();
+            materialCard9.ResumeLayout(false);
+            materialCard15.ResumeLayout(false);
+            materialCard15.PerformLayout();
+            materialCard14.ResumeLayout(false);
+            materialCard14.PerformLayout();
+            materialCard13.ResumeLayout(false);
+            materialCard13.PerformLayout();
+            materialCard12.ResumeLayout(false);
+            materialCard12.PerformLayout();
+            materialCard11.ResumeLayout(false);
+            materialCard11.PerformLayout();
+            materialCard10.ResumeLayout(false);
+            materialCard10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)cardLayout1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private Syncfusion.Windows.Forms.Tools.AutoLabel autoLabel1;
+        private Syncfusion.Windows.Forms.Tools.AutoLabel ActivityFeedLabel;
         private MaterialSkin.Controls.MaterialCard materialCard2;
         private Syncfusion.WinForms.Controls.SfButton BulletinButton;
         private MaterialSkin.Controls.MaterialCard materialCard3;
@@ -435,7 +942,7 @@
         private MaterialSkin.Controls.MaterialCard materialCard7;
         private MaterialSkin.Controls.MaterialCard materialCard8;
         private Syncfusion.WinForms.Controls.SfButton sfButton2;
-        private Syncfusion.Windows.Forms.Tools.AutoLabel autoLabel4;
+        private Syncfusion.Windows.Forms.Tools.AutoLabel QuickActionsLabel;
         private Syncfusion.WinForms.Controls.SfButton ConsultationButton;
         private Panel panel1;
         private Panel panel3;
@@ -445,9 +952,49 @@
         private Syncfusion.Windows.Forms.Tools.AutoLabel autoLabel6;
         private Syncfusion.Windows.Forms.Tools.AutoLabel autoLabel7;
         private Syncfusion.Windows.Forms.Tools.AutoLabel autoLabel8;
-        private Syncfusion.WinForms.Controls.SfButton ThisWeekButton;
-        private Syncfusion.WinForms.Controls.SfButton TodayButton;
         public MaterialSkin.Controls.MaterialCard ActivityFeedPanel;
-        private Upcoming_Schedule.Today today1;
+        private MaterialSkin.Controls.MaterialCard materialCard1;
+        private Label ConByDepLabel;
+        private MaterialSkin.Controls.MaterialCard materialCard9;
+        private Views.Controls.Dashboard.Quick_Actions_Panel.CreateNewBulletin createNewBulletin1;
+        private Views.Controls.Dashboard.Quick_Actions_Panel.ScheduleConsultation scheduleConsultation1;
+        private Views.Controls.Dashboard.Quick_Actions_Panel.AddUser addUser1;
+        private Views.Controls.Dashboard.Quick_Actions_Panel.SystemSettings systemSettings1;
+        private MaterialSkin.Controls.MaterialCard materialCard15;
+        private MaterialSkin.Controls.MaterialCard materialCard14;
+        private MaterialSkin.Controls.MaterialCard materialCard13;
+        private MaterialSkin.Controls.MaterialCard materialCard12;
+        private MaterialSkin.Controls.MaterialCard materialCard11;
+        private MaterialSkin.Controls.MaterialCard materialCard10;
+        private Panel panel5;
+        private Panel panel10;
+        private Panel panel9;
+        private Panel panel8;
+        private Panel panel7;
+        private Panel panel6;
+        private Label label9;
+        private Label label10;
+        private Label label7;
+        private Label label8;
+        private Label label5;
+        private Label label6;
+        private Label label3;
+        private Label label4;
+        private Label label2;
+        private Label label1;
+        private Label label11;
+        private Label label12;
+        private Label NumOfConsComEng;
+        private Syncfusion.Windows.Forms.Tools.CardLayout cardLayout1;
+        private Label NumOfConsCEng;
+        private Label NumOfConsCheEng;
+        private Label NumOfConsMEEng;
+        private Label NumOfConsEEng;
+        private Label NumOfConsEEEng;
+        private Label BulltinPublishedCount;
+        private Label PendingApprovalsCount;
+        private Label ConsultationsCompletedCount;
+        private Label PendingTasksCount;
+        private Label UserName;
     }
 }

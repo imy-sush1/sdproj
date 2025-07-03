@@ -17,10 +17,6 @@ namespace Consultation.App
 
             ApplicationConfiguration.Initialize();
 
-            using (var Log_InForm = new LogInView())
-            {
-                if (Log_InForm.ShowDialog() == DialogResult.OK)
-                {
                     IMainView mainView = new MainView();
                     new MainPresenter(mainView);
 
@@ -29,5 +25,3 @@ namespace Consultation.App
             }
            
         }
-    }
-}

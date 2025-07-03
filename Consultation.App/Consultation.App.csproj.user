@@ -2,6 +2,18 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="Views\Controls\Dashboard\Quick Actions Panel\AddUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\Controls\Dashboard\Quick Actions Panel\CreateNewBulletin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\Controls\Dashboard\Quick Actions Panel\ScheduleConsultation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\Controls\Dashboard\Quick Actions Panel\SystemSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Views\Controls\Notification\NotificationCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -66,12 +78,6 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Views\Controls\Dashboard\MainDashboardUserControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="Views\Controls\Dashboard\Upcoming Schedule\Today.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="Views\Controls\Dashboard\Upcoming Schedule\TodayCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Views\MainView.cs">

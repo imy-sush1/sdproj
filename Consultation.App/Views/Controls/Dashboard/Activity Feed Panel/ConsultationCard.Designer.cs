@@ -28,42 +28,43 @@
         /// </summary>
         private void InitializeComponent()
         {
-            BulletinTitle = new Syncfusion.Windows.Forms.Tools.AutoLabel();
-            autoLabel1 = new Syncfusion.Windows.Forms.Tools.AutoLabel();
+            ConsultationTitle = new Syncfusion.Windows.Forms.Tools.AutoLabel();
+            ConsultationBody = new Syncfusion.Windows.Forms.Tools.AutoLabel();
             SuspendLayout();
             // 
-            // BulletinTitle
+            // ConsultationTitle
             // 
-            BulletinTitle.Location = new Point(36, 25);
-            BulletinTitle.Name = "BulletinTitle";
-            BulletinTitle.Size = new Size(65, 15);
-            BulletinTitle.TabIndex = 0;
-            BulletinTitle.Text = "autoLabel1";
+            ConsultationTitle.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            ConsultationTitle.Location = new Point(36, 25);
+            ConsultationTitle.Name = "ConsultationTitle";
+            ConsultationTitle.Size = new Size(32, 15);
+            ConsultationTitle.TabIndex = 0;
+            ConsultationTitle.Text = "Title";
             // 
-            // autoLabel1
+            // ConsultationBody
             // 
-            autoLabel1.Location = new Point(36, 58);
-            autoLabel1.Name = "autoLabel1";
-            autoLabel1.Size = new Size(65, 15);
-            autoLabel1.TabIndex = 1;
-            autoLabel1.Text = "autoLabel1";
+            ConsultationBody.Location = new Point(36, 58);
+            ConsultationBody.Name = "ConsultationBody";
+            ConsultationBody.Size = new Size(34, 15);
+            ConsultationBody.TabIndex = 1;
+            ConsultationBody.Text = "Body";
             // 
             // ConsultationCard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
-            Controls.Add(autoLabel1);
-            Controls.Add(BulletinTitle);
+            Controls.Add(ConsultationBody);
+            Controls.Add(ConsultationTitle);
             Name = "ConsultationCard";
-            Size = new Size(840, 170);
+            Size = new Size(925, 170);
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Syncfusion.Windows.Forms.Tools.AutoLabel BulletinTitle;
-        private Syncfusion.Windows.Forms.Tools.AutoLabel autoLabel1;
+        private Syncfusion.Windows.Forms.Tools.AutoLabel ConsultationTitle;
+        private Syncfusion.Windows.Forms.Tools.AutoLabel ConsultationBody;
     }
 }
