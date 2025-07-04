@@ -291,3 +291,4 @@ C:\Users\user\Desktop\Projects\C#\SD_UPDATED_REPO\Consultation.App\obj\Debug\net
 C:\Users\user\Desktop\Projects\C#\SD_UPDATED_REPO\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.BulletinManagement.ArchiveCard.resources
 C:\Users\user\Desktop\Projects\C#\SD_UPDATED_REPO\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.BulletinManagement.BulletinCard.resources
 C:\Users\user\Desktop\Projects\C#\SD_UPDATED_REPO\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.BulletinManagement.CreateBulletin.resources
+C:\Users\user\Desktop\Projects\C#\SD_UPDATED_REPO\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Properties.Resources.resources
