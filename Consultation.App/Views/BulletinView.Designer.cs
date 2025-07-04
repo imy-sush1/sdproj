@@ -40,7 +40,10 @@
             btnArchive = new Guna.UI2.WinForms.Guna2Button();
             btnCreateBulletin = new Guna.UI2.WinForms.Guna2Button();
             panelBulletinCard = new MaterialSkin.Controls.MaterialCard();
+            panelHeader = new MaterialSkin.Controls.MaterialCard();
+            label1 = new Label();
             materialCard1.SuspendLayout();
+            panelHeader.SuspendLayout();
             SuspendLayout();
             // 
             // materialCard1
@@ -129,24 +132,53 @@
             panelBulletinCard.BackColor = Color.FromArgb(255, 255, 255);
             panelBulletinCard.Depth = 0;
             panelBulletinCard.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            panelBulletinCard.Location = new Point(72, 123);
+            panelBulletinCard.Location = new Point(88, 197);
             panelBulletinCard.Margin = new Padding(0);
             panelBulletinCard.MouseState = MaterialSkin.MouseState.HOVER;
             panelBulletinCard.Name = "panelBulletinCard";
-            panelBulletinCard.Size = new Size(1500, 790);
+            panelBulletinCard.Padding = new Padding(14);
+            panelBulletinCard.Size = new Size(1460, 724);
             panelBulletinCard.TabIndex = 1;
             // 
-            // BulletinsForm
+            // panelHeader
+            // 
+            panelHeader.BackColor = Color.FromArgb(255, 255, 255);
+            panelHeader.Controls.Add(label1);
+            panelHeader.Depth = 0;
+            panelHeader.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            panelHeader.Location = new Point(88, 123);
+            panelHeader.Margin = new Padding(14);
+            panelHeader.MouseState = MaterialSkin.MouseState.HOVER;
+            panelHeader.Name = "panelHeader";
+            panelHeader.Padding = new Padding(14);
+            panelHeader.Size = new Size(1460, 70);
+            panelHeader.TabIndex = 0;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Archivo SemiBold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.FromArgb(23, 26, 31);
+            label1.Location = new Point(26, 19);
+            label1.Name = "label1";
+            label1.Size = new Size(163, 32);
+            label1.TabIndex = 0;
+            label1.Text = "Active Bulletins";
+            // 
+            // BulletinView
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(1642, 941);
+            Controls.Add(panelHeader);
             Controls.Add(panelBulletinCard);
             Controls.Add(materialCard1);
-            Name = "BulletinsForm";
+            Name = "BulletinView";
             Text = "BulletinsForm";
             materialCard1.ResumeLayout(false);
+            panelHeader.ResumeLayout(false);
+            panelHeader.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -158,5 +190,7 @@
         private Guna.UI2.WinForms.Guna2Button btnBulletinView;
         private Guna.UI2.WinForms.Guna2Button btnArchive;
         private Panel panelUnderline;
+        private MaterialSkin.Controls.MaterialCard panelHeader;
+        private Label label1;
     }
 }

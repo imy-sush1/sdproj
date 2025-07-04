@@ -26,5 +26,10 @@ namespace Consultation.App.BulletinManagement
         {
             this.Close();
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
