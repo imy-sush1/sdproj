@@ -157,11 +157,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Archivo SemiBold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(23, 26, 31);
             label1.Location = new Point(26, 19);
             label1.Name = "label1";
-            label1.Size = new Size(163, 32);
+            label1.Size = new Size(175, 25);
             label1.TabIndex = 0;
             label1.Text = "Active Bulletins";
             // 
@@ -174,6 +174,7 @@
             Controls.Add(panelHeader);
             Controls.Add(panelBulletinCard);
             Controls.Add(materialCard1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "BulletinView";
             Text = "BulletinsForm";
             materialCard1.ResumeLayout(false);

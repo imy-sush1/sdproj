@@ -1,6 +1,6 @@
 ﻿namespace Consultation.App.Views.TestViews
 {
-    partial class BulletinView
+    partial class TestBulletinView
     {
         /// <summary>
         /// Required designer variable.

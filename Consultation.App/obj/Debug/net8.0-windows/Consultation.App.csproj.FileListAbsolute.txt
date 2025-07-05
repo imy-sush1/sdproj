@@ -30,10 +30,7 @@ D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-w
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Dashboard.Activity_Feed_Panel.Consultation2.resources
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Dashboard.Activity_Feed_Panel.ConsultationCard.resources
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Dashboard.MainDashboardUserControl.resources
-D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Dashboard.Upcoming_Schedule.Today.resources
-D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Dashboard.Upcoming_Schedule.TodayCard.resources
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.MainView.resources
-D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.TestViews.BulletinView.resources
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.csproj.GenerateResource.cache
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.GeneratedMSBuildEditorConfig.editorconfig
 D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.AssemblyInfoInputs.cache
@@ -292,3 +289,13 @@ C:\Users\user\Desktop\Projects\C#\SD_UPDATED_REPO\Consultation.App\obj\Debug\net
 C:\Users\user\Desktop\Projects\C#\SD_UPDATED_REPO\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.BulletinManagement.BulletinCard.resources
 C:\Users\user\Desktop\Projects\C#\SD_UPDATED_REPO\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.BulletinManagement.CreateBulletin.resources
 C:\Users\user\Desktop\Projects\C#\SD_UPDATED_REPO\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Properties.Resources.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Properties.Resources.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.BulletinView.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.BulletinManagement.ArchiveCard.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.BulletinManagement.BulletinCard.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.BulletinManagement.CreateBulletin.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.Controls.Dashboard.Quick_Actions_Panel.AddUser.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.Controls.Dashboard.Quick_Actions_Panel.CreateNewBulletin.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.Controls.Dashboard.Quick_Actions_Panel.ScheduleConsultation.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.Controls.Dashboard.Quick_Actions_Panel.SystemSettings.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Consultation.App\obj\Debug\net8.0-windows\Consultation.App.Views.TestViews.TestBulletinView.resources

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Consultation.App.Views.TestViews
 {
-    public partial class BulletinView : Form
+    public partial class TestBulletinView : Form
     {
-        public BulletinView()
+        public TestBulletinView()
         {
             InitializeComponent();
         }

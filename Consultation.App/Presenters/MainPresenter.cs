@@ -124,7 +124,7 @@ namespace Consultation.App.Presenters
             return formType switch
             {
                 ChildForms.Dashboard => new DashboardView(),
-                ChildForms.Bulletin => new Views.TestViews.BulletinView(),
+                ChildForms.Bulletin => new BulletinView(),
                 ChildForms.Reports => new ReportsView(),
                 ChildForms.UserManagement => new UserManagementView(),
                 _ => new Form() { Text = "Not Implemented" }

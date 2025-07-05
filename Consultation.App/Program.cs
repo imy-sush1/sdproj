@@ -17,11 +17,12 @@ namespace Consultation.App
 
             ApplicationConfiguration.Initialize();
 
-                    IMainView mainView = new MainView();
-                    new MainPresenter(mainView);
+            IMainView mainView = new MainView();
+            new MainPresenter(mainView);
 
-                    Application.Run(new BulletinView());    // revert to Application.Run((Form)mainView);
+            //Application.Run(new BulletinView());    
+            Application.Run((Form)mainView);
         }
-            }
+    }
            
-        }
+}

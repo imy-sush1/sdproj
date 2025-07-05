@@ -95,7 +95,7 @@
     <Compile Update="Views\MainView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Views\TestViews\BulletinView.cs">
+    <Compile Update="Views\TestViews\TestBulletinView.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
