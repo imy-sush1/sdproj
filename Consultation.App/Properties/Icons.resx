@@ -142,6 +142,9 @@
   <data name="material-symbols--groups-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\material-symbols--groups-21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="civil-engineering" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\civil-engineering.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="LOGO name (Custom) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LOGO name (Custom) (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -157,8 +160,8 @@
   <data name="schedule (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\schedule (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="material-symbols--person-2-outline" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\material-symbols--person-2-outline1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="material-symbols--dashboard-outline" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\material-symbols--dashboard-outline2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,8 +178,8 @@
   <data name="mechanical-engineering" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mechanical-engineering.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="material-symbols--person-2-outline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\material-symbols--person-2-outline1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LOGO name" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LOGO name.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,7 +187,64 @@
   <data name="LOGO FINAL (Custom)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LOGO FINAL (Custom).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="civil-engineering" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\civil-engineering.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulletin_icons\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="approve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulletin_icons\approve.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="attachment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulletin_icons\attachment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulletin_icons\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulletin_icons\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulletin_icons\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulletin_icons\edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulletin_icons\file.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="more" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulletin_icons\more.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="more_archive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulletin_icons\more_archive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="more_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulletin_icons\more_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="more_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulletin_icons\more_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="more_view" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulletin_icons\more_view.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="publish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulletin_icons\publish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tag_attachment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulletin_icons\tag_attachment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tag_date" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulletin_icons\tag_date.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tag_date2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulletin_icons\tag_date2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tag_person" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulletin_icons\tag_person.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tag_person2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulletin_icons\tag_person2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulletin_icons\white_arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

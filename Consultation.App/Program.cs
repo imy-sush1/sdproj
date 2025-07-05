@@ -20,8 +20,8 @@ namespace Consultation.App
                     IMainView mainView = new MainView();
                     new MainPresenter(mainView);
 
-                    Application.Run((Form)mainView);
-                }
+                    Application.Run(new BulletinView());    // revert to Application.Run((Form)mainView);
+        }
             }
            
         }
