@@ -5,7 +5,7 @@
     <Compile Update="Views\BulletinView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Views\Controls\BulletinManagement\ArchiveCard.cs">
+    <Compile Update="Views\Controls\BulletinManagement\ArchiveCardUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Views\Controls\BulletinManagement\BulletinCard.cs">
