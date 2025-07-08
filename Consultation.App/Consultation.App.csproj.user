@@ -17,10 +17,19 @@
     <Compile Update="Views\Controls\BulletinManagement\CreateBulletin.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Views\Controls\Dashboard\Activity Feed Panel\BulletinCards.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\Controls\Dashboard\Activity Feed Panel\ConsultationCards.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Views\Controls\Dashboard\Quick Actions Panel\AddUser.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Views\Controls\Dashboard\Quick Actions Panel\CreateNewBulletin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Views\Controls\Dashboard\Quick Actions Panel\ManageConsultation.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Views\Controls\Dashboard\Quick Actions Panel\ScheduleConsultation.cs">

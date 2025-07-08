@@ -1,6 +1,6 @@
 ﻿namespace Consultation.App.Views.Controls.Dashboard.Quick_Actions_Panel
 {
-    partial class CreateNewBulletin
+    partial class ManageConsultation
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateNewBulletin));
             materialCard1 = new MaterialSkin.Controls.MaterialCard();
             panel1 = new Panel();
             label2 = new Label();
@@ -39,7 +38,6 @@
             // materialCard1
             // 
             materialCard1.BackColor = Color.FromArgb(255, 255, 255);
-            materialCard1.BackgroundImage = Properties.Icons.LOGO_FINAL__Custom_;
             materialCard1.Controls.Add(panel1);
             materialCard1.Controls.Add(label2);
             materialCard1.Controls.Add(label1);
@@ -56,12 +54,12 @@
             // 
             // panel1
             // 
-            panel1.BackgroundImage = (Image)resources.GetObject("panel1.BackgroundImage");
+            panel1.BackgroundImage = Properties.Icons.schedule__1_;
             panel1.BackgroundImageLayout = ImageLayout.Stretch;
-            panel1.Location = new Point(17, 12);
+            panel1.Location = new Point(18, 12);
             panel1.Name = "panel1";
             panel1.Size = new Size(32, 32);
-            panel1.TabIndex = 2;
+            panel1.TabIndex = 3;
             panel1.Click += materialCard1_Click;
             // 
             // label2
@@ -70,9 +68,9 @@
             label2.ForeColor = Color.Gray;
             label2.Location = new Point(68, 29);
             label2.Name = "label2";
-            label2.Size = new Size(137, 15);
-            label2.TabIndex = 1;
-            label2.Text = "Publish Announcements";
+            label2.Size = new Size(116, 15);
+            label2.TabIndex = 3;
+            label2.Text = "Review appointment";
             label2.Click += materialCard1_Click;
             // 
             // label1
@@ -81,18 +79,18 @@
             label1.Font = new Font("Inter Medium", 11F, FontStyle.Bold);
             label1.Location = new Point(68, 11);
             label1.Name = "label1";
-            label1.Size = new Size(154, 18);
-            label1.TabIndex = 0;
-            label1.Text = "Create New Bulletin";
+            label1.Size = new Size(164, 18);
+            label1.TabIndex = 2;
+            label1.Text = "Manage Consultation";
             label1.Click += materialCard1_Click;
             // 
-            // CreateNewBulletin
+            // ManageConsultation
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             Controls.Add(materialCard1);
-            Name = "CreateNewBulletin";
+            Name = "ManageConsultation";
             Size = new Size(255, 62);
             materialCard1.ResumeLayout(false);
             materialCard1.PerformLayout();

@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             materialCard1 = new MaterialSkin.Controls.MaterialCard();
+            panel1 = new Panel();
             label2 = new Label();
             label1 = new Label();
-            panel1 = new Panel();
             materialCard1.SuspendLayout();
             SuspendLayout();
             // 
@@ -50,6 +50,17 @@
             materialCard1.Padding = new Padding(14);
             materialCard1.Size = new Size(251, 58);
             materialCard1.TabIndex = 0;
+            materialCard1.Click += materialCard1_Click;
+            // 
+            // panel1
+            // 
+            panel1.BackgroundImage = Properties.Icons.settings;
+            panel1.BackgroundImageLayout = ImageLayout.Stretch;
+            panel1.Location = new Point(17, 12);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(32, 32);
+            panel1.TabIndex = 4;
+            panel1.Click += materialCard1_Click;
             // 
             // label2
             // 
@@ -60,25 +71,18 @@
             label2.Size = new Size(137, 15);
             label2.TabIndex = 7;
             label2.Text = "Manage app preferences";
+            label2.Click += materialCard1_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Inter Medium", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Inter Medium", 11F, FontStyle.Bold);
             label1.Location = new Point(68, 12);
             label1.Name = "label1";
-            label1.Size = new Size(57, 14);
+            label1.Size = new Size(69, 18);
             label1.TabIndex = 6;
             label1.Text = "Settings";
-            // 
-            // panel1
-            // 
-            panel1.BackgroundImage = Properties.Icons.settings;
-            panel1.BackgroundImageLayout = ImageLayout.Stretch;
-            panel1.Location = new Point(17, 12);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(32, 32);
-            panel1.TabIndex = 4;
+            label1.Click += materialCard1_Click;
             // 
             // SystemSettings
             // 
