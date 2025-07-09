@@ -218,5 +218,10 @@ namespace Consultation.App.Views.Controls.BulletinManagement
 
             dropDown.Show(btnMore, new Point(0, btnMore.Height));
         }
+
+        private void txtContent_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
