@@ -16,5 +16,20 @@ namespace Consultation.App.Views
         {
             InitializeComponent();
         }
+
+        public void SetFacultyInfo(string name, string id, string email, string status)
+        {
+            //lblFacM.Text = name;
+            //lblIDFM.Text = id;
+            //lblEmailFM.Text = email;
+            //lblStatusFM.Text = status;
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+       
     }
 }

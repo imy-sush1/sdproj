@@ -16,5 +16,14 @@ namespace Consultation.App.Views
         {
             InitializeComponent();
         }
+
+        public void SetStudentInfo(string name, string id, string course, string email, string status)
+        {
+            lblStudName.Text = name;
+            lblStudID.Text = id;
+            //lblCourse.Text = course;
+            lblStudEmail.Text = email;
+            //lblStatus.Text = status;
+        }
     }
 }

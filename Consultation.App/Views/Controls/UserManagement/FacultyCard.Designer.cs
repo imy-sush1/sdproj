@@ -28,91 +28,89 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
+            FacAction = new Label();
+            lblFacEmail = new Label();
+            lblFacID = new Label();
+            lblFacName = new Label();
+            pictureBox = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox).BeginInit();
             SuspendLayout();
             // 
-            // button1
+            // FacAction
             // 
-            button1.Location = new Point(1073, 25);
-            button1.Name = "button1";
-            button1.Size = new Size(29, 23);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            FacAction.AutoSize = true;
+            FacAction.Font = new Font("Sans Serif Collection", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            FacAction.Location = new Point(765, 16);
+            FacAction.Name = "FacAction";
+            FacAction.Size = new Size(37, 51);
+            FacAction.TabIndex = 21;
+            FacAction.Text = "...";
             // 
-            // button2
+            // lblFacEmail
             // 
-            button2.Location = new Point(1108, 25);
-            button2.Name = "button2";
-            button2.Size = new Size(32, 23);
-            button2.TabIndex = 1;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            lblFacEmail.AutoSize = true;
+            lblFacEmail.Font = new Font("Sans Serif Collection", 9F);
+            lblFacEmail.Location = new Point(485, 16);
+            lblFacEmail.Name = "lblFacEmail";
+            lblFacEmail.Size = new Size(143, 51);
+            lblFacEmail.TabIndex = 20;
+            lblFacEmail.Text = "Umindanao Email";
             // 
-            // button3
+            // lblFacID
             // 
-            button3.Location = new Point(1146, 25);
-            button3.Name = "button3";
-            button3.Size = new Size(36, 23);
-            button3.TabIndex = 2;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
+            lblFacID.AutoSize = true;
+            lblFacID.Font = new Font("Sans Serif Collection", 9F);
+            lblFacID.Location = new Point(310, 16);
+            lblFacID.Name = "lblFacID";
+            lblFacID.Size = new Size(42, 51);
+            lblFacID.TabIndex = 19;
+            lblFacID.Text = "I.D";
             // 
-            // label1
+            // lblFacName
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(59, 29);
-            label1.Name = "label1";
-            label1.Size = new Size(93, 15);
-            label1.TabIndex = 3;
-            label1.Text = "Faculty Member";
+            lblFacName.AutoSize = true;
+            lblFacName.Font = new Font("Sans Serif Collection", 9F);
+            lblFacName.Location = new Point(93, 16);
+            lblFacName.Name = "lblFacName";
+            lblFacName.Size = new Size(114, 51);
+            lblFacName.TabIndex = 18;
+            lblFacName.Text = "Faculty Name";
             // 
-            // label2
+            // pictureBox
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(378, 29);
-            label2.Name = "label2";
-            label2.Size = new Size(21, 15);
-            label2.TabIndex = 4;
-            label2.Text = "I.D";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(625, 29);
-            label3.Name = "label3";
-            label3.Size = new Size(101, 15);
-            label3.TabIndex = 5;
-            label3.Text = "Umindanao Email";
+            pictureBox.Image = Properties.Icons.person_b;
+            pictureBox.Location = new Point(3, 3);
+            pictureBox.Name = "pictureBox";
+            pictureBox.Size = new Size(84, 64);
+            pictureBox.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox.TabIndex = 22;
+            pictureBox.TabStop = false;
             // 
             // FacultyCard
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            BackColor = SystemColors.ControlLightLight;
+            BorderStyle = BorderStyle.Fixed3D;
+            Controls.Add(pictureBox);
+            Controls.Add(FacAction);
+            Controls.Add(lblFacEmail);
+            Controls.Add(lblFacID);
+            Controls.Add(lblFacName);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FacultyCard";
-            Size = new Size(1295, 70);
+            Size = new Size(944, 70);
+            ((System.ComponentModel.ISupportInitialize)pictureBox).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Label label1;
-        private Label label2;
-        private Label label3;
+        private Label FacAction;
+        private Label lblFacEmail;
+        private Label lblFacID;
+        private Label lblFacName;
+        private PictureBox pictureBox;
     }
 }

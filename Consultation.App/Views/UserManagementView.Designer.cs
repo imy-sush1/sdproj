@@ -28,188 +28,437 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panel1 = new Panel();
-            flowLayoutPanel1 = new FlowLayoutPanel();
-            comboBox3 = new ComboBox();
-            comboBox2 = new ComboBox();
-            comboBox1 = new ComboBox();
-            textBox1 = new TextBox();
+            components = new System.ComponentModel.Container();
+            panelUM = new Panel();
+            BtnNext = new Button();
+            BtnPreview = new Button();
+            button4 = new Button();
+            button3 = new Button();
             button2 = new Button();
             button1 = new Button();
+            CBoxCourseCode = new ComboBox();
+            BtnAdmin = new Button();
+            flowLayPanSFA = new FlowLayoutPanel();
+            CBoxYear = new ComboBox();
+            CBoxCourse = new ComboBox();
+            CBoxSort = new ComboBox();
+            textBoxSearch = new TextBox();
+            BtnFaculty = new Button();
+            BtnStudents = new Button();
             panel2 = new Panel();
-            label2 = new Label();
+            pictureBox1 = new PictureBox();
+            TotalStudents = new Label();
             label1 = new Label();
             panel3 = new Panel();
-            label5 = new Label();
+            pictureBox2 = new PictureBox();
+            TotalFacultyMem = new Label();
             label4 = new Label();
-            panel1.SuspendLayout();
+            backStageView1 = new Syncfusion.Windows.Forms.BackStageView(components);
+            panel4 = new Panel();
+            pictureBox3 = new PictureBox();
+            TotalAdmin = new Label();
+            label6 = new Label();
+            BtnRefresh = new Button();
+            panelUM.SuspendLayout();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
-            // panel1
+            // panelUM
             // 
-            panel1.BackColor = Color.LemonChiffon;
-            panel1.Controls.Add(flowLayoutPanel1);
-            panel1.Controls.Add(comboBox3);
-            panel1.Controls.Add(comboBox2);
-            panel1.Controls.Add(comboBox1);
-            panel1.Controls.Add(textBox1);
-            panel1.Controls.Add(button2);
-            panel1.Controls.Add(button1);
-            panel1.Location = new Point(34, 235);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(1399, 642);
-            panel1.TabIndex = 0;
+            panelUM.BackColor = Color.White;
+            panelUM.BorderStyle = BorderStyle.Fixed3D;
+            panelUM.Controls.Add(BtnNext);
+            panelUM.Controls.Add(BtnPreview);
+            panelUM.Controls.Add(button4);
+            panelUM.Controls.Add(button3);
+            panelUM.Controls.Add(button2);
+            panelUM.Controls.Add(button1);
+            panelUM.Controls.Add(CBoxCourseCode);
+            panelUM.Controls.Add(BtnAdmin);
+            panelUM.Controls.Add(flowLayPanSFA);
+            panelUM.Controls.Add(CBoxYear);
+            panelUM.Controls.Add(CBoxCourse);
+            panelUM.Controls.Add(CBoxSort);
+            panelUM.Controls.Add(textBoxSearch);
+            panelUM.Controls.Add(BtnFaculty);
+            panelUM.Controls.Add(BtnStudents);
+            panelUM.Location = new Point(175, 202);
+            panelUM.Name = "panelUM";
+            panelUM.Size = new Size(1222, 565);
+            panelUM.TabIndex = 0;
+            panelUM.Paint += panel1_Paint;
             // 
-            // flowLayoutPanel1
+            // BtnNext
             // 
-            flowLayoutPanel1.BackColor = Color.Wheat;
-            flowLayoutPanel1.Location = new Point(39, 109);
-            flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(1295, 581);
-            flowLayoutPanel1.TabIndex = 6;
+            BtnNext.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            BtnNext.ForeColor = Color.Red;
+            BtnNext.Location = new Point(983, 512);
+            BtnNext.Margin = new Padding(3, 2, 3, 2);
+            BtnNext.Name = "BtnNext";
+            BtnNext.Size = new Size(44, 22);
+            BtnNext.TabIndex = 14;
+            BtnNext.Text = ">";
+            BtnNext.UseVisualStyleBackColor = true;
             // 
-            // comboBox3
+            // BtnPreview
             // 
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(553, 51);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(121, 23);
-            comboBox3.TabIndex = 5;
+            BtnPreview.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            BtnPreview.ForeColor = Color.Red;
+            BtnPreview.Location = new Point(738, 512);
+            BtnPreview.Margin = new Padding(3, 2, 3, 2);
+            BtnPreview.Name = "BtnPreview";
+            BtnPreview.Size = new Size(44, 22);
+            BtnPreview.TabIndex = 13;
+            BtnPreview.Text = "<";
+            BtnPreview.UseVisualStyleBackColor = true;
             // 
-            // comboBox2
+            // button4
             // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(395, 51);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(121, 23);
-            comboBox2.TabIndex = 4;
+            button4.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button4.ForeColor = Color.Red;
+            button4.Location = new Point(934, 512);
+            button4.Margin = new Padding(3, 2, 3, 2);
+            button4.Name = "button4";
+            button4.Size = new Size(44, 22);
+            button4.TabIndex = 12;
+            button4.Text = "4";
+            button4.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // button3
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(242, 51);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
-            comboBox1.TabIndex = 3;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(34, 51);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(166, 23);
-            textBox1.TabIndex = 2;
+            button3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.ForeColor = Color.Red;
+            button3.Location = new Point(885, 512);
+            button3.Margin = new Padding(3, 2, 3, 2);
+            button3.Name = "button3";
+            button3.Size = new Size(44, 22);
+            button3.TabIndex = 11;
+            button3.Text = "3";
+            button3.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            button2.Location = new Point(125, 13);
+            button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.ForeColor = Color.Red;
+            button2.Location = new Point(836, 512);
+            button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 1;
-            button2.Text = "Faculty";
+            button2.Size = new Size(44, 22);
+            button2.TabIndex = 10;
+            button2.Text = "2";
             button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            button1.Location = new Point(34, 13);
+            button1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.ForeColor = Color.Red;
+            button1.Location = new Point(787, 512);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 0;
-            button1.Text = "Students";
+            button1.Size = new Size(44, 22);
+            button1.TabIndex = 9;
+            button1.Text = "1";
             button1.UseVisualStyleBackColor = true;
+            // 
+            // CBoxCourseCode
+            // 
+            CBoxCourseCode.FormattingEnabled = true;
+            CBoxCourseCode.Location = new Point(521, 60);
+            CBoxCourseCode.Name = "CBoxCourseCode";
+            CBoxCourseCode.Size = new Size(121, 23);
+            CBoxCourseCode.TabIndex = 8;
+            CBoxCourseCode.Text = "Course Code";
+            // 
+            // BtnAdmin
+            // 
+            BtnAdmin.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            BtnAdmin.ForeColor = Color.FromArgb(192, 0, 0);
+            BtnAdmin.Location = new Point(947, 83);
+            BtnAdmin.Name = "BtnAdmin";
+            BtnAdmin.Size = new Size(75, 23);
+            BtnAdmin.TabIndex = 7;
+            BtnAdmin.Text = "Admin";
+            BtnAdmin.UseVisualStyleBackColor = true;
+            // 
+            // flowLayPanSFA
+            // 
+            flowLayPanSFA.BackColor = SystemColors.Control;
+            flowLayPanSFA.BorderStyle = BorderStyle.FixedSingle;
+            flowLayPanSFA.Location = new Point(194, 112);
+            flowLayPanSFA.Name = "flowLayPanSFA";
+            flowLayPanSFA.Size = new Size(832, 395);
+            flowLayPanSFA.TabIndex = 6;
+            flowLayPanSFA.Paint += flowLayoutPanelstudafac_Paint;
+            // 
+            // CBoxYear
+            // 
+            CBoxYear.FormattingEnabled = true;
+            CBoxYear.Location = new Point(422, 60);
+            CBoxYear.Name = "CBoxYear";
+            CBoxYear.Size = new Size(94, 23);
+            CBoxYear.TabIndex = 5;
+            CBoxYear.Text = "Year";
+            // 
+            // CBoxCourse
+            // 
+            CBoxCourse.FormattingEnabled = true;
+            CBoxCourse.Location = new Point(296, 60);
+            CBoxCourse.Name = "CBoxCourse";
+            CBoxCourse.Size = new Size(121, 23);
+            CBoxCourse.TabIndex = 4;
+            CBoxCourse.Text = "Course";
+            // 
+            // CBoxSort
+            // 
+            CBoxSort.FormattingEnabled = true;
+            CBoxSort.Location = new Point(194, 60);
+            CBoxSort.Name = "CBoxSort";
+            CBoxSort.Size = new Size(97, 23);
+            CBoxSort.TabIndex = 3;
+            CBoxSort.Text = "Sort by";
+            // 
+            // textBoxSearch
+            // 
+            textBoxSearch.Location = new Point(194, 18);
+            textBoxSearch.Name = "textBoxSearch";
+            textBoxSearch.Size = new Size(832, 23);
+            textBoxSearch.TabIndex = 2;
+            textBoxSearch.Text = "Search by Name, ID number or email ";
+            // 
+            // BtnFaculty
+            // 
+            BtnFaculty.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            BtnFaculty.ForeColor = Color.FromArgb(192, 0, 0);
+            BtnFaculty.Location = new Point(866, 83);
+            BtnFaculty.Name = "BtnFaculty";
+            BtnFaculty.Size = new Size(75, 23);
+            BtnFaculty.TabIndex = 1;
+            BtnFaculty.Text = "Faculty";
+            BtnFaculty.UseVisualStyleBackColor = true;
+            BtnFaculty.Click += BtnFaculty_Click;
+            // 
+            // BtnStudents
+            // 
+            BtnStudents.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            BtnStudents.ForeColor = Color.FromArgb(192, 0, 0);
+            BtnStudents.Location = new Point(786, 83);
+            BtnStudents.Name = "BtnStudents";
+            BtnStudents.Size = new Size(75, 23);
+            BtnStudents.TabIndex = 0;
+            BtnStudents.Text = "Students";
+            BtnStudents.UseVisualStyleBackColor = true;
+            BtnStudents.Click += BtnStudents_Click;
             // 
             // panel2
             // 
-            panel2.BackColor = Color.Olive;
-            panel2.Controls.Add(label2);
+            panel2.BackColor = SystemColors.ControlLightLight;
+            panel2.BorderStyle = BorderStyle.Fixed3D;
+            panel2.Controls.Add(pictureBox1);
+            panel2.Controls.Add(TotalStudents);
             panel2.Controls.Add(label1);
-            panel2.Location = new Point(34, 28);
+            panel2.Location = new Point(175, 116);
             panel2.Name = "panel2";
-            panel2.Size = new Size(303, 150);
+            panel2.Size = new Size(232, 76);
             panel2.TabIndex = 1;
             // 
-            // label2
+            // pictureBox1
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(24, 39);
-            label2.Name = "label2";
-            label2.Size = new Size(38, 15);
-            label2.TabIndex = 1;
-            label2.Text = "label2";
+            pictureBox1.Image = Properties.Icons.Selection;
+            pictureBox1.Location = new Point(149, 7);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(56, 48);
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox1.TabIndex = 3;
+            pictureBox1.TabStop = false;
+            // 
+            // TotalStudents
+            // 
+            TotalStudents.AutoSize = true;
+            TotalStudents.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            TotalStudents.Location = new Point(13, 34);
+            TotalStudents.Name = "TotalStudents";
+            TotalStudents.Size = new Size(26, 15);
+            TotalStudents.TabIndex = 1;
+            TotalStudents.Text = "N/A";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(24, 15);
+            label1.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(13, 7);
             label1.Name = "label1";
-            label1.Size = new Size(81, 15);
+            label1.Size = new Size(99, 15);
             label1.TabIndex = 0;
             label1.Text = "Total Students";
             // 
             // panel3
             // 
-            panel3.BackColor = Color.OliveDrab;
-            panel3.Controls.Add(label5);
+            panel3.BackColor = SystemColors.ControlLightLight;
+            panel3.BorderStyle = BorderStyle.Fixed3D;
+            panel3.Controls.Add(pictureBox2);
+            panel3.Controls.Add(TotalFacultyMem);
             panel3.Controls.Add(label4);
-            panel3.Location = new Point(405, 28);
+            panel3.Location = new Point(411, 116);
             panel3.Name = "panel3";
-            panel3.Size = new Size(303, 150);
+            panel3.Size = new Size(232, 76);
             panel3.TabIndex = 2;
             // 
-            // label5
+            // pictureBox2
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(20, 39);
-            label5.Name = "label5";
-            label5.Size = new Size(38, 15);
-            label5.TabIndex = 1;
-            label5.Text = "label5";
+            pictureBox2.Image = Properties.Icons.Selection_faculty;
+            pictureBox2.Location = new Point(162, 7);
+            pictureBox2.Margin = new Padding(3, 2, 3, 2);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(56, 48);
+            pictureBox2.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox2.TabIndex = 3;
+            pictureBox2.TabStop = false;
+            // 
+            // TotalFacultyMem
+            // 
+            TotalFacultyMem.AutoSize = true;
+            TotalFacultyMem.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            TotalFacultyMem.Location = new Point(11, 32);
+            TotalFacultyMem.Name = "TotalFacultyMem";
+            TotalFacultyMem.Size = new Size(26, 15);
+            TotalFacultyMem.TabIndex = 1;
+            TotalFacultyMem.Text = "N/A";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(20, 15);
+            label4.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Location = new Point(11, 7);
             label4.Name = "label4";
-            label4.Size = new Size(98, 15);
+            label4.Size = new Size(116, 15);
             label4.TabIndex = 0;
             label4.Text = "Faculty Members";
+            // 
+            // backStageView1
+            // 
+            backStageView1.BackStage = null;
+            backStageView1.HostControl = null;
+            backStageView1.HostForm = this;
+            // 
+            // panel4
+            // 
+            panel4.BackColor = SystemColors.ControlLightLight;
+            panel4.BorderStyle = BorderStyle.Fixed3D;
+            panel4.Controls.Add(pictureBox3);
+            panel4.Controls.Add(TotalAdmin);
+            panel4.Controls.Add(label6);
+            panel4.Location = new Point(648, 116);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(232, 76);
+            panel4.TabIndex = 5;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = Properties.Icons.Admin;
+            pictureBox3.Location = new Point(131, 7);
+            pictureBox3.Margin = new Padding(3, 2, 3, 2);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(56, 48);
+            pictureBox3.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox3.TabIndex = 3;
+            pictureBox3.TabStop = false;
+            // 
+            // TotalAdmin
+            // 
+            TotalAdmin.AutoSize = true;
+            TotalAdmin.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            TotalAdmin.Location = new Point(11, 32);
+            TotalAdmin.Name = "TotalAdmin";
+            TotalAdmin.Size = new Size(26, 15);
+            TotalAdmin.TabIndex = 1;
+            TotalAdmin.Text = "N/A";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.Location = new Point(11, 7);
+            label6.Name = "label6";
+            label6.Size = new Size(92, 15);
+            label6.TabIndex = 0;
+            label6.Text = "Administrator";
+            // 
+            // BtnRefresh
+            // 
+            BtnRefresh.Image = Properties.Icons.refresh;
+            BtnRefresh.Location = new Point(1320, 167);
+            BtnRefresh.Margin = new Padding(3, 2, 3, 2);
+            BtnRefresh.Name = "BtnRefresh";
+            BtnRefresh.Size = new Size(76, 23);
+            BtnRefresh.TabIndex = 6;
+            BtnRefresh.UseVisualStyleBackColor = true;
             // 
             // UserManagementView
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1628, 902);
+            BackColor = SystemColors.ControlLightLight;
+            ClientSize = new Size(1547, 791);
+            Controls.Add(BtnRefresh);
+            Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(panel2);
-            Controls.Add(panel1);
+            Controls.Add(panelUM);
             FormBorderStyle = FormBorderStyle.None;
             Name = "UserManagementView";
             Text = "Form1";
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            Load += StudentFacultyView_Load;
+            panelUM.ResumeLayout(false);
+            panelUM.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Panel panel1;
+        private Panel panelUM;
         private Panel panel2;
         private Panel panel3;
-        private ComboBox comboBox3;
-        private ComboBox comboBox2;
-        private ComboBox comboBox1;
-        private TextBox textBox1;
+        private ComboBox CBoxYear;
+        private ComboBox CBoxCourse;
+        private ComboBox CBoxSort;
+        private TextBox textBoxSearch;
+        private Button BtnFaculty;
+        private Button BtnStudents;
+        private Label TotalStudents;
+        private Label label1;
+        private Label TotalFacultyMem;
+        private Label label4;
+        private FlowLayoutPanel flowLayPanSFA;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private Syncfusion.Windows.Forms.BackStageView backStageView1;
+        private Panel panel4;
+        private PictureBox pictureBox3;
+        private Label TotalAdmin;
+        private Label label6;
+        private Button BtnAdmin;
+        private ComboBox CBoxCourseCode;
+        private Button button4;
+        private Button button3;
         private Button button2;
         private Button button1;
-        private Label label2;
-        private Label label1;
-        private Label label5;
-        private Label label4;
-        private FlowLayoutPanel flowLayoutPanel1;
+        private Button BtnNext;
+        private Button BtnPreview;
+        private Button BtnRefresh;
     }
 }
