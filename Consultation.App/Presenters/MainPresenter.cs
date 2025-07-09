@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 using Consultation.App.Views;
+using Consultation.App.ConsultationManagement;
 
 namespace Consultation.App.Presenters
 {
@@ -19,7 +20,7 @@ namespace Consultation.App.Presenters
             Consultation,
             UserManagement,
             Reports,
-            Preference
+            Settings
         }
 
         private ChildForms _currentForm;
@@ -59,14 +60,19 @@ namespace Consultation.App.Presenters
             if (_currentForm != ChildForms.Bulletin)
             {
                 LoadChildForm(ChildForms.Bulletin);
-                _mainView.Header("Bulletin Management");
+                _mainView.Header("Bulletin");
                 _currentForm = ChildForms.Bulletin;
             }
         }
 
         private void ConsultationEvent(object? sender, EventArgs e)
         {
-            _mainView.SetMessage("Consultation Event Triggered");
+            if (_currentForm != ChildForms.Consultation)
+            {
+                LoadChildForm(ChildForms.Consultation);
+                _mainView.Header("Consultation");
+                _currentForm = ChildForms.Consultation;
+            }
         }
 
         private void SFManagementEvent(object? sender, EventArgs e)
@@ -91,7 +97,7 @@ namespace Consultation.App.Presenters
 
         private void PreferenceEvent(object? sender, EventArgs e)
         {
-            _mainView.SetMessage("Preference Event Triggered");
+            _mainView.SetMessage("Setting Event Triggered");
         }
 
         private void LoadChildForm(ChildForms formType)
@@ -107,15 +113,14 @@ namespace Consultation.App.Presenters
                 _childForms[formType] = form;
             }
 
-            // Must be done before showing
-            //form.FormBorderStyle = FormBorderStyle.None;
+            form.FormBorderStyle = FormBorderStyle.None;
             form.MdiParent = (Form)_mainView;
             form.Dock = DockStyle.Fill;
             form.ShowInTaskbar = false;
 
             _activeForm = form;
-            form.Show();
             form.BringToFront();
+            form.Show();
         }
 
 
@@ -125,6 +130,7 @@ namespace Consultation.App.Presenters
             return formType switch
             {
                 ChildForms.Dashboard => new DashboardView(),
+                ChildForms.Consultation => new ConsultationView(),
                 ChildForms.Bulletin => new BulletinView(),
                 ChildForms.Reports => new ReportsView(),
                 ChildForms.UserManagement => new UserManagementView(),

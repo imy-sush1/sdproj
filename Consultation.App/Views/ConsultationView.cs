@@ -6,59 +6,66 @@ namespace Consultation.App.ConsultationManagement
     public partial class ConsultationView : Form
     {
         private CSWindow csWindow;
+        private ArchiveWindow archiveWindow;
 
         public ConsultationView()
         {
             InitializeComponent();
-
-
             ShowConsultationView();
         }
 
         private void ShowConsultationView()
         {
             MoveUnderline(btnConsultation);
+            WindowPanelConsultation.Controls.Clear();
+
             if (csWindow == null)
             {
                 csWindow = new CSWindow();
+                csWindow.CardArchived += OnCardArchived; // Subscribe to event
             }
 
-            flowLayoutPanel1.Controls.Clear();
-            flowLayoutPanel1.Controls.Add(csWindow);
+            WindowPanelConsultation.Controls.Add(csWindow);
+        }
+
+        private void OnCardArchived(object sender, ConsultationCard card)
+        {
+            csWindow.RemoveCard(card);
+
+            if (archiveWindow == null)
+                archiveWindow = new ArchiveWindow();
+
+            archiveWindow.AddToArchive(card);
         }
 
         private void btnConsultation_Click_1(object sender, EventArgs e)
         {
             ShowConsultationView();
+
         }
 
         private void btnArchive_Click(object sender, EventArgs e)
         {
             MoveUnderline(btnArchive);
-            flowLayoutPanel1.Controls.Clear();
-            flowLayoutPanel1.Controls.Add(new ArchiveWindow());
+
+            if (archiveWindow == null)
+                archiveWindow = new ArchiveWindow();
+
+            WindowPanelConsultation.Controls.Clear();
+            WindowPanelConsultation.Controls.Add(archiveWindow);
+
+
         }
 
         private void MoveUnderline(Control targetButton)
         {
-            underlinePanel.Visible = true;
             underlinePanel.Width = targetButton.Width;
             underlinePanel.Left = targetButton.Left;
+            underlinePanel.Top = targetButton.Bottom - 4;
+            underlinePanel.Visible = true;
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            if (csWindow == null)
-            {
-                MessageBox.Show("Please open the Consultation view first.");
-                return;
-            }
-
-            //AddSchedule addSchedule = new AddSchedule();
-            //addSchedule.ShowDialog();
-        }
-
-        private void ConsultationView_Load(object sender, EventArgs e)
+        private void btnRefresh_Click(object sender, EventArgs e)
         {
 
         }

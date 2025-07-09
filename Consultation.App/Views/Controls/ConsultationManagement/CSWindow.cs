@@ -7,21 +7,41 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Consultation.App.Views.Controls.ConsultationManagement;
 
 namespace Consultation.App.ConsultationManagement
 {
+
     public partial class CSWindow : UserControl
     {
+       
+        public event EventHandler<ConsultationCard> CardArchived;
+
         public CSWindow()
         {
             InitializeComponent();
+
+            for (int i = 0; i < 4; i++)
+            {
+                ConsultationCard card = new ConsultationCard();
+
+              
+                card.ArchiveRequested += (s, e) => CardArchived?.Invoke(s, card);
+
+                WindowPanelConsultation.Controls.Add(card);
+            }
         }
 
-        public void AddConsultationCard(string date, string time, string name)
+        private void OnArchiveRequested(ConsultationCard card)
         {
-            ConsultationCard card = new ConsultationCard();
-            card.SetData(date, time, name);
-            flowLayoutPanel1.Controls.Add(card); // Make sure this matches your FlowLayoutPanel name
+          
+            CardArchived?.Invoke(this, card);
+        }
+
+        public void RemoveCard(ConsultationCard card)
+        {
+            if (WindowPanelConsultation.Controls.Contains(card))
+                WindowPanelConsultation.Controls.Remove(card);
         }
     }
 }
