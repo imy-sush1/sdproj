@@ -11,9 +11,9 @@ using Guna.UI2.WinForms.Suite;
 
 namespace Consultation.App.Views.Controls.BulletinManagement
 {
-    public partial class BulletinCard : UserControl
+    public partial class ArchiveCard : UserControl
     {
-        public BulletinCard()
+        public ArchiveCard()
         {
             InitializeComponent();
         }

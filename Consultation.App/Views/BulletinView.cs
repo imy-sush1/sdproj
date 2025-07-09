@@ -1,5 +1,4 @@
-﻿using Consultation.App.Bulletins;
-using Consultation.App.Views.Controls.BulletinManagement;
+﻿using Consultation.App.Views.Controls.BulletinManagement;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -58,7 +57,10 @@ namespace Consultation.App.Views
 
             // backend
             flpBulletinList.Controls.Clear();
-            flpBulletinList.Controls.Add(new ArchiveCardUserControl());
+            for (int i = 0; i < 3; ++i)
+            {
+                flpBulletinList.Controls.Add(new ArchiveCard());
+            }
         }
 
         private void MoveUnderline(Guna.UI2.WinForms.Guna2Button targetButton)

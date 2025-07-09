@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
-    Microsoft ResX Schema 
+    Microsoft ResX Schema
 
     Version 2.0
 
@@ -48,7 +48,7 @@
     value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
     value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
@@ -117,13 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textContent.Text" xml:space="preserve">
-    <value>Dear School Community, Due to an important faculty meeting scheduled for tomorrow, May 6th, 2024, the school will be closed for all regular classes. The meeting will focus on: • Curriculum updates for the upcoming semester • Student assessment strategies • Professional development initiatives • Safety protocols review All students are advised to stay home and use this time for</value>
-  </data>
-  <data name="richTextBox1.Text" xml:space="preserve">
-    <value>Dear Students and Parents, The mid-term examinations will be conducted from May 15-20, 2024. Please find the detailed schedule below: May 15: Mathematics (9:00 AM - 12:00 PM) May 16: Science (9:00 AM - 12:00 PM) May 17: English (9:00 AM - 12:00 PM) May 18: Social Studies (9:00 AM - 12:00 PM) May 19: Filipino (9:00 AM - 12:00 PM) May 20: Computer Science </value>
-  </data>
-  <data name="richTextBox2.Text" xml:space="preserve">
-    <value>Dear Students and Faculty, We are excited to announce the arrival of new books in our library! The collection includes: • Latest fiction and non-fiction titles • Academic reference materials • Research journals and periodicals • Digital resources and e-books The new books are now available for borrowing. Please visit the library during operating hours: Monday - Friday: 8:00 AM - 6:0</value>
+  <data name="txtContent.Text" xml:space="preserve">
+    <value>skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi skibidi </value>
   </data>
 </root>
