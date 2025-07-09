@@ -253,9 +253,9 @@ namespace Consultation.App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap lsicon__setting_outline {
+        internal static System.Drawing.Bitmap m_bulletin {
             get {
-                object obj = ResourceManager.GetObject("lsicon--setting-outline", resourceCulture);
+                object obj = ResourceManager.GetObject("m_bulletin", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +263,9 @@ namespace Consultation.App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap material_symbols__admin_panel_settings_outline {
+        internal static System.Drawing.Bitmap m_bulletin_select {
             get {
-                object obj = ResourceManager.GetObject("material-symbols--admin-panel-settings-outline", resourceCulture);
+                object obj = ResourceManager.GetObject("m_bulletin-select", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,9 +273,9 @@ namespace Consultation.App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap material_symbols__chat_bubble_outline {
+        internal static System.Drawing.Bitmap m_consult {
             get {
-                object obj = ResourceManager.GetObject("material-symbols--chat-bubble-outline", resourceCulture);
+                object obj = ResourceManager.GetObject("m_consult", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,9 +283,9 @@ namespace Consultation.App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap material_symbols__dashboard_outline {
+        internal static System.Drawing.Bitmap m_consult_select {
             get {
-                object obj = ResourceManager.GetObject("material-symbols--dashboard-outline", resourceCulture);
+                object obj = ResourceManager.GetObject("m_consult_select", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,9 +293,9 @@ namespace Consultation.App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap material_symbols__format_list_bulleted {
+        internal static System.Drawing.Bitmap m_dashboard {
             get {
-                object obj = ResourceManager.GetObject("material-symbols--format-list-bulleted", resourceCulture);
+                object obj = ResourceManager.GetObject("m_dashboard", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,9 +303,9 @@ namespace Consultation.App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap material_symbols__groups_2 {
+        internal static System.Drawing.Bitmap m_dashboard_select {
             get {
-                object obj = ResourceManager.GetObject("material-symbols--groups-2", resourceCulture);
+                object obj = ResourceManager.GetObject("m_dashboard_select", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -313,9 +313,39 @@ namespace Consultation.App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap material_symbols__person_2_outline {
+        internal static System.Drawing.Bitmap m_settings {
             get {
-                object obj = ResourceManager.GetObject("material-symbols--person-2-outline", resourceCulture);
+                object obj = ResourceManager.GetObject("m_settings", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap m_settings_select {
+            get {
+                object obj = ResourceManager.GetObject("m_settings_select", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap m_user {
+            get {
+                object obj = ResourceManager.GetObject("m_user", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap m_user_select {
+            get {
+                object obj = ResourceManager.GetObject("m_user_select", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

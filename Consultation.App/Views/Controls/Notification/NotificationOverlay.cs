@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Consultation.App.Views.Controls.Notification
 {
-    public partial class NotificationCard : UserControl
+    public partial class NotificationOverlay : Form
     {
-        public NotificationCard()
+        public NotificationOverlay()
         {
             InitializeComponent();
         }

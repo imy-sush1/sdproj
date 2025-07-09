@@ -28,15 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainView));
             sidePanel = new Syncfusion.Windows.Forms.Tools.GradientPanel();
             label3 = new Label();
             buttonPreference = new Button();
+            settings_icon = new ImageList(components);
             label2 = new Label();
             buttonSFManagement = new Button();
+            userManagement_icon = new ImageList(components);
             buttonConsultation = new Button();
+            consultation_icon = new ImageList(components);
             buttonBulletin = new Button();
+            bulletin_icon = new ImageList(components);
             label1 = new Label();
             buttonDashboard = new Button();
+            dashboard_icon = new ImageList(components);
             profilePanel = new Panel();
             labelProfileRole = new Label();
             labelProfileName = new Label();
@@ -94,15 +101,24 @@
             buttonPreference.FlatStyle = FlatStyle.Flat;
             buttonPreference.Font = new Font("Inter", 11.25F);
             buttonPreference.ForeColor = SystemColors.ControlLightLight;
-            buttonPreference.Image = Properties.Icons.lsicon__setting_outline;
             buttonPreference.ImageAlign = ContentAlignment.MiddleLeft;
+            buttonPreference.ImageIndex = 0;
+            buttonPreference.ImageList = settings_icon;
             buttonPreference.Location = new Point(30, 594);
             buttonPreference.Name = "buttonPreference";
             buttonPreference.Size = new Size(228, 56);
             buttonPreference.TabIndex = 10;
-            buttonPreference.Text = "Preference and Security";
+            buttonPreference.Text = "   Security";
             buttonPreference.TextImageRelation = TextImageRelation.ImageBeforeText;
             buttonPreference.UseVisualStyleBackColor = false;
+            // 
+            // settings_icon
+            // 
+            settings_icon.ColorDepth = ColorDepth.Depth32Bit;
+            settings_icon.ImageStream = (ImageListStreamer)resources.GetObject("settings_icon.ImageStream");
+            settings_icon.TransparentColor = Color.Transparent;
+            settings_icon.Images.SetKeyName(0, "m_settings.png");
+            settings_icon.Images.SetKeyName(1, "m_settings_select.png");
             // 
             // label2
             // 
@@ -123,16 +139,25 @@
             buttonSFManagement.FlatStyle = FlatStyle.Flat;
             buttonSFManagement.Font = new Font("Inter", 11.25F);
             buttonSFManagement.ForeColor = SystemColors.ControlLightLight;
-            buttonSFManagement.Image = Properties.Icons.material_symbols__groups_2;
             buttonSFManagement.ImageAlign = ContentAlignment.MiddleLeft;
+            buttonSFManagement.ImageIndex = 0;
+            buttonSFManagement.ImageList = userManagement_icon;
             buttonSFManagement.Location = new Point(30, 464);
             buttonSFManagement.Name = "buttonSFManagement";
             buttonSFManagement.Size = new Size(228, 48);
             buttonSFManagement.TabIndex = 6;
-            buttonSFManagement.Text = "User Management";
+            buttonSFManagement.Text = "   User Management";
             buttonSFManagement.TextAlign = ContentAlignment.MiddleLeft;
             buttonSFManagement.TextImageRelation = TextImageRelation.ImageBeforeText;
             buttonSFManagement.UseVisualStyleBackColor = false;
+            // 
+            // userManagement_icon
+            // 
+            userManagement_icon.ColorDepth = ColorDepth.Depth32Bit;
+            userManagement_icon.ImageStream = (ImageListStreamer)resources.GetObject("userManagement_icon.ImageStream");
+            userManagement_icon.TransparentColor = Color.Transparent;
+            userManagement_icon.Images.SetKeyName(0, "m_user.png");
+            userManagement_icon.Images.SetKeyName(1, "m_user_select.png");
             // 
             // buttonConsultation
             // 
@@ -141,16 +166,25 @@
             buttonConsultation.FlatStyle = FlatStyle.Flat;
             buttonConsultation.Font = new Font("Inter", 11.25F);
             buttonConsultation.ForeColor = SystemColors.ControlLightLight;
-            buttonConsultation.Image = Properties.Icons.material_symbols__chat_bubble_outline;
             buttonConsultation.ImageAlign = ContentAlignment.MiddleLeft;
+            buttonConsultation.ImageIndex = 0;
+            buttonConsultation.ImageList = consultation_icon;
             buttonConsultation.Location = new Point(30, 328);
             buttonConsultation.Name = "buttonConsultation";
             buttonConsultation.Size = new Size(228, 48);
             buttonConsultation.TabIndex = 5;
-            buttonConsultation.Text = "Consulation";
+            buttonConsultation.Text = "   Consulation";
             buttonConsultation.TextAlign = ContentAlignment.MiddleLeft;
             buttonConsultation.TextImageRelation = TextImageRelation.ImageBeforeText;
             buttonConsultation.UseVisualStyleBackColor = false;
+            // 
+            // consultation_icon
+            // 
+            consultation_icon.ColorDepth = ColorDepth.Depth32Bit;
+            consultation_icon.ImageStream = (ImageListStreamer)resources.GetObject("consultation_icon.ImageStream");
+            consultation_icon.TransparentColor = Color.Transparent;
+            consultation_icon.Images.SetKeyName(0, "m_consult.png");
+            consultation_icon.Images.SetKeyName(1, "m_consult_select.png");
             // 
             // buttonBulletin
             // 
@@ -159,15 +193,24 @@
             buttonBulletin.FlatStyle = FlatStyle.Flat;
             buttonBulletin.Font = new Font("Inter", 11.25F);
             buttonBulletin.ForeColor = SystemColors.ControlLightLight;
-            buttonBulletin.Image = Properties.Icons.material_symbols__format_list_bulleted;
             buttonBulletin.ImageAlign = ContentAlignment.MiddleLeft;
+            buttonBulletin.ImageIndex = 0;
+            buttonBulletin.ImageList = bulletin_icon;
             buttonBulletin.Location = new Point(30, 280);
             buttonBulletin.Name = "buttonBulletin";
             buttonBulletin.Size = new Size(228, 42);
             buttonBulletin.TabIndex = 4;
-            buttonBulletin.Text = "Bulletin";
+            buttonBulletin.Text = "   Bulletin";
             buttonBulletin.TextImageRelation = TextImageRelation.ImageBeforeText;
             buttonBulletin.UseVisualStyleBackColor = false;
+            // 
+            // bulletin_icon
+            // 
+            bulletin_icon.ColorDepth = ColorDepth.Depth32Bit;
+            bulletin_icon.ImageStream = (ImageListStreamer)resources.GetObject("bulletin_icon.ImageStream");
+            bulletin_icon.TransparentColor = Color.Transparent;
+            bulletin_icon.Images.SetKeyName(0, "m_bulletin.png");
+            bulletin_icon.Images.SetKeyName(1, "m_bulletin-select.png");
             // 
             // label1
             // 
@@ -184,19 +227,31 @@
             // buttonDashboard
             // 
             buttonDashboard.BackColor = Color.Transparent;
+            buttonDashboard.Cursor = Cursors.Hand;
             buttonDashboard.FlatAppearance.BorderSize = 0;
             buttonDashboard.FlatStyle = FlatStyle.Flat;
             buttonDashboard.Font = new Font("Inter", 11.25F);
             buttonDashboard.ForeColor = SystemColors.ControlLightLight;
-            buttonDashboard.Image = Properties.Icons.material_symbols__dashboard_outline;
             buttonDashboard.ImageAlign = ContentAlignment.MiddleLeft;
+            buttonDashboard.ImageIndex = 0;
+            buttonDashboard.ImageList = dashboard_icon;
             buttonDashboard.Location = new Point(30, 232);
             buttonDashboard.Name = "buttonDashboard";
-            buttonDashboard.Size = new Size(228, 42);
+            buttonDashboard.Size = new Size(247, 42);
             buttonDashboard.TabIndex = 2;
-            buttonDashboard.Text = "Dashboard";
+            buttonDashboard.Text = "   Dashboard";
             buttonDashboard.TextImageRelation = TextImageRelation.ImageBeforeText;
             buttonDashboard.UseVisualStyleBackColor = false;
+            buttonDashboard.MouseLeave += buttonDashboard_MouseLeave;
+            buttonDashboard.MouseHover += buttonDashboard_MouseHover;
+            // 
+            // dashboard_icon
+            // 
+            dashboard_icon.ColorDepth = ColorDepth.Depth32Bit;
+            dashboard_icon.ImageStream = (ImageListStreamer)resources.GetObject("dashboard_icon.ImageStream");
+            dashboard_icon.TransparentColor = Color.Transparent;
+            dashboard_icon.Images.SetKeyName(0, "m_dashboard.png");
+            dashboard_icon.Images.SetKeyName(1, "m_dashboard_select.png");
             // 
             // profilePanel
             // 
@@ -212,6 +267,7 @@
             // labelProfileRole
             // 
             labelProfileRole.AutoSize = true;
+            labelProfileRole.BackColor = Color.Transparent;
             labelProfileRole.Font = new Font("Inter", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelProfileRole.Location = new Point(88, 48);
             labelProfileRole.Name = "labelProfileRole";
@@ -222,6 +278,7 @@
             // labelProfileName
             // 
             labelProfileName.AutoSize = true;
+            labelProfileName.BackColor = Color.Transparent;
             labelProfileName.Font = new Font("Inter SemiBold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelProfileName.Location = new Point(88, 24);
             labelProfileName.Name = "labelProfileName";
@@ -253,7 +310,7 @@
             labelForm.AutoSize = true;
             labelForm.BackColor = Color.Transparent;
             labelForm.Font = new Font("Inter", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelForm.Location = new Point(17, 29);
+            labelForm.Location = new Point(17, 25);
             labelForm.Name = "labelForm";
             labelForm.Size = new Size(200, 45);
             labelForm.TabIndex = 12;
@@ -316,5 +373,10 @@
         private PictureBox pictureBoxProfile;
         private Label labelForm;
         private MaterialSkin.Controls.MaterialCard materialCard1;
+        private ImageList dashboard_icon;
+        private ImageList consultation_icon;
+        private ImageList bulletin_icon;
+        private ImageList settings_icon;
+        private ImageList userManagement_icon;
     }
 }

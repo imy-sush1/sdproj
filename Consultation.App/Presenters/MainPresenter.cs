@@ -39,6 +39,7 @@ namespace Consultation.App.Presenters
             _mainView.PreferenceEvent += PreferenceEvent;
 
             LoadChildForm(ChildForms.Dashboard);
+            _mainView.Header("Dashboard");
             _currentForm = ChildForms.Dashboard;
         }
 

@@ -25,6 +25,7 @@ namespace Consultation.App.Views
             //buttonReports.Click += (s, e) => ReportsEvent?.Invoke(s, e);
             buttonPreference.Click += (s, e) => PreferenceEvent?.Invoke(s, e);
 
+     
         }
 
         public event EventHandler DashboardEvent;
@@ -36,11 +37,24 @@ namespace Consultation.App.Views
 
         public void Header(string header)
         {
-            this.Text = header;
+            //this.Text = header;
+            labelForm.Text = header;
         }
         public void SetMessage(string message)
         {
             MessageBox.Show(message);
+        }
+
+        private void buttonDashboard_MouseHover(object sender, EventArgs e)
+        {
+            buttonDashboard.ImageIndex = 1;
+            buttonDashboard.ForeColor = Color.Black;
+        }
+
+        private void buttonDashboard_MouseLeave(object sender, EventArgs e)
+        {
+            buttonDashboard.ImageIndex = 0;
+            buttonDashboard.ForeColor = Color.White;
         }
     }
 }
