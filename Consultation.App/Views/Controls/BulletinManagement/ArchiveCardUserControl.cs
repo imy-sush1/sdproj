@@ -46,5 +46,10 @@ namespace Consultation.App.Bulletins
         {
 
         }
+
+        private void btnMore_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

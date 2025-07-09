@@ -58,11 +58,11 @@
             // lblTitle
             // 
             lblTitle.AutoSize = true;
-            lblTitle.Font = new Font("Archivo", 14.2499981F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTitle.Font = new Font("Microsoft Sans Serif", 14.2499981F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblTitle.ForeColor = Color.FromArgb(23, 26, 31);
             lblTitle.Location = new Point(28, 26);
             lblTitle.Name = "lblTitle";
-            lblTitle.Size = new Size(308, 29);
+            lblTitle.Size = new Size(320, 24);
             lblTitle.TabIndex = 0;
             lblTitle.Text = "School Closure - Faculty Meeting";
             // 
@@ -70,7 +70,7 @@
             // 
             txtContent.BackColor = Color.White;
             txtContent.BorderStyle = BorderStyle.None;
-            txtContent.Font = new Font("Inter", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtContent.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtContent.ForeColor = Color.FromArgb(23, 26, 31);
             txtContent.Location = new Point(33, 75);
             txtContent.Name = "txtContent";
@@ -79,6 +79,7 @@
             txtContent.Size = new Size(1270, 42);
             txtContent.TabIndex = 1;
             txtContent.Text = resources.GetString("txtContent.Text");
+            txtContent.TextChanged += txtContent_TextChanged;
             // 
             // btnMore
             // 
@@ -111,7 +112,7 @@
             tagStatus.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             tagStatus.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             tagStatus.FillColor = Color.FromArgb(255, 240, 240);
-            tagStatus.Font = new Font("Inter", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tagStatus.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             tagStatus.ForeColor = Color.FromArgb(190, 0, 2);
             tagStatus.ImageSize = new Size(16, 16);
             tagStatus.Location = new Point(1232, 26);
@@ -132,13 +133,13 @@
             tagId.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             tagId.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             tagId.FillColor = Color.FromArgb(243, 244, 246);
-            tagId.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tagId.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             tagId.ForeColor = Color.FromArgb(50, 55, 67);
-            tagId.Location = new Point(3, 3);
+            tagId.Location = new Point(125, 3);
             tagId.Margin = new Padding(3, 3, 10, 3);
             tagId.Name = "tagId";
             tagId.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            tagId.Size = new Size(241, 26);
+            tagId.Size = new Size(228, 25);
             tagId.TabIndex = 30;
             tagId.Text = "ID: BUL-2025-001ID: BUL-2025-001";
             // 
@@ -153,16 +154,16 @@
             tagDate.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             tagDate.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             tagDate.FillColor = Color.FromArgb(243, 244, 246);
-            tagDate.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tagDate.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             tagDate.ForeColor = Color.FromArgb(50, 55, 67);
             tagDate.Image = Properties.Icons.tag_date2;
             tagDate.ImageOffset = new Point(-1, 0);
             tagDate.ImageSize = new Size(16, 15);
-            tagDate.Location = new Point(257, 3);
+            tagDate.Location = new Point(3, 3);
             tagDate.Margin = new Padding(3, 3, 10, 3);
             tagDate.Name = "tagDate";
             tagDate.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            tagDate.Size = new Size(118, 26);
+            tagDate.Size = new Size(109, 25);
             tagDate.TabIndex = 31;
             tagDate.Text = "2024-05-05";
             // 
@@ -177,15 +178,15 @@
             tagAuthor.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             tagAuthor.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             tagAuthor.FillColor = Color.FromArgb(243, 244, 246);
-            tagAuthor.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tagAuthor.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             tagAuthor.ForeColor = Color.FromArgb(50, 55, 67);
             tagAuthor.Image = Properties.Icons.tag_person2;
             tagAuthor.ImageSize = new Size(16, 16);
-            tagAuthor.Location = new Point(388, 3);
+            tagAuthor.Location = new Point(366, 3);
             tagAuthor.Margin = new Padding(3, 3, 10, 3);
             tagAuthor.Name = "tagAuthor";
             tagAuthor.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            tagAuthor.Size = new Size(122, 26);
+            tagAuthor.Size = new Size(116, 25);
             tagAuthor.TabIndex = 32;
             tagAuthor.Text = "Admin Office";
             // 
@@ -200,16 +201,16 @@
             tagAttachments.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             tagAttachments.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             tagAttachments.FillColor = Color.FromArgb(243, 244, 246);
-            tagAttachments.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tagAttachments.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             tagAttachments.ForeColor = Color.FromArgb(50, 55, 67);
             tagAttachments.Image = Properties.Icons.tag_attachment;
             tagAttachments.ImageOffset = new Point(-1, 0);
             tagAttachments.ImageSize = new Size(16, 16);
-            tagAttachments.Location = new Point(523, 3);
+            tagAttachments.Location = new Point(495, 3);
             tagAttachments.Margin = new Padding(3, 3, 10, 3);
             tagAttachments.Name = "tagAttachments";
             tagAttachments.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            tagAttachments.Size = new Size(91, 26);
+            tagAttachments.Size = new Size(89, 25);
             tagAttachments.TabIndex = 33;
             tagAttachments.Text = "1 file (s)";
             // 
@@ -231,13 +232,13 @@
             // 
             flpTags.AutoSize = true;
             flpTags.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            flpTags.Controls.Add(tagId);
             flpTags.Controls.Add(tagDate);
+            flpTags.Controls.Add(tagId);
             flpTags.Controls.Add(tagAuthor);
             flpTags.Controls.Add(tagAttachments);
             flpTags.Location = new Point(23, 127);
             flpTags.Name = "flpTags";
-            flpTags.Size = new Size(624, 32);
+            flpTags.Size = new Size(594, 31);
             flpTags.TabIndex = 0;
             // 
             // BulletinCard
