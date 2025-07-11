@@ -1,0 +1,150 @@
+C:\Users\Jhake\source\repos\Settings\Settings\bin\Debug\net8.0-windows\Settings.exe
+C:\Users\Jhake\source\repos\Settings\Settings\bin\Debug\net8.0-windows\Settings.deps.json
+C:\Users\Jhake\source\repos\Settings\Settings\bin\Debug\net8.0-windows\Settings.runtimeconfig.json
+C:\Users\Jhake\source\repos\Settings\Settings\bin\Debug\net8.0-windows\Settings.dll
+C:\Users\Jhake\source\repos\Settings\Settings\bin\Debug\net8.0-windows\Settings.pdb
+C:\Users\Jhake\source\repos\Settings\Settings\bin\Debug\net8.0-windows\AlphaGradientPanel.dll
+C:\Users\Jhake\source\repos\Settings\Settings\bin\Debug\net8.0-windows\Bunifu.Dataviz.WinForms.dll
+C:\Users\Jhake\source\repos\Settings\Settings\bin\Debug\net8.0-windows\Bunifu.Licensing.dll
+C:\Users\Jhake\source\repos\Settings\Settings\bin\Debug\net8.0-windows\Bunifu.UI.WinForms.dll
+C:\Users\Jhake\source\repos\Settings\Settings\bin\Debug\net8.0-windows\Guna.UI2.dll
+C:\Users\Jhake\source\repos\Settings\Settings\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Jhake\source\repos\Settings\Settings\bin\Debug\net8.0-windows\RoundedPanel.dll
+C:\Users\Jhake\source\repos\Settings\Settings\bin\Debug\net8.0-windows\System.CodeDom.dll
+C:\Users\Jhake\source\repos\Settings\Settings\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\Jhake\source\repos\Settings\Settings\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Management.dll
+C:\Users\Jhake\source\repos\Settings\Settings\obj\Debug\net8.0-windows\Settings.csproj.AssemblyReference.cache
+C:\Users\Jhake\source\repos\Settings\Settings\obj\Debug\net8.0-windows\Settings.Form1.resources
+C:\Users\Jhake\source\repos\Settings\Settings\obj\Debug\net8.0-windows\Settings.csproj.GenerateResource.cache
+C:\Users\Jhake\source\repos\Settings\Settings\obj\Debug\net8.0-windows\Settings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhake\source\repos\Settings\Settings\obj\Debug\net8.0-windows\Settings.AssemblyInfoInputs.cache
+C:\Users\Jhake\source\repos\Settings\Settings\obj\Debug\net8.0-windows\Settings.AssemblyInfo.cs
+C:\Users\Jhake\source\repos\Settings\Settings\obj\Debug\net8.0-windows\Settings.csproj.CoreCompileInputs.cache
+C:\Users\Jhake\source\repos\Settings\Settings\obj\Debug\net8.0-windows\Settings.sourcelink.json
+C:\Users\Jhake\source\repos\Settings\Settings\obj\Debug\net8.0-windows\Settings.csproj.Up2Date
+C:\Users\Jhake\source\repos\Settings\Settings\obj\Debug\net8.0-windows\Settings.dll
+C:\Users\Jhake\source\repos\Settings\Settings\obj\Debug\net8.0-windows\refint\Settings.dll
+C:\Users\Jhake\source\repos\Settings\Settings\obj\Debug\net8.0-windows\Settings.pdb
+C:\Users\Jhake\source\repos\Settings\Settings\obj\Debug\net8.0-windows\Settings.genruntimeconfig.cache
+C:\Users\Jhake\source\repos\Settings\Settings\obj\Debug\net8.0-windows\ref\Settings.dll
+C:\Users\Jhake\source\repos\Settings\Settings\obj\Debug\net8.0-windows\Settings.Properties.Resources.resources
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\bin\Debug\net8.0-windows\Settings.exe
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\bin\Debug\net8.0-windows\Settings.deps.json
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\bin\Debug\net8.0-windows\Settings.runtimeconfig.json
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\bin\Debug\net8.0-windows\Settings.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\bin\Debug\net8.0-windows\Settings.pdb
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\bin\Debug\net8.0-windows\AlphaGradientPanel.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\bin\Debug\net8.0-windows\Bunifu.Dataviz.WinForms.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\bin\Debug\net8.0-windows\Bunifu.Licensing.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\bin\Debug\net8.0-windows\Bunifu.UI.WinForms.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\bin\Debug\net8.0-windows\Guna.UI2.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\bin\Debug\net8.0-windows\RoundedPanel.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\bin\Debug\net8.0-windows\System.CodeDom.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Management.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\obj\Debug\net8.0-windows\Settings.csproj.AssemblyReference.cache
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\obj\Debug\net8.0-windows\Settings.Form1.resources
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\obj\Debug\net8.0-windows\Settings.Properties.Resources.resources
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\obj\Debug\net8.0-windows\Settings.csproj.GenerateResource.cache
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\obj\Debug\net8.0-windows\Settings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\obj\Debug\net8.0-windows\Settings.AssemblyInfoInputs.cache
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\obj\Debug\net8.0-windows\Settings.AssemblyInfo.cs
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\obj\Debug\net8.0-windows\Settings.csproj.CoreCompileInputs.cache
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\obj\Debug\net8.0-windows\Settings.sourcelink.json
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\obj\Debug\net8.0-windows\Settings.csproj.Up2Date
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\obj\Debug\net8.0-windows\Settings.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\obj\Debug\net8.0-windows\refint\Settings.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\obj\Debug\net8.0-windows\Settings.pdb
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\obj\Debug\net8.0-windows\Settings.genruntimeconfig.cache
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\New folder\Settings\obj\Debug\net8.0-windows\ref\Settings.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\bin\Debug\net8.0-windows\Settings.exe
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\bin\Debug\net8.0-windows\Settings.deps.json
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\bin\Debug\net8.0-windows\Settings.runtimeconfig.json
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\bin\Debug\net8.0-windows\Settings.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\bin\Debug\net8.0-windows\Settings.pdb
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\bin\Debug\net8.0-windows\AlphaGradientPanel.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\bin\Debug\net8.0-windows\Bunifu.Dataviz.WinForms.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\bin\Debug\net8.0-windows\Bunifu.Licensing.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\bin\Debug\net8.0-windows\Bunifu.UI.WinForms.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\bin\Debug\net8.0-windows\Guna.UI2.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\bin\Debug\net8.0-windows\RoundedPanel.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\bin\Debug\net8.0-windows\System.CodeDom.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Management.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\obj\Debug\net8.0-windows\Settings.csproj.AssemblyReference.cache
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\obj\Debug\net8.0-windows\Settings.Form1.resources
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\obj\Debug\net8.0-windows\Settings.Properties.Resources.resources
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\obj\Debug\net8.0-windows\Settings.csproj.GenerateResource.cache
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\obj\Debug\net8.0-windows\Settings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\obj\Debug\net8.0-windows\Settings.AssemblyInfoInputs.cache
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\obj\Debug\net8.0-windows\Settings.AssemblyInfo.cs
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\obj\Debug\net8.0-windows\Settings.csproj.CoreCompileInputs.cache
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\obj\Debug\net8.0-windows\Settings.sourcelink.json
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\obj\Debug\net8.0-windows\Settings.csproj.Up2Date
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\obj\Debug\net8.0-windows\Settings.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\obj\Debug\net8.0-windows\refint\Settings.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\obj\Debug\net8.0-windows\Settings.pdb
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\obj\Debug\net8.0-windows\Settings.genruntimeconfig.cache
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Backup\Settings\obj\Debug\net8.0-windows\ref\Settings.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\bin\Debug\net8.0-windows\Settings.exe
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\bin\Debug\net8.0-windows\Settings.deps.json
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\bin\Debug\net8.0-windows\Settings.runtimeconfig.json
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\bin\Debug\net8.0-windows\Settings.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\bin\Debug\net8.0-windows\Settings.pdb
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\bin\Debug\net8.0-windows\AlphaGradientPanel.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\bin\Debug\net8.0-windows\Bunifu.Dataviz.WinForms.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\bin\Debug\net8.0-windows\Bunifu.Licensing.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\bin\Debug\net8.0-windows\Bunifu.UI.WinForms.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\bin\Debug\net8.0-windows\Guna.UI2.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\bin\Debug\net8.0-windows\RoundedPanel.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\bin\Debug\net8.0-windows\System.CodeDom.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Management.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\obj\Debug\net8.0-windows\Settings.csproj.AssemblyReference.cache
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\obj\Debug\net8.0-windows\Settings.Form1.resources
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\obj\Debug\net8.0-windows\Settings.Properties.Resources.resources
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\obj\Debug\net8.0-windows\Settings.csproj.GenerateResource.cache
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\obj\Debug\net8.0-windows\Settings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\obj\Debug\net8.0-windows\Settings.AssemblyInfoInputs.cache
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\obj\Debug\net8.0-windows\Settings.AssemblyInfo.cs
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\obj\Debug\net8.0-windows\Settings.csproj.CoreCompileInputs.cache
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\obj\Debug\net8.0-windows\Settings.sourcelink.json
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\obj\Debug\net8.0-windows\Settings.csproj.Up2Date
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\obj\Debug\net8.0-windows\Settings.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\obj\Debug\net8.0-windows\refint\Settings.dll
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\obj\Debug\net8.0-windows\Settings.pdb
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\obj\Debug\net8.0-windows\Settings.genruntimeconfig.cache
+C:\Users\Jhake\Downloads\Settings-main (1)\Settings-main\Settings Current\Settings\obj\Debug\net8.0-windows\ref\Settings.dll
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\bin\Debug\net8.0-windows\Settings.exe
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\bin\Debug\net8.0-windows\Settings.deps.json
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\bin\Debug\net8.0-windows\Settings.runtimeconfig.json
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\bin\Debug\net8.0-windows\Settings.dll
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\bin\Debug\net8.0-windows\Settings.pdb
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\bin\Debug\net8.0-windows\AlphaGradientPanel.dll
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\bin\Debug\net8.0-windows\Bunifu.Dataviz.WinForms.dll
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\bin\Debug\net8.0-windows\Bunifu.Licensing.dll
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\bin\Debug\net8.0-windows\Bunifu.UI.WinForms.dll
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\bin\Debug\net8.0-windows\Guna.UI2.dll
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\bin\Debug\net8.0-windows\RoundedPanel.dll
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\bin\Debug\net8.0-windows\System.CodeDom.dll
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Management.dll
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\obj\Debug\net8.0-windows\Settings.csproj.AssemblyReference.cache
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\obj\Debug\net8.0-windows\Settings.Form1.resources
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\obj\Debug\net8.0-windows\Settings.Properties.Resources.resources
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\obj\Debug\net8.0-windows\Settings.csproj.GenerateResource.cache
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\obj\Debug\net8.0-windows\Settings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\obj\Debug\net8.0-windows\Settings.AssemblyInfoInputs.cache
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\obj\Debug\net8.0-windows\Settings.AssemblyInfo.cs
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\obj\Debug\net8.0-windows\Settings.csproj.CoreCompileInputs.cache
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\obj\Debug\net8.0-windows\Settings.sourcelink.json
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\obj\Debug\net8.0-windows\Settings.csproj.Up2Date
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\obj\Debug\net8.0-windows\Settings.dll
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\obj\Debug\net8.0-windows\refint\Settings.dll
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\obj\Debug\net8.0-windows\Settings.pdb
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\obj\Debug\net8.0-windows\Settings.genruntimeconfig.cache
+C:\Users\Jhake\Desktop\New folder\Settings\Settings\obj\Debug\net8.0-windows\ref\Settings.dll
