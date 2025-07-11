@@ -148,3 +148,33 @@ C:\Users\Jhake\Desktop\New folder\Settings\Settings\obj\Debug\net8.0-windows\ref
 C:\Users\Jhake\Desktop\New folder\Settings\Settings\obj\Debug\net8.0-windows\Settings.pdb
 C:\Users\Jhake\Desktop\New folder\Settings\Settings\obj\Debug\net8.0-windows\Settings.genruntimeconfig.cache
 C:\Users\Jhake\Desktop\New folder\Settings\Settings\obj\Debug\net8.0-windows\ref\Settings.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\bin\Debug\net8.0-windows\Settings.exe
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\bin\Debug\net8.0-windows\Settings.deps.json
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\bin\Debug\net8.0-windows\Settings.runtimeconfig.json
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\bin\Debug\net8.0-windows\Settings.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\bin\Debug\net8.0-windows\Settings.pdb
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\bin\Debug\net8.0-windows\AlphaGradientPanel.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\bin\Debug\net8.0-windows\Bunifu.Dataviz.WinForms.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\bin\Debug\net8.0-windows\Bunifu.Licensing.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\bin\Debug\net8.0-windows\Bunifu.UI.WinForms.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\bin\Debug\net8.0-windows\Guna.UI2.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\bin\Debug\net8.0-windows\RoundedPanel.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\bin\Debug\net8.0-windows\System.CodeDom.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\bin\Debug\net8.0-windows\System.Management.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Management.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\obj\Debug\net8.0-windows\Settings.csproj.AssemblyReference.cache
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\obj\Debug\net8.0-windows\Settings.Form1.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\obj\Debug\net8.0-windows\Settings.Properties.Resources.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\obj\Debug\net8.0-windows\Settings.csproj.GenerateResource.cache
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\obj\Debug\net8.0-windows\Settings.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\obj\Debug\net8.0-windows\Settings.AssemblyInfoInputs.cache
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\obj\Debug\net8.0-windows\Settings.AssemblyInfo.cs
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\obj\Debug\net8.0-windows\Settings.csproj.CoreCompileInputs.cache
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\obj\Debug\net8.0-windows\Settings.sourcelink.json
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\obj\Debug\net8.0-windows\Settings.csproj.Up2Date
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\obj\Debug\net8.0-windows\Settings.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\obj\Debug\net8.0-windows\refint\Settings.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\obj\Debug\net8.0-windows\Settings.pdb
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\obj\Debug\net8.0-windows\Settings.genruntimeconfig.cache
+D:\Project Files\Visual Studio\repo\proto_sd\Settings\Settings\obj\Debug\net8.0-windows\ref\Settings.dll

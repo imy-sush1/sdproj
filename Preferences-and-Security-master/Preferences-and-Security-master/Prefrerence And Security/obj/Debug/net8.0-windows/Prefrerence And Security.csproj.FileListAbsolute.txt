@@ -56,3 +56,62 @@ C:\Users\Van\Downloads\Preferences-and-Security-master\Preferences-and-Security-
 C:\Users\Van\Downloads\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\obj\Debug\net8.0-windows\Prefrerence And Security.pdb
 C:\Users\Van\Downloads\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\obj\Debug\net8.0-windows\Prefrerence And Security.genruntimeconfig.cache
 C:\Users\Van\Downloads\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\obj\Debug\net8.0-windows\ref\Prefrerence And Security.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\Prefrerence And Security.exe
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\Prefrerence And Security.deps.json
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\Prefrerence And Security.runtimeconfig.json
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\Prefrerence And Security.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\Prefrerence And Security.pdb
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\Bunifu.Licensing.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\Bunifu.UI.WinForms.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\Xceed.Wpf.AvalonDock.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\Xceed.Wpf.Toolkit.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\MaterialSkin.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\RoundedPanel.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\Syncfusion.Grid.Windows.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\Syncfusion.Licensing.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\Syncfusion.Shared.Base.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\Syncfusion.Shared.Windows.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\Syncfusion.SpellChecker.Base.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\Syncfusion.Tools.Base.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\Syncfusion.Tools.Windows.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\System.CodeDom.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\System.Management.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Management.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\obj\Debug\net8.0-windows\Prefrerence And Security.csproj.AssemblyReference.cache
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\obj\Debug\net8.0-windows\Prefrerence_And_Security.Form1.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\obj\Debug\net8.0-windows\Prefrerence_And_Security.General.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\obj\Debug\net8.0-windows\Prefrerence_And_Security.Preference.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\obj\Debug\net8.0-windows\Prefrerence_And_Security.Properties.Resources.resources
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\obj\Debug\net8.0-windows\Prefrerence And Security.csproj.GenerateResource.cache
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\obj\Debug\net8.0-windows\Prefrerence And Security.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\obj\Debug\net8.0-windows\Prefrerence And Security.AssemblyInfoInputs.cache
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\obj\Debug\net8.0-windows\Prefrerence And Security.AssemblyInfo.cs
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\obj\Debug\net8.0-windows\Prefrerence And Security.csproj.CoreCompileInputs.cache
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\obj\Debug\net8.0-windows\Prefrerence And Security.sourcelink.json
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\obj\Debug\net8.0-windows\Prefrere.36E829DD.Up2Date
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\obj\Debug\net8.0-windows\Prefrerence And Security.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\obj\Debug\net8.0-windows\refint\Prefrerence And Security.dll
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\obj\Debug\net8.0-windows\Prefrerence And Security.pdb
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\obj\Debug\net8.0-windows\Prefrerence And Security.genruntimeconfig.cache
+D:\Project Files\Visual Studio\repo\proto_sd\Preferences-and-Security-master\Preferences-and-Security-master\Prefrerence And Security\obj\Debug\net8.0-windows\ref\Prefrerence And Security.dll
