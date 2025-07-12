@@ -28,6 +28,8 @@ namespace Consultation.App.ConsultationManagement
             ShowConsultationView();
         }
 
+
+        
         private void ShowConsultationView()
         {
             LabelHeader.Text = "Active Consultation";
@@ -52,7 +54,17 @@ namespace Consultation.App.ConsultationManagement
 
         }
 
-        public void RestoreCard(ArchiveCard card)
+
+        private void MoveUnderline(Control targetButton)
+        {
+            underlinePanel.Width = targetButton.Width;
+            underlinePanel.Left = targetButton.Left;
+            underlinePanel.Top = targetButton.Bottom - 4;
+            underlinePanel.Visible = true;
+        }
+
+
+        private void OnCardArchived(object sender, ConsultationCard card)
         {
             WindowPanelConsultation.Controls.Remove(card);
             archivedCards.Remove(card);
@@ -87,14 +99,6 @@ namespace Consultation.App.ConsultationManagement
             ShowArchivedConsultations();
             LabelHeader.Text = "Archived Consultation";
 
-        }
-
-        private void MoveUnderline(Control targetButton)
-        {
-            underlinePanel.Width = targetButton.Width;
-            underlinePanel.Left = targetButton.Left;
-            underlinePanel.Top = targetButton.Bottom - 4;
-            underlinePanel.Visible = true;
         }
 
         private void btnRefresh_Click(object sender, EventArgs e)

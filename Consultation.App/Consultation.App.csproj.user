@@ -17,6 +17,9 @@
     <Compile Update="Views\Controls\BulletinManagement\CreateBulletin.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Views\Controls\ConsultationManagement\CSWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Views\Controls\ConsultationManagement\EditSchedule.cs">
       <SubType>Form</SubType>
     </Compile>
