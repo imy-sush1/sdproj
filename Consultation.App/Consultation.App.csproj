@@ -30,6 +30,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Consultation.BackEndCRUD\Consultation.BackEndCRUD.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Properties\Icons.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
