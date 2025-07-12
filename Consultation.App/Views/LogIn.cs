@@ -105,13 +105,13 @@ namespace Consultation.App.Views
         //        Valid = false;
         //    }
 
-        //    if (Valid)
-        //    {
-        //        //MainView mainView = new MainView();
-        //        //mainView.Show();
-        //        this.DialogResult = DialogResult.OK;
-        //        this.Close();
-        //    }
+            if (Valid)
+            {
+                //MainView mainView = new MainView();
+                //mainView.Show();
+                this.DialogResult = DialogResult.OK;
+                this.Close();
+            }
         }
 
         private void ShowPassButton_Click(object sender, EventArgs e)
