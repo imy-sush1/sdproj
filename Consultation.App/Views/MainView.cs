@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace Consultation.App.Views
 {
-    public partial class MainView : SfForm, IMainView
+    public partial class MainView : Form, IMainView
     {
         public MainView()
         {
@@ -25,7 +25,7 @@ namespace Consultation.App.Views
             //buttonReports.Click += (s, e) => ReportsEvent?.Invoke(s, e);
             buttonPreference.Click += (s, e) => PreferenceEvent?.Invoke(s, e);
 
-     
+
         }
 
         public event EventHandler DashboardEvent;
@@ -45,16 +45,16 @@ namespace Consultation.App.Views
             MessageBox.Show(message);
         }
 
-        private void buttonDashboard_MouseHover(object sender, EventArgs e)
-        {
-            buttonDashboard.ImageIndex = 1;
-            buttonDashboard.ForeColor = Color.Black;
-        }
-
         private void buttonDashboard_MouseLeave(object sender, EventArgs e)
         {
             buttonDashboard.ImageIndex = 0;
             buttonDashboard.ForeColor = Color.White;
+        }
+
+        private void buttonDashboard_MouseEnter(object sender, EventArgs e)
+        {
+            buttonDashboard.ImageIndex = 1;
+            buttonDashboard.ForeColor = Color.Black;
         }
     }
 }

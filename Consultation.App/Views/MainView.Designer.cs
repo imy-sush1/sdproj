@@ -77,9 +77,9 @@
             sidePanel.Controls.Add(pictureBoxLogo);
             sidePanel.Dock = DockStyle.Left;
             sidePanel.ForeColor = SystemColors.ControlText;
-            sidePanel.Location = new Point(2, 2);
+            sidePanel.Location = new Point(0, 0);
             sidePanel.Name = "sidePanel";
-            sidePanel.Size = new Size(260, 1037);
+            sidePanel.Size = new Size(260, 1041);
             sidePanel.TabIndex = 0;
             // 
             // label3
@@ -242,8 +242,8 @@
             buttonDashboard.Text = "   Dashboard";
             buttonDashboard.TextImageRelation = TextImageRelation.ImageBeforeText;
             buttonDashboard.UseVisualStyleBackColor = false;
+            buttonDashboard.MouseEnter += buttonDashboard_MouseEnter;
             buttonDashboard.MouseLeave += buttonDashboard_MouseLeave;
-            buttonDashboard.MouseHover += buttonDashboard_MouseHover;
             // 
             // dashboard_icon
             // 
@@ -259,7 +259,7 @@
             profilePanel.Controls.Add(labelProfileName);
             profilePanel.Controls.Add(pictureBoxProfile);
             profilePanel.Dock = DockStyle.Bottom;
-            profilePanel.Location = new Point(0, 942);
+            profilePanel.Location = new Point(0, 946);
             profilePanel.Name = "profilePanel";
             profilePanel.Size = new Size(260, 95);
             profilePanel.TabIndex = 1;
@@ -299,7 +299,7 @@
             // 
             pictureBoxLogo.BackColor = Color.Transparent;
             pictureBoxLogo.Image = Properties.Icons.LOGO_name__Custom___1_;
-            pictureBoxLogo.Location = new Point(8, 40);
+            pictureBoxLogo.Location = new Point(9, 25);
             pictureBoxLogo.Name = "pictureBoxLogo";
             pictureBoxLogo.Size = new Size(248, 96);
             pictureBoxLogo.TabIndex = 0;
@@ -323,12 +323,12 @@
             materialCard1.Depth = 0;
             materialCard1.Dock = DockStyle.Top;
             materialCard1.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            materialCard1.Location = new Point(262, 2);
+            materialCard1.Location = new Point(260, 0);
             materialCard1.Margin = new Padding(14);
             materialCard1.MouseState = MaterialSkin.MouseState.HOVER;
             materialCard1.Name = "materialCard1";
             materialCard1.Padding = new Padding(14);
-            materialCard1.Size = new Size(1640, 100);
+            materialCard1.Size = new Size(1644, 100);
             materialCard1.TabIndex = 3;
             // 
             // MainView
@@ -340,8 +340,6 @@
             Controls.Add(sidePanel);
             IsMdiContainer = true;
             Name = "MainView";
-            Style.MdiChild.IconHorizontalAlignment = HorizontalAlignment.Center;
-            Style.MdiChild.IconVerticalAlignment = System.Windows.Forms.VisualStyles.VerticalAlignment.Center;
             Text = "UMECA";
             WindowState = FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)sidePanel).EndInit();
