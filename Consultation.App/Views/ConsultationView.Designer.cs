@@ -206,7 +206,7 @@
             Controls.Add(materialCard1);
             Controls.Add(materialCard2);
             DoubleBuffered = true;
-            FormBorderStyle = FormBorderStyle.None;
+            //FormBorderStyle = FormBorderStyle.None;
             Name = "ConsultationView";
             Text = "ConsultationWindow";
             materialCard2.ResumeLayout(false);
