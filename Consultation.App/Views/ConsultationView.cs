@@ -1,11 +1,12 @@
-﻿using System;
+﻿using Consultation.App.Views.IViews;
+using System;
 using System.Windows.Forms;
 using Consultation.App.Views.Controls.ConsultationManagement;
 
 
 namespace Consultation.App.ConsultationManagement
 {
-    public partial class ConsultationView : Form
+    public partial class ConsultationView : Form, IConsultationView
     {
 
         private List<ConsultationCard> activeCards = new List<ConsultationCard>();
