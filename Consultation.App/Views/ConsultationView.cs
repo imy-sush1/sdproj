@@ -6,7 +6,8 @@ using Consultation.App.Views.Controls.ConsultationManagement;
 
 namespace Consultation.App.ConsultationManagement
 {
-    public partial class ConsultationView : Form, IConsultationView
+
+    public partial class ConsultationView : UserControl, IConsultationView
     {
 
         private List<ConsultationCard> activeCards = new List<ConsultationCard>();
