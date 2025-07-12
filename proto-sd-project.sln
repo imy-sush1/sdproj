@@ -5,13 +5,13 @@ VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consultation.App", "Consultation.App\Consultation.App.csproj", "{E8C646FC-D437-42FE-B731-67D4DAF23CBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consultation.Domain", "..\database\Consultation.Domain\Consultation.Domain.csproj", "{BFF04189-D01B-8C3B-8123-46A5C69D1146}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consultation.Infrastructure", "..\database\Consultation.Infrastructure\Consultation.Infrastructure.csproj", "{62767686-BA4F-3DEE-7DC3-33E8652A1A41}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consultation.BackEndCRUD", "..\database\Consultation.BackEndCRUD\Consultation.BackEndCRUD.csproj", "{FAA5CCC7-26EC-95D5-32A6-00DA4BA5BEFF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consultation.Desktop.Test", "..\database\Consultation.Desktop.Test\Consultation.Desktop.Test.csproj", "{0F1D667E-FB57-5926-5877-08B9B7823370}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consultation.BackEndCRUD", "..\database\Consultation.BackEndCRUD\Consultation.BackEndCRUD.csproj", "{FAA5CCC7-26EC-95D5-32A6-00DA4BA5BEFF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consultation.Domain", "..\database\Consultation.Domain\Consultation.Domain.csproj", "{BFF04189-D01B-8C3B-8123-46A5C69D1146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consultation.Infrastructure", "..\database\Consultation.Infrastructure\Consultation.Infrastructure.csproj", "{62767686-BA4F-3DEE-7DC3-33E8652A1A41}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "..\database\Enum\Enum.csproj", "{7AFF0343-0D98-D0A8-1D8B-A617B7406EA0}"
 EndProject
@@ -25,6 +25,14 @@ Global
 		{E8C646FC-D437-42FE-B731-67D4DAF23CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8C646FC-D437-42FE-B731-67D4DAF23CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8C646FC-D437-42FE-B731-67D4DAF23CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAA5CCC7-26EC-95D5-32A6-00DA4BA5BEFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA5CCC7-26EC-95D5-32A6-00DA4BA5BEFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA5CCC7-26EC-95D5-32A6-00DA4BA5BEFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA5CCC7-26EC-95D5-32A6-00DA4BA5BEFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F1D667E-FB57-5926-5877-08B9B7823370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1D667E-FB57-5926-5877-08B9B7823370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1D667E-FB57-5926-5877-08B9B7823370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1D667E-FB57-5926-5877-08B9B7823370}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BFF04189-D01B-8C3B-8123-46A5C69D1146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BFF04189-D01B-8C3B-8123-46A5C69D1146}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFF04189-D01B-8C3B-8123-46A5C69D1146}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,14 +41,6 @@ Global
 		{62767686-BA4F-3DEE-7DC3-33E8652A1A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62767686-BA4F-3DEE-7DC3-33E8652A1A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62767686-BA4F-3DEE-7DC3-33E8652A1A41}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0F1D667E-FB57-5926-5877-08B9B7823370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F1D667E-FB57-5926-5877-08B9B7823370}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0F1D667E-FB57-5926-5877-08B9B7823370}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0F1D667E-FB57-5926-5877-08B9B7823370}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FAA5CCC7-26EC-95D5-32A6-00DA4BA5BEFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FAA5CCC7-26EC-95D5-32A6-00DA4BA5BEFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FAA5CCC7-26EC-95D5-32A6-00DA4BA5BEFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FAA5CCC7-26EC-95D5-32A6-00DA4BA5BEFF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7AFF0343-0D98-D0A8-1D8B-A617B7406EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7AFF0343-0D98-D0A8-1D8B-A617B7406EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AFF0343-0D98-D0A8-1D8B-A617B7406EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
