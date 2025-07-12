@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consultation.Desktop.Test",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consultation.BackEndCRUD", "..\database\Consultation.BackEndCRUD\Consultation.BackEndCRUD.csproj", "{FAA5CCC7-26EC-95D5-32A6-00DA4BA5BEFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "..\database\Enum\Enum.csproj", "{7AFF0343-0D98-D0A8-1D8B-A617B7406EA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{FAA5CCC7-26EC-95D5-32A6-00DA4BA5BEFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAA5CCC7-26EC-95D5-32A6-00DA4BA5BEFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAA5CCC7-26EC-95D5-32A6-00DA4BA5BEFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AFF0343-0D98-D0A8-1D8B-A617B7406EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFF0343-0D98-D0A8-1D8B-A617B7406EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AFF0343-0D98-D0A8-1D8B-A617B7406EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AFF0343-0D98-D0A8-1D8B-A617B7406EA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
