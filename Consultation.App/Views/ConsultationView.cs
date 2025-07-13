@@ -28,6 +28,7 @@ namespace Consultation.App.ConsultationManagement
 
             ShowConsultationView();
         }
+        public UserControl AsUserControl => this;
 
 
         
