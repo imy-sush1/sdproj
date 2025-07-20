@@ -40,9 +40,14 @@
             underlinePanel = new Panel();
             btnArchive = new Guna.UI2.WinForms.Guna2Button();
             btnConsultation = new Guna.UI2.WinForms.Guna2Button();
-            WindowPanelConsultation = new FlowLayoutPanel();
             guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(components);
+            materialCard1 = new MaterialSkin.Controls.MaterialCard();
+            LabelHeader = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            materialCard3 = new MaterialSkin.Controls.MaterialCard();
+            WindowPanelConsultation = new FlowLayoutPanel();
             materialCard2.SuspendLayout();
+            materialCard1.SuspendLayout();
+            materialCard3.SuspendLayout();
             SuspendLayout();
             // 
             // materialCard2
@@ -54,7 +59,7 @@
             materialCard2.Controls.Add(btnConsultation);
             materialCard2.Depth = 0;
             materialCard2.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            materialCard2.Location = new Point(29, 23);
+            materialCard2.Location = new Point(21, 15);
             materialCard2.Margin = new Padding(14);
             materialCard2.MouseState = MaterialSkin.MouseState.HOVER;
             materialCard2.Name = "materialCard2";
@@ -72,13 +77,13 @@
             btnRefresh.DisabledState.CustomBorderColor = Color.DarkGray;
             btnRefresh.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnRefresh.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnRefresh.FillColor = Color.DarkRed;
+            btnRefresh.FillColor = Color.FromArgb(190, 0, 2);
             btnRefresh.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnRefresh.ForeColor = Color.White;
             btnRefresh.Image = Properties.Icons.images_removebg_preview;
             btnRefresh.ImageAlign = HorizontalAlignment.Left;
             btnRefresh.ImageSize = new Size(15, 15);
-            btnRefresh.Location = new Point(1460, 17);
+            btnRefresh.Location = new Point(1466, 22);
             btnRefresh.Name = "btnRefresh";
             btnRefresh.PressedColor = Color.FromArgb(255, 128, 128);
             btnRefresh.ShadowDecoration.CustomizableEdges = customizableEdges2;
@@ -137,19 +142,59 @@
             btnConsultation.Text = "Consultation";
             btnConsultation.Click += btnConsultation_Click_1;
             // 
-            // WindowPanelConsultation
-            // 
-            WindowPanelConsultation.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            WindowPanelConsultation.Location = new Point(98, 136);
-            WindowPanelConsultation.Name = "WindowPanelConsultation";
-            WindowPanelConsultation.Size = new Size(1462, 797);
-            WindowPanelConsultation.TabIndex = 3;
-            // 
             // guna2BorderlessForm1
             // 
             guna2BorderlessForm1.ContainerControl = this;
             guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
             guna2BorderlessForm1.TransparentWhileDrag = true;
+            // 
+            // materialCard1
+            // 
+            materialCard1.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard1.Controls.Add(LabelHeader);
+            materialCard1.Depth = 0;
+            materialCard1.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard1.Location = new Point(88, 123);
+            materialCard1.Margin = new Padding(14);
+            materialCard1.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard1.Name = "materialCard1";
+            materialCard1.Padding = new Padding(14);
+            materialCard1.Size = new Size(1460, 70);
+            materialCard1.TabIndex = 2;
+            materialCard1.Paint += materialCard1_Paint;
+            // 
+            // LabelHeader
+            // 
+            LabelHeader.BackColor = Color.Transparent;
+            LabelHeader.Font = new Font("Archivo", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LabelHeader.Location = new Point(17, 17);
+            LabelHeader.Name = "LabelHeader";
+            LabelHeader.Size = new Size(76, 34);
+            LabelHeader.TabIndex = 0;
+            LabelHeader.Text = "Header";
+            // 
+            // materialCard3
+            // 
+            materialCard3.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard3.Controls.Add(WindowPanelConsultation);
+            materialCard3.Depth = 0;
+            materialCard3.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard3.Location = new Point(88, 195);
+            materialCard3.Margin = new Padding(14);
+            materialCard3.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard3.Name = "materialCard3";
+            materialCard3.Padding = new Padding(14);
+            materialCard3.Size = new Size(1460, 724);
+            materialCard3.TabIndex = 3;
+            // 
+            // WindowPanelConsultation
+            // 
+            WindowPanelConsultation.AutoScroll = true;
+            WindowPanelConsultation.Location = new Point(10, 10);
+            WindowPanelConsultation.Margin = new Padding(0);
+            WindowPanelConsultation.Name = "WindowPanelConsultation";
+            WindowPanelConsultation.Size = new Size(1440, 697);
+            WindowPanelConsultation.TabIndex = 0;
             // 
             // ConsultationView
             // 
@@ -157,12 +202,16 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1658, 961);
-            Controls.Add(WindowPanelConsultation);
+            Controls.Add(materialCard3);
+            Controls.Add(materialCard1);
             Controls.Add(materialCard2);
             FormBorderStyle = FormBorderStyle.None;
             Name = "ConsultationView";
             Text = "ConsultationWindow";
             materialCard2.ResumeLayout(false);
+            materialCard1.ResumeLayout(false);
+            materialCard1.PerformLayout();
+            materialCard3.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -171,9 +220,12 @@
         private MaterialSkin.Controls.MaterialCard materialCard2;
         private Panel underlinePanel;
         private Guna.UI2.WinForms.Guna2Button btnArchive;
-        private FlowLayoutPanel WindowPanelConsultation;
         private ConsultationCard consultationCard1;
         private Guna.UI2.WinForms.Guna2Button btnRefresh;
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
+        private MaterialSkin.Controls.MaterialCard materialCard1;
+        private MaterialSkin.Controls.MaterialCard materialCard3;
+        private FlowLayoutPanel WindowPanelConsultation;
+        private Guna.UI2.WinForms.Guna2HtmlLabel LabelHeader;
     }
 }

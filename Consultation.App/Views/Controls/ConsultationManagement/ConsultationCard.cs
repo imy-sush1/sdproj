@@ -15,14 +15,13 @@ namespace Consultation.App.ConsultationManagement
 {
     public partial class ConsultationCard : UserControl
     {
-        public event EventHandler ArchiveRequested;
+        public event EventHandler<ConsultationCard> ArchiveRequested;
 
         private ConsultationData data = new ConsultationData();
         public DateTime ScheduleDate { get; private set; }
 
-        
         public string NameText => StudentName.Text;
-        public string DateText => ScheduleDate.ToShortDateString(); 
+        public string DateText => ScheduleDate.ToShortDateString();
         public string TimeText => Timetxtbox.Text;
         public string CourseCode => courseCodeLabel.Text;
         public string Faculty => Facultytxtbox.Text;
@@ -34,18 +33,19 @@ namespace Consultation.App.ConsultationManagement
         {
             InitializeComponent();
             Data = new ConsultationData();
+
         }
 
         public ConsultationData Data
         {
             get
             {
-                
+
                 return data;
             }
             set
             {
-               
+
                 data = value;
                 StudentName.Text = data.Name;
                 courseCodeLabel.Text = data.CourseCode;
@@ -76,7 +76,7 @@ namespace Consultation.App.ConsultationManagement
 
         private void archiveToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ArchiveRequested?.Invoke(this, EventArgs.Empty);
+            ((ConsultationView)this.FindForm()).ArchiveCard(this);
         }
 
         private void editToolStripMenuItem_Click(object sender, EventArgs e)
@@ -97,10 +97,13 @@ namespace Consultation.App.ConsultationManagement
         }
         private void viewToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ViewConsultation viewForm = new ViewConsultation(this); 
+            ViewConsultation viewForm = new ViewConsultation(this);
             viewForm.ShowDialog();
         }
 
+        private void courseCodeLabel_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

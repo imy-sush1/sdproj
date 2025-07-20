@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -43,7 +42,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            materialCard1 = new MaterialSkin.Controls.MaterialCard();
             Location = new Guna.UI2.WinForms.Guna2TextBox();
             guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
             Facultytxtbox = new Guna.UI2.WinForms.Guna2TextBox();
@@ -51,58 +49,31 @@
             Date = new Guna.UI2.WinForms.Guna2TextBox();
             idnumber = new Guna.UI2.WinForms.Guna2TextBox();
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            Noteslabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             courseCodeLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             StudentName = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            flowLayoutPanel1 = new FlowLayoutPanel();
-            flowLayoutPanel2 = new FlowLayoutPanel();
-            flowLayoutPanel3 = new FlowLayoutPanel();
-            flowLayoutPanel4 = new FlowLayoutPanel();
-            flowLayoutPanel5 = new FlowLayoutPanel();
             MenuContext = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
             viewToolStripMenuItem = new ToolStripMenuItem();
             editToolStripMenuItem = new ToolStripMenuItem();
             rescheduleToolStripMenuItem = new ToolStripMenuItem();
             archiveToolStripMenuItem = new ToolStripMenuItem();
             deleteToolStripMenuItem = new ToolStripMenuItem();
-            flowLayout1 = new Syncfusion.Windows.Forms.Tools.FlowLayout(components);
-            materialCard1.SuspendLayout();
+            materialCard1 = new MaterialSkin.Controls.MaterialCard();
+            flowLayoutPanel5 = new FlowLayoutPanel();
+            Noteslabel = new RichTextBox();
+            flowLayoutPanel4 = new FlowLayoutPanel();
+            flowLayoutPanel1 = new FlowLayoutPanel();
+            flowLayoutPanel3 = new FlowLayoutPanel();
+            flowLayoutPanel2 = new FlowLayoutPanel();
             MenuContext.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)flowLayout1).BeginInit();
+            materialCard1.SuspendLayout();
+            flowLayoutPanel5.SuspendLayout();
+            flowLayoutPanel4.SuspendLayout();
             SuspendLayout();
-            // 
-            // materialCard1
-            // 
-            materialCard1.BackColor = Color.FromArgb(255, 255, 255);
-            materialCard1.Controls.Add(Location);
-            materialCard1.Controls.Add(guna2TextBox5);
-            materialCard1.Controls.Add(Facultytxtbox);
-            materialCard1.Controls.Add(Timetxtbox);
-            materialCard1.Controls.Add(Date);
-            materialCard1.Controls.Add(idnumber);
-            materialCard1.Controls.Add(guna2Button1);
-            materialCard1.Controls.Add(Noteslabel);
-            materialCard1.Controls.Add(courseCodeLabel);
-            materialCard1.Controls.Add(StudentName);
-            materialCard1.Controls.Add(flowLayoutPanel1);
-            materialCard1.Controls.Add(flowLayoutPanel2);
-            materialCard1.Controls.Add(flowLayoutPanel3);
-            materialCard1.Controls.Add(flowLayoutPanel4);
-            materialCard1.Controls.Add(flowLayoutPanel5);
-            materialCard1.Depth = 0;
-            materialCard1.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            materialCard1.Location = new Point(15, 13);
-            materialCard1.Margin = new Padding(30);
-            materialCard1.MouseState = MaterialSkin.MouseState.HOVER;
-            materialCard1.Name = "materialCard1";
-            materialCard1.Padding = new Padding(0, 50, 0, 50);
-            materialCard1.RightToLeft = RightToLeft.No;
-            materialCard1.Size = new Size(1350, 122);
-            materialCard1.TabIndex = 0;
             // 
             // Location
             // 
-            Location.BorderRadius = 15;
+            Location.BorderRadius = 12;
+            Location.BorderThickness = 0;
             Location.CustomizableEdges = customizableEdges1;
             Location.DefaultText = "2025-05-10";
             Location.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
@@ -110,19 +81,20 @@
             Location.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             Location.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             Location.Enabled = false;
-            Location.FillColor = Color.Gainsboro;
+            Location.FillColor = Color.FromArgb(243, 244, 246);
             Location.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             Location.Font = new Font("Segoe UI", 9F);
+            Location.ForeColor = Color.FromArgb(50, 55, 67);
             Location.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            Location.Location = new Point(712, 86);
+            Location.Location = new Point(348, 3);
             Location.Name = "Location";
             Location.PlaceholderText = "";
             Location.ReadOnly = true;
             Location.SelectedText = "";
             Location.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            Location.Size = new Size(145, 28);
+            Location.Size = new Size(109, 25);
             Location.TabIndex = 10;
-            Location.TextAlign = HorizontalAlignment.Center;
+            Location.TabStop = false;
             // 
             // guna2TextBox5
             // 
@@ -136,7 +108,7 @@
             guna2TextBox5.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             guna2TextBox5.FillColor = Color.MistyRose;
             guna2TextBox5.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox5.Font = new Font("Inter", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            guna2TextBox5.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2TextBox5.ForeColor = Color.Red;
             guna2TextBox5.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             guna2TextBox5.Location = new Point(1176, 13);
@@ -152,7 +124,8 @@
             // 
             // Facultytxtbox
             // 
-            Facultytxtbox.BorderRadius = 15;
+            Facultytxtbox.BorderRadius = 12;
+            Facultytxtbox.BorderThickness = 0;
             Facultytxtbox.CustomizableEdges = customizableEdges5;
             Facultytxtbox.DefaultText = "2025-05-10";
             Facultytxtbox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
@@ -160,23 +133,25 @@
             Facultytxtbox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             Facultytxtbox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             Facultytxtbox.Enabled = false;
-            Facultytxtbox.FillColor = Color.Gainsboro;
+            Facultytxtbox.FillColor = Color.FromArgb(243, 244, 246);
             Facultytxtbox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             Facultytxtbox.Font = new Font("Segoe UI", 9F);
+            Facultytxtbox.ForeColor = Color.FromArgb(50, 55, 67);
             Facultytxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            Facultytxtbox.Location = new Point(539, 86);
+            Facultytxtbox.Location = new Point(118, 3);
             Facultytxtbox.Name = "Facultytxtbox";
             Facultytxtbox.PlaceholderText = "";
             Facultytxtbox.ReadOnly = true;
             Facultytxtbox.SelectedText = "";
             Facultytxtbox.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            Facultytxtbox.Size = new Size(145, 28);
+            Facultytxtbox.Size = new Size(109, 25);
             Facultytxtbox.TabIndex = 8;
-            Facultytxtbox.TextAlign = HorizontalAlignment.Center;
+            Facultytxtbox.TabStop = false;
             // 
             // Timetxtbox
             // 
-            Timetxtbox.BorderRadius = 15;
+            Timetxtbox.BorderRadius = 12;
+            Timetxtbox.BorderThickness = 0;
             Timetxtbox.CustomizableEdges = customizableEdges7;
             Timetxtbox.DefaultText = "2025-05-10";
             Timetxtbox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
@@ -184,23 +159,25 @@
             Timetxtbox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             Timetxtbox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             Timetxtbox.Enabled = false;
-            Timetxtbox.FillColor = Color.Gainsboro;
+            Timetxtbox.FillColor = Color.FromArgb(243, 244, 246);
             Timetxtbox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             Timetxtbox.Font = new Font("Segoe UI", 9F);
+            Timetxtbox.ForeColor = Color.FromArgb(50, 55, 67);
             Timetxtbox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            Timetxtbox.Location = new Point(364, 86);
+            Timetxtbox.Location = new Point(233, 3);
             Timetxtbox.Name = "Timetxtbox";
             Timetxtbox.PlaceholderText = "";
             Timetxtbox.ReadOnly = true;
             Timetxtbox.SelectedText = "";
             Timetxtbox.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            Timetxtbox.Size = new Size(145, 28);
+            Timetxtbox.Size = new Size(109, 25);
             Timetxtbox.TabIndex = 7;
-            Timetxtbox.TextAlign = HorizontalAlignment.Center;
+            Timetxtbox.TabStop = false;
             // 
             // Date
             // 
-            Date.BorderRadius = 15;
+            Date.BorderRadius = 12;
+            Date.BorderThickness = 0;
             Date.CustomizableEdges = customizableEdges9;
             Date.DefaultText = "2025-05-10";
             Date.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
@@ -208,23 +185,25 @@
             Date.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             Date.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             Date.Enabled = false;
-            Date.FillColor = Color.Gainsboro;
+            Date.FillColor = Color.FromArgb(243, 244, 246);
             Date.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             Date.Font = new Font("Segoe UI", 9F);
+            Date.ForeColor = Color.FromArgb(50, 55, 67);
             Date.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            Date.Location = new Point(186, 86);
+            Date.Location = new Point(3, 3);
             Date.Name = "Date";
             Date.PlaceholderText = "";
             Date.ReadOnly = true;
             Date.SelectedText = "";
             Date.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            Date.Size = new Size(145, 28);
+            Date.Size = new Size(109, 25);
             Date.TabIndex = 6;
-            Date.TextAlign = HorizontalAlignment.Center;
+            Date.TabStop = false;
             // 
             // idnumber
             // 
-            idnumber.BorderRadius = 15;
+            idnumber.BorderRadius = 12;
+            idnumber.BorderThickness = 0;
             idnumber.CustomizableEdges = customizableEdges11;
             idnumber.DefaultText = "ID: CON-2025-001";
             idnumber.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
@@ -232,19 +211,20 @@
             idnumber.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             idnumber.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             idnumber.Enabled = false;
-            idnumber.FillColor = Color.Gainsboro;
+            idnumber.FillColor = Color.FromArgb(243, 244, 246);
             idnumber.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             idnumber.Font = new Font("Segoe UI", 9F);
+            idnumber.ForeColor = Color.FromArgb(50, 55, 67);
             idnumber.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            idnumber.Location = new Point(25, 86);
+            idnumber.Location = new Point(463, 3);
             idnumber.Name = "idnumber";
             idnumber.PlaceholderText = "";
             idnumber.ReadOnly = true;
             idnumber.SelectedText = "";
             idnumber.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            idnumber.Size = new Size(133, 28);
+            idnumber.Size = new Size(109, 25);
             idnumber.TabIndex = 5;
-            idnumber.TextAlign = HorizontalAlignment.Center;
+            idnumber.TabStop = false;
             // 
             // guna2Button1
             // 
@@ -269,84 +249,31 @@
             guna2Button1.TabIndex = 4;
             guna2Button1.Click += guna2Button1_Click;
             // 
-            // Noteslabel
-            // 
-            Noteslabel.BackColor = Color.Transparent;
-            Noteslabel.Font = new Font("Inter", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Noteslabel.Location = new Point(25, 48);
-            Noteslabel.Name = "Noteslabel";
-            Noteslabel.Size = new Size(675, 25);
-            Noteslabel.TabIndex = 3;
-            Noteslabel.Text = "Student struggling with algebra concepts. Parent requested additional support strategies.";
-            // 
-            // CourseCode
+            // courseCodeLabel
             // 
             courseCodeLabel.BackColor = Color.Transparent;
             courseCodeLabel.Font = new Font("Archivo", 15.75F, FontStyle.Bold);
             courseCodeLabel.ForeColor = Color.DimGray;
-            courseCodeLabel.Location = new Point(242, 12);
-            courseCodeLabel.Name = "CourseCode";
+            courseCodeLabel.Location = new Point(206, 3);
+            courseCodeLabel.Name = "courseCodeLabel";
             courseCodeLabel.Size = new Size(185, 34);
             courseCodeLabel.TabIndex = 2;
             courseCodeLabel.Text = "CPE 325 - L (7605)";
+            courseCodeLabel.Click += courseCodeLabel_Click;
             // 
             // StudentName
             // 
             StudentName.BackColor = Color.Transparent;
             StudentName.Font = new Font("Archivo", 15.75F, FontStyle.Bold);
-            StudentName.Location = new Point(25, 12);
+            StudentName.Location = new Point(3, 3);
             StudentName.Name = "StudentName";
             StudentName.Size = new Size(197, 34);
             StudentName.TabIndex = 1;
             StudentName.Text = "Stephen Neil Garde  ";
             // 
-            // flowLayoutPanel1
-            // 
-            flowLayoutPanel1.AutoSize = true;
-            flowLayoutPanel1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            flowLayoutPanel1.Location = new Point(0, 0);
-            flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(0, 0);
-            flowLayoutPanel1.TabIndex = 11;
-            // 
-            // flowLayoutPanel2
-            // 
-            flowLayoutPanel2.AutoSize = true;
-            flowLayoutPanel2.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            flowLayoutPanel2.Location = new Point(284, 12);
-            flowLayoutPanel2.Name = "flowLayoutPanel2";
-            flowLayoutPanel2.Size = new Size(0, 0);
-            flowLayoutPanel2.TabIndex = 12;
-            // 
-            // flowLayoutPanel3
-            // 
-            flowLayoutPanel3.AutoSize = true;
-            flowLayoutPanel3.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            flowLayoutPanel3.Location = new Point(25, 12);
-            flowLayoutPanel3.Name = "flowLayoutPanel3";
-            flowLayoutPanel3.Size = new Size(0, 0);
-            flowLayoutPanel3.TabIndex = 13;
-            // 
-            // flowLayoutPanel4
-            // 
-            flowLayoutPanel4.AutoSize = true;
-            flowLayoutPanel4.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            flowLayoutPanel4.Location = new Point(242, 12);
-            flowLayoutPanel4.Name = "flowLayoutPanel4";
-            flowLayoutPanel4.Size = new Size(0, 0);
-            flowLayoutPanel4.TabIndex = 14;
-            // 
-            // flowLayoutPanel5
-            // 
-            flowLayoutPanel5.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            flowLayoutPanel5.Location = new Point(242, 12);
-            flowLayoutPanel5.Name = "flowLayoutPanel5";
-            flowLayoutPanel5.Size = new Size(185, 34);
-            flowLayoutPanel5.TabIndex = 15;
-            // 
             // MenuContext
             // 
-            MenuContext.Font = new Font("Archivo Medium", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            MenuContext.Font = new Font("Archivo", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             MenuContext.Items.AddRange(new ToolStripItem[] { viewToolStripMenuItem, editToolStripMenuItem, rescheduleToolStripMenuItem, archiveToolStripMenuItem, deleteToolStripMenuItem });
             MenuContext.Name = "guna2ContextMenuStrip1";
             MenuContext.RenderMode = ToolStripRenderMode.Professional;
@@ -359,14 +286,14 @@
             MenuContext.RenderStyle.SelectionForeColor = Color.White;
             MenuContext.RenderStyle.SeparatorColor = Color.Gainsboro;
             MenuContext.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            MenuContext.Size = new Size(163, 134);
+            MenuContext.Size = new Size(143, 114);
             // 
             // viewToolStripMenuItem
             // 
             viewToolStripMenuItem.Alignment = ToolStripItemAlignment.Right;
             viewToolStripMenuItem.Image = Properties.Icons.show;
             viewToolStripMenuItem.Name = "viewToolStripMenuItem";
-            viewToolStripMenuItem.Size = new Size(162, 26);
+            viewToolStripMenuItem.Size = new Size(142, 22);
             viewToolStripMenuItem.Text = "View";
             viewToolStripMenuItem.Click += viewToolStripMenuItem_Click;
             // 
@@ -374,7 +301,7 @@
             // 
             editToolStripMenuItem.Image = Properties.Icons.pencil;
             editToolStripMenuItem.Name = "editToolStripMenuItem";
-            editToolStripMenuItem.Size = new Size(162, 26);
+            editToolStripMenuItem.Size = new Size(142, 22);
             editToolStripMenuItem.Text = "Edit";
             editToolStripMenuItem.Click += editToolStripMenuItem_Click;
             // 
@@ -382,7 +309,7 @@
             // 
             rescheduleToolStripMenuItem.Image = Properties.Icons.rescheduling;
             rescheduleToolStripMenuItem.Name = "rescheduleToolStripMenuItem";
-            rescheduleToolStripMenuItem.Size = new Size(162, 26);
+            rescheduleToolStripMenuItem.Size = new Size(142, 22);
             rescheduleToolStripMenuItem.Text = "Reschedule";
             rescheduleToolStripMenuItem.Click += rescheduleToolStripMenuItem_Click;
             // 
@@ -390,7 +317,7 @@
             // 
             archiveToolStripMenuItem.Image = Properties.Icons.archive;
             archiveToolStripMenuItem.Name = "archiveToolStripMenuItem";
-            archiveToolStripMenuItem.Size = new Size(162, 26);
+            archiveToolStripMenuItem.Size = new Size(142, 22);
             archiveToolStripMenuItem.Text = "Archive";
             archiveToolStripMenuItem.Click += archiveToolStripMenuItem_Click;
             // 
@@ -398,36 +325,121 @@
             // 
             deleteToolStripMenuItem.Image = Properties.Icons.bin;
             deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            deleteToolStripMenuItem.Size = new Size(162, 26);
+            deleteToolStripMenuItem.Size = new Size(142, 22);
             deleteToolStripMenuItem.Text = "Delete";
             deleteToolStripMenuItem.Click += deleteToolStripMenuItem_Click;
+            // 
+            // materialCard1
+            // 
+            materialCard1.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard1.Controls.Add(flowLayoutPanel5);
+            materialCard1.Controls.Add(Noteslabel);
+            materialCard1.Controls.Add(flowLayoutPanel4);
+            materialCard1.Controls.Add(guna2Button1);
+            materialCard1.Controls.Add(guna2TextBox5);
+            materialCard1.Controls.Add(flowLayoutPanel1);
+            materialCard1.Controls.Add(flowLayoutPanel3);
+            materialCard1.Depth = 0;
+            materialCard1.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard1.Location = new Point(15, 13);
+            materialCard1.Margin = new Padding(14);
+            materialCard1.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard1.Name = "materialCard1";
+            materialCard1.Padding = new Padding(0, 5, 0, 5);
+            materialCard1.Size = new Size(1347, 144);
+            materialCard1.TabIndex = 11;
+            // 
+            // flowLayoutPanel5
+            // 
+            flowLayoutPanel5.AutoSize = true;
+            flowLayoutPanel5.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            flowLayoutPanel5.Controls.Add(StudentName);
+            flowLayoutPanel5.Controls.Add(courseCodeLabel);
+            flowLayoutPanel5.Location = new Point(24, 13);
+            flowLayoutPanel5.Name = "flowLayoutPanel5";
+            flowLayoutPanel5.Size = new Size(394, 40);
+            flowLayoutPanel5.TabIndex = 14;
+            // 
+            // Noteslabel
+            // 
+            Noteslabel.BackColor = Color.White;
+            Noteslabel.BorderStyle = BorderStyle.None;
+            Noteslabel.Font = new Font("Microsoft Sans Serif", 11.25F);
+            Noteslabel.ForeColor = Color.FromArgb(23, 26, 31);
+            Noteslabel.Location = new Point(24, 59);
+            Noteslabel.Name = "Noteslabel";
+            Noteslabel.ReadOnly = true;
+            Noteslabel.ScrollBars = RichTextBoxScrollBars.None;
+            Noteslabel.Size = new Size(1193, 40);
+            Noteslabel.TabIndex = 13;
+            Noteslabel.Text = "SKDISDISKDSKDKSsdkKSDK\nSDSDASDSADASASDASDd\n";
+            // 
+            // flowLayoutPanel4
+            // 
+            flowLayoutPanel4.AutoSize = true;
+            flowLayoutPanel4.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            flowLayoutPanel4.Controls.Add(Date);
+            flowLayoutPanel4.Controls.Add(Facultytxtbox);
+            flowLayoutPanel4.Controls.Add(Timetxtbox);
+            flowLayoutPanel4.Controls.Add(Location);
+            flowLayoutPanel4.Controls.Add(idnumber);
+            flowLayoutPanel4.Location = new Point(24, 100);
+            flowLayoutPanel4.Name = "flowLayoutPanel4";
+            flowLayoutPanel4.Size = new Size(575, 31);
+            flowLayoutPanel4.TabIndex = 12;
+            // 
+            // flowLayoutPanel1
+            // 
+            flowLayoutPanel1.AutoSize = true;
+            flowLayoutPanel1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            flowLayoutPanel1.Location = new Point(17, 8);
+            flowLayoutPanel1.Name = "flowLayoutPanel1";
+            flowLayoutPanel1.Size = new Size(0, 0);
+            flowLayoutPanel1.TabIndex = 0;
+            // 
+            // flowLayoutPanel3
+            // 
+            flowLayoutPanel3.AutoSize = true;
+            flowLayoutPanel3.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            flowLayoutPanel3.Location = new Point(8, 2);
+            flowLayoutPanel3.Name = "flowLayoutPanel3";
+            flowLayoutPanel3.Size = new Size(0, 0);
+            flowLayoutPanel3.TabIndex = 11;
+            // 
+            // flowLayoutPanel2
+            // 
+            flowLayoutPanel2.AutoSize = true;
+            flowLayoutPanel2.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            flowLayoutPanel2.Location = new Point(15, -37);
+            flowLayoutPanel2.Name = "flowLayoutPanel2";
+            flowLayoutPanel2.Size = new Size(0, 0);
+            flowLayoutPanel2.TabIndex = 1;
             // 
             // ConsultationCard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(flowLayoutPanel2);
             Controls.Add(materialCard1);
-            Margin = new Padding(27, 10, 27, 10);
+            Margin = new Padding(20, 0, 0, 0);
             Name = "ConsultationCard";
-            Padding = new Padding(0, 50, 0, 50);
-            Size = new Size(1380, 150);
+            Size = new Size(1380, 175);
+            MenuContext.ResumeLayout(false);
             materialCard1.ResumeLayout(false);
             materialCard1.PerformLayout();
-            MenuContext.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)flowLayout1).EndInit();
+            flowLayoutPanel5.ResumeLayout(false);
+            flowLayoutPanel5.PerformLayout();
+            flowLayoutPanel4.ResumeLayout(false);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
-
-        private MaterialSkin.Controls.MaterialCard materialCard1;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel DateDay;
         private Guna.UI2.WinForms.Guna2HtmlLabel LabelTime;
         private Guna.UI2.WinForms.Guna2HtmlLabel LabelDate;
         private Guna.UI2.WinForms.Guna2HtmlLabel StudentName;
         private Guna.UI2.WinForms.Guna2HtmlLabel courseCodeLabel;
-        private Guna.UI2.WinForms.Guna2HtmlLabel Noteslabel;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2TextBox Facultytxtbox;
         private Guna.UI2.WinForms.Guna2TextBox Timetxtbox;
@@ -441,11 +453,12 @@
         private ToolStripMenuItem deleteToolStripMenuItem;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox5;
         private Guna.UI2.WinForms.Guna2TextBox Location;
+        private MaterialSkin.Controls.MaterialCard materialCard1;
         private FlowLayoutPanel flowLayoutPanel1;
         private FlowLayoutPanel flowLayoutPanel2;
         private FlowLayoutPanel flowLayoutPanel3;
+        private RichTextBox Noteslabel;
         private FlowLayoutPanel flowLayoutPanel4;
         private FlowLayoutPanel flowLayoutPanel5;
-        private Syncfusion.Windows.Forms.Tools.FlowLayout flowLayout1;
     }
 }
