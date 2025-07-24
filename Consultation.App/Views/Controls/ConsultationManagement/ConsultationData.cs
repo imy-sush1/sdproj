@@ -8,7 +8,7 @@ namespace Consultation.App.Views.Controls.ConsultationManagement
 {
     public class ConsultationData
     {
-        public string Name { get; set; } = " Miles Darren P. Bagonl";
+        public string Name { get; set; } = " Miles Darren P. Bagnol";
         public string CourseCode { get; set; } = " BECE225/L(14733)";
         public string Faculty { get; set; } = "Engr. Fade ";
         public string Location { get; set; } = " BE215";

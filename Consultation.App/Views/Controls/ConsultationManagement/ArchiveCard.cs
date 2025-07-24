@@ -56,14 +56,5 @@ namespace Consultation.App.Views.Controls.ConsultationManagement
 
         }
 
-        private void materialCard1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void Date_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

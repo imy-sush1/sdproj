@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Views\Controls\ConsultationManagement\ajfr3cd3.wom~" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Presenters\" />
   </ItemGroup>
 
