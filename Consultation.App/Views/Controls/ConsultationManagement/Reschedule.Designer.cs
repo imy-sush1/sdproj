@@ -29,38 +29,41 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(components);
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             materialCard1 = new MaterialSkin.Controls.MaterialCard();
-            CurrentDate = new Guna.UI2.WinForms.Guna2TextBox();
-            CurrentTime = new Guna.UI2.WinForms.Guna2TextBox();
+            CurrentTime = new Label();
+            CurrentDate = new Label();
             guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            Time = new Guna.UI2.WinForms.Guna2DateTimePicker();
             Date = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            Reason = new Guna.UI2.WinForms.Guna2TextBox();
             guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             btnReschedule = new Guna.UI2.WinForms.Guna2Button();
             btnCancel = new Guna.UI2.WinForms.Guna2Button();
-            pictureBox1 = new PictureBox();
+            Reason = new Guna.UI2.WinForms.Guna2TextBox();
+            Time = new Guna.UI2.WinForms.Guna2TextBox();
+            Paneltime = new Panel();
+            label1 = new Label();
+            buttonOk = new Guna.UI2.WinForms.Guna2Button();
+            LabelAMPM = new Syncfusion.Windows.Forms.Tools.AutoLabel();
+            LabelMinutes = new Syncfusion.Windows.Forms.Tools.AutoLabel();
+            LabelHours = new Syncfusion.Windows.Forms.Tools.AutoLabel();
             materialCard1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            Paneltime.SuspendLayout();
             SuspendLayout();
             // 
             // guna2BorderlessForm1
@@ -92,8 +95,8 @@
             // materialCard1
             // 
             materialCard1.BackColor = Color.FromArgb(255, 255, 255);
-            materialCard1.Controls.Add(CurrentDate);
             materialCard1.Controls.Add(CurrentTime);
+            materialCard1.Controls.Add(CurrentDate);
             materialCard1.Controls.Add(guna2HtmlLabel3);
             materialCard1.Depth = 0;
             materialCard1.ForeColor = Color.FromArgb(222, 0, 0, 0);
@@ -105,147 +108,81 @@
             materialCard1.Size = new Size(450, 80);
             materialCard1.TabIndex = 2;
             // 
-            // CurrentDate
-            // 
-            CurrentDate.BorderRadius = 10;
-            CurrentDate.CustomizableEdges = customizableEdges15;
-            CurrentDate.DefaultText = "";
-            CurrentDate.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            CurrentDate.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            CurrentDate.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            CurrentDate.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            CurrentDate.Enabled = false;
-            CurrentDate.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            CurrentDate.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            CurrentDate.ForeColor = Color.Black;
-            CurrentDate.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            CurrentDate.Location = new Point(17, 32);
-            CurrentDate.Name = "CurrentDate";
-            CurrentDate.PlaceholderText = "";
-            CurrentDate.ReadOnly = true;
-            CurrentDate.SelectedText = "";
-            CurrentDate.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            CurrentDate.Size = new Size(200, 41);
-            CurrentDate.TabIndex = 8;
-            // 
             // CurrentTime
             // 
-            CurrentTime.BorderRadius = 10;
-            CurrentTime.CustomizableEdges = customizableEdges17;
-            CurrentTime.DefaultText = "";
-            CurrentTime.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            CurrentTime.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            CurrentTime.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            CurrentTime.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            CurrentTime.Enabled = false;
-            CurrentTime.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            CurrentTime.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            CurrentTime.ForeColor = Color.Black;
-            CurrentTime.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            CurrentTime.Location = new Point(233, 32);
+            CurrentTime.AutoSize = true;
+            CurrentTime.Font = new Font("Archivo SemiBold", 14.2499981F, FontStyle.Bold);
+            CurrentTime.Location = new Point(291, 40);
             CurrentTime.Name = "CurrentTime";
-            CurrentTime.PlaceholderText = "";
-            CurrentTime.ReadOnly = true;
-            CurrentTime.SelectedText = "";
-            CurrentTime.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            CurrentTime.Size = new Size(200, 41);
-            CurrentTime.TabIndex = 7;
+            CurrentTime.Size = new Size(96, 29);
+            CurrentTime.TabIndex = 8;
+            CurrentTime.Text = "11:01 AM";
+            // 
+            // CurrentDate
+            // 
+            CurrentDate.AutoSize = true;
+            CurrentDate.Font = new Font("Archivo SemiBold", 14.2499981F, FontStyle.Bold);
+            CurrentDate.Location = new Point(62, 37);
+            CurrentDate.Name = "CurrentDate";
+            CurrentDate.Size = new Size(119, 29);
+            CurrentDate.TabIndex = 7;
+            CurrentDate.Text = "July 6, 2025";
             // 
             // guna2HtmlLabel3
             // 
             guna2HtmlLabel3.BackColor = Color.Transparent;
-            guna2HtmlLabel3.Font = new Font("Inter", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            guna2HtmlLabel3.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             guna2HtmlLabel3.Location = new Point(17, 11);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(112, 20);
+            guna2HtmlLabel3.Size = new Size(105, 18);
             guna2HtmlLabel3.TabIndex = 6;
             guna2HtmlLabel3.Text = "Current Schedule";
-            // 
-            // Time
-            // 
-            Time.Checked = true;
-            Time.CustomFormat = "hh:mm tt";
-            Time.CustomizableEdges = customizableEdges19;
-            Time.Font = new Font("Segoe UI", 9F);
-            Time.Format = DateTimePickerFormat.Custom;
-            Time.ImeMode = ImeMode.Off;
-            Time.Location = new Point(273, 201);
-            Time.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
-            Time.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
-            Time.Name = "Time";
-            Time.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            Time.ShowUpDown = true;
-            Time.Size = new Size(200, 55);
-            Time.TabIndex = 3;
-            Time.TextAlign = HorizontalAlignment.Center;
-            Time.Value = new DateTime(2025, 7, 6, 11, 1, 18, 647);
             // 
             // Date
             // 
             Date.Checked = true;
-            Date.CustomizableEdges = customizableEdges21;
+            Date.CustomFormat = "MMMM dd, yyyy";
+            Date.CustomizableEdges = customizableEdges11;
+            Date.FillColor = Color.White;
             Date.Font = new Font("Segoe UI", 9F);
-            Date.Format = DateTimePickerFormat.Long;
+            Date.Format = DateTimePickerFormat.Custom;
             Date.Location = new Point(23, 202);
             Date.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             Date.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             Date.Name = "Date";
-            Date.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            Date.ShadowDecoration.CustomizableEdges = customizableEdges12;
             Date.Size = new Size(202, 55);
             Date.TabIndex = 4;
             Date.TextAlign = HorizontalAlignment.Center;
             Date.Value = new DateTime(2025, 7, 6, 11, 1, 21, 130);
             // 
-            // Reason
-            // 
-            Reason.AcceptsReturn = true;
-            Reason.BorderRadius = 10;
-            Reason.CustomizableEdges = customizableEdges23;
-            Reason.DefaultText = "";
-            Reason.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            Reason.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            Reason.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            Reason.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            Reason.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            Reason.Font = new Font("Inter", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Reason.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            Reason.Location = new Point(25, 297);
-            Reason.Name = "Reason";
-            Reason.PlaceholderForeColor = Color.Gray;
-            Reason.PlaceholderText = "Enter reason for rescheduling...";
-            Reason.SelectedText = "";
-            Reason.ShadowDecoration.CustomizableEdges = customizableEdges24;
-            Reason.Size = new Size(450, 109);
-            Reason.TabIndex = 5;
-            Reason.TextOffset = new Point(0, -35);
-            // 
             // guna2HtmlLabel4
             // 
             guna2HtmlLabel4.BackColor = Color.Transparent;
-            guna2HtmlLabel4.Font = new Font("Inter SemiBold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            guna2HtmlLabel4.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2HtmlLabel4.Location = new Point(36, 267);
             guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            guna2HtmlLabel4.Size = new Size(184, 24);
+            guna2HtmlLabel4.Size = new Size(193, 20);
             guna2HtmlLabel4.TabIndex = 7;
             guna2HtmlLabel4.Text = "Reason for Rescheduling";
             // 
             // guna2HtmlLabel5
             // 
             guna2HtmlLabel5.BackColor = Color.Transparent;
-            guna2HtmlLabel5.Font = new Font("Inter", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            guna2HtmlLabel5.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2HtmlLabel5.Location = new Point(25, 178);
             guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            guna2HtmlLabel5.Size = new Size(65, 20);
+            guna2HtmlLabel5.Size = new Size(70, 18);
             guna2HtmlLabel5.TabIndex = 8;
             guna2HtmlLabel5.Text = "New Date";
             // 
             // guna2HtmlLabel6
             // 
             guna2HtmlLabel6.BackColor = Color.Transparent;
-            guna2HtmlLabel6.Font = new Font("Inter", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            guna2HtmlLabel6.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2HtmlLabel6.Location = new Point(273, 179);
             guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            guna2HtmlLabel6.Size = new Size(100, 20);
+            guna2HtmlLabel6.Size = new Size(107, 18);
             guna2HtmlLabel6.TabIndex = 9;
             guna2HtmlLabel6.Text = "Schedule Time";
             // 
@@ -253,7 +190,7 @@
             // 
             btnReschedule.BorderColor = Color.DarkRed;
             btnReschedule.BorderRadius = 8;
-            btnReschedule.CustomizableEdges = customizableEdges25;
+            btnReschedule.CustomizableEdges = customizableEdges7;
             btnReschedule.DisabledState.BorderColor = Color.DarkGray;
             btnReschedule.DisabledState.CustomBorderColor = Color.DarkGray;
             btnReschedule.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -265,7 +202,7 @@
             btnReschedule.ImageAlign = HorizontalAlignment.Left;
             btnReschedule.Location = new Point(326, 412);
             btnReschedule.Name = "btnReschedule";
-            btnReschedule.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            btnReschedule.ShadowDecoration.CustomizableEdges = customizableEdges8;
             btnReschedule.Size = new Size(147, 36);
             btnReschedule.TabIndex = 10;
             btnReschedule.Text = "Reschedule";
@@ -277,7 +214,7 @@
             btnCancel.BorderColor = Color.Red;
             btnCancel.BorderRadius = 8;
             btnCancel.BorderThickness = 1;
-            btnCancel.CustomizableEdges = customizableEdges27;
+            btnCancel.CustomizableEdges = customizableEdges5;
             btnCancel.DisabledState.BorderColor = Color.DarkGray;
             btnCancel.DisabledState.CustomBorderColor = Color.DarkGray;
             btnCancel.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -290,23 +227,139 @@
             btnCancel.ImageSize = new Size(10, 10);
             btnCancel.Location = new Point(216, 412);
             btnCancel.Name = "btnCancel";
-            btnCancel.ShadowDecoration.CustomizableEdges = customizableEdges28;
+            btnCancel.ShadowDecoration.CustomizableEdges = customizableEdges6;
             btnCancel.Size = new Size(92, 36);
             btnCancel.TabIndex = 11;
             btnCancel.Text = "Cancel";
             btnCancel.TextOffset = new Point(6, 0);
             btnCancel.Click += btnCancel_Click;
             // 
-            // pictureBox1
+            // Reason
             // 
-            pictureBox1.BackColor = Color.FromArgb(255, 136, 77);
-            pictureBox1.Image = Properties.Icons.clock;
-            pictureBox1.Location = new Point(282, 224);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(15, 15);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 14;
-            pictureBox1.TabStop = false;
+            Reason.AcceptsReturn = true;
+            Reason.BorderRadius = 10;
+            Reason.BorderThickness = 2;
+            Reason.CustomizableEdges = customizableEdges9;
+            Reason.DefaultText = "";
+            Reason.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            Reason.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            Reason.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            Reason.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            Reason.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            Reason.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Reason.ForeColor = Color.Black;
+            Reason.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            Reason.Location = new Point(25, 297);
+            Reason.Multiline = true;
+            Reason.Name = "Reason";
+            Reason.PlaceholderForeColor = Color.Gray;
+            Reason.PlaceholderText = "Enter reason for rescheduling...";
+            Reason.SelectedText = "";
+            Reason.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            Reason.Size = new Size(450, 109);
+            Reason.TabIndex = 5;
+            // 
+            // Time
+            // 
+            Time.BorderColor = Color.Gainsboro;
+            Time.BorderRadius = 6;
+            Time.CustomizableEdges = customizableEdges3;
+            Time.DefaultText = "";
+            Time.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            Time.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            Time.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            Time.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            Time.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            Time.Font = new Font("Archivo Medium", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Time.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            Time.IconLeft = Properties.Icons.clock;
+            Time.IconLeftOffset = new Point(5, 0);
+            Time.IconLeftSize = new Size(15, 15);
+            Time.Location = new Point(273, 205);
+            Time.Margin = new Padding(3, 4, 3, 4);
+            Time.Name = "Time";
+            Time.PlaceholderText = "hh:mm AM";
+            Time.ReadOnly = true;
+            Time.SelectedText = "";
+            Time.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            Time.Size = new Size(200, 55);
+            Time.TabIndex = 38;
+            Time.TextAlign = HorizontalAlignment.Center;
+            Time.Click += Time_Click;
+            // 
+            // Paneltime
+            // 
+            Paneltime.Controls.Add(label1);
+            Paneltime.Controls.Add(buttonOk);
+            Paneltime.Controls.Add(LabelAMPM);
+            Paneltime.Controls.Add(LabelMinutes);
+            Paneltime.Controls.Add(LabelHours);
+            Paneltime.Cursor = Cursors.Hand;
+            Paneltime.Location = new Point(277, 262);
+            Paneltime.Name = "Paneltime";
+            Paneltime.Size = new Size(197, 50);
+            Paneltime.TabIndex = 39;
+            Paneltime.Visible = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Archivo SemiBold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(38, 8);
+            label1.Name = "label1";
+            label1.Size = new Size(21, 32);
+            label1.TabIndex = 42;
+            label1.Text = ":";
+            // 
+            // buttonOk
+            // 
+            buttonOk.BorderRadius = 6;
+            buttonOk.BorderThickness = 2;
+            buttonOk.CustomizableEdges = customizableEdges1;
+            buttonOk.DisabledState.BorderColor = Color.DarkGray;
+            buttonOk.DisabledState.CustomBorderColor = Color.DarkGray;
+            buttonOk.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            buttonOk.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            buttonOk.FillColor = Color.Transparent;
+            buttonOk.Font = new Font("Archivo", 8.249999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            buttonOk.ForeColor = Color.Black;
+            buttonOk.Location = new Point(143, 12);
+            buttonOk.Name = "buttonOk";
+            buttonOk.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            buttonOk.Size = new Size(44, 25);
+            buttonOk.TabIndex = 41;
+            buttonOk.Text = "OK";
+            buttonOk.Click += buttonOk_Click;
+            // 
+            // LabelAMPM
+            // 
+            LabelAMPM.Font = new Font("Archivo SemiBold", 14.2499981F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LabelAMPM.Location = new Point(95, 10);
+            LabelAMPM.Name = "LabelAMPM";
+            LabelAMPM.Size = new Size(42, 29);
+            LabelAMPM.TabIndex = 40;
+            LabelAMPM.Text = "AM";
+            LabelAMPM.Click += LabelAMPM_Click;
+            // 
+            // LabelMinutes
+            // 
+            LabelMinutes.Font = new Font("Archivo SemiBold", 14.2499981F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LabelMinutes.Location = new Point(58, 10);
+            LabelMinutes.Name = "LabelMinutes";
+            LabelMinutes.Size = new Size(35, 29);
+            LabelMinutes.TabIndex = 39;
+            LabelMinutes.Text = "00";
+            LabelMinutes.MouseClick += LabelMinutes_MouseClick;
+            // 
+            // LabelHours
+            // 
+            LabelHours.Font = new Font("Archivo SemiBold", 14.2499981F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LabelHours.Location = new Point(6, 10);
+            LabelHours.Name = "LabelHours";
+            LabelHours.Size = new Size(35, 29);
+            LabelHours.TabIndex = 0;
+            LabelHours.Text = "12";
+            LabelHours.Click += LabelHours_Click;
             // 
             // Reschedule
             // 
@@ -314,7 +367,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(500, 460);
-            Controls.Add(pictureBox1);
+            Controls.Add(Paneltime);
+            Controls.Add(Time);
             Controls.Add(btnCancel);
             Controls.Add(btnReschedule);
             Controls.Add(guna2HtmlLabel6);
@@ -322,7 +376,6 @@
             Controls.Add(guna2HtmlLabel4);
             Controls.Add(Reason);
             Controls.Add(Date);
-            Controls.Add(Time);
             Controls.Add(materialCard1);
             Controls.Add(guna2HtmlLabel2);
             Controls.Add(guna2HtmlLabel1);
@@ -332,7 +385,8 @@
             Text = "Reschedule";
             materialCard1.ResumeLayout(false);
             materialCard1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            Paneltime.ResumeLayout(false);
+            Paneltime.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -344,16 +398,21 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2DateTimePicker Date;
-        private Guna.UI2.WinForms.Guna2DateTimePicker Time;
-        private Guna.UI2.WinForms.Guna2TextBox Reason;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
-        private Guna.UI2.WinForms.Guna2TextBox CurrentTime;
         private Guna.UI2.WinForms.Guna2Button btnCancel;
         private Guna.UI2.WinForms.Guna2Button btnReschedule;
-        private PictureBox pictureBox1;
-        private Guna.UI2.WinForms.Guna2TextBox CurrentDate;
+        private Label CurrentTime;
+        private Label CurrentDate;
+        private Guna.UI2.WinForms.Guna2TextBox Reason;
+        private Guna.UI2.WinForms.Guna2TextBox Time;
+        private Panel Paneltime;
+        private Label label1;
+        private Guna.UI2.WinForms.Guna2Button buttonOk;
+        private Syncfusion.Windows.Forms.Tools.AutoLabel LabelAMPM;
+        private Syncfusion.Windows.Forms.Tools.AutoLabel LabelMinutes;
+        private Syncfusion.Windows.Forms.Tools.AutoLabel LabelHours;
     }
 }

@@ -125,17 +125,11 @@
     <Compile Update="Views\Controls\ConsultationManagement\ArchiveCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Views\Controls\ConsultationManagement\ArchiveWindow.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Update="Views\Controls\ConsultationManagement\ConsultationCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Views\ConsultationView.cs">
       <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Views\Controls\ConsultationManagement\CSWindow.cs">
-      <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Views\DashboardView.cs">
       <SubType>Form</SubType>

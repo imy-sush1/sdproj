@@ -14,11 +14,12 @@ namespace Consultation.App.Views.Controls.ConsultationManagement
 {
     public partial class ArchiveCard : UserControl
     {
-
+        public event EventHandler RestoreClicked;
         private ConsultationData data = new ConsultationData();
         public ArchiveCard()
         {
             InitializeComponent();
+
         }
 
         public ConsultationData Data
@@ -28,8 +29,8 @@ namespace Consultation.App.Views.Controls.ConsultationManagement
             {
                 data = value;
 
-                StudentName.Text = data.Name;
-                CourseCode.Text = data.CourseCode;
+                Namelabel.Text = data.Name;
+                Code.Text = data.CourseCode;
                 Notes.Text = data.Notes;
                 Date.Text = data.Date;
                 Time.Text = data.Time;
@@ -39,19 +40,20 @@ namespace Consultation.App.Views.Controls.ConsultationManagement
             }
         }
 
-        private void restoreToolStripMenuItem_Click(object sender, EventArgs e)
-        {
 
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            MenuContextArchive.Show(guna2Button1, guna2Button1.Width / 2, guna2Button1.Height);
+        }
+
+        private void restoreToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            ((ConsultationView)this.FindForm()).RestoreCard(this);
         }
 
         private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            MenuContextArchive.Show(guna2Button1, guna2Button1.Width / 2, guna2Button1.Height);
         }
 
     }

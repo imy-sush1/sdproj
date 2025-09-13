@@ -1,59 +1,90 @@
 ﻿using System;
 using System.Windows.Forms;
+using Consultation.App.Views.Controls.ConsultationManagement;
+
 
 namespace Consultation.App.ConsultationManagement
 {
     public partial class ConsultationView : Form
     {
-        private CSWindow csWindow;
-        private ArchiveWindow archiveWindow;
+
+        private List<ConsultationCard> activeCards = new List<ConsultationCard>();
+        private List<ArchiveCard> archivedCards = new List<ArchiveCard>();
+
 
         public ConsultationView()
         {
             InitializeComponent();
+
+            for (int i = 0; i < 4; i++)
+            {
+                var card = new ConsultationCard();
+                card.Data = new ConsultationData();
+                card.ArchiveRequested += (s, e) => ArchiveCard(card);
+                activeCards.Add(card);
+            }
+
             ShowConsultationView();
         }
 
         private void ShowConsultationView()
         {
+            LabelHeader.Text = "Active Consultation";
             MoveUnderline(btnConsultation);
             WindowPanelConsultation.Controls.Clear();
 
-            if (csWindow == null)
+            foreach (var card in activeCards)
             {
-                csWindow = new CSWindow();
-                csWindow.CardArchived += OnCardArchived; // Subscribe to event
+                WindowPanelConsultation.Controls.Add(card);
             }
-
-            WindowPanelConsultation.Controls.Add(csWindow);
         }
 
-        private void OnCardArchived(object sender, ConsultationCard card)
+        public void ArchiveCard(ConsultationCard card)
         {
-            csWindow.RemoveCard(card);
+            WindowPanelConsultation.Controls.Remove(card);
+            activeCards.Remove(card);
 
-            if (archiveWindow == null)
-                archiveWindow = new ArchiveWindow();
+            var archiveCard = new ArchiveCard();
+            archiveCard.Data = card.Data;
+            archiveCard.RestoreClicked += (s, e) => RestoreCard(archiveCard);
+            archivedCards.Add(archiveCard);
 
-            archiveWindow.AddToArchive(card);
+        }
+
+        public void RestoreCard(ArchiveCard card)
+        {
+            WindowPanelConsultation.Controls.Remove(card);
+            archivedCards.Remove(card);
+            var consultationCard = new ConsultationCard();
+            consultationCard.Data = card.Data;
+            consultationCard.ArchiveRequested += (s, e) => ArchiveCard(consultationCard);
+            activeCards.Add(consultationCard);
+
+        }
+
+        private void ShowArchivedConsultations()
+        {
+            LabelHeader.Text = "Archived Consultation";
+            MoveUnderline(btnArchive);
+            WindowPanelConsultation.Controls.Clear();
+
+            foreach (var archiveCard in archivedCards)
+            {
+                WindowPanelConsultation.Controls.Add(archiveCard);
+            }
         }
 
         private void btnConsultation_Click_1(object sender, EventArgs e)
         {
             ShowConsultationView();
+            LabelHeader.Text = "Active Consultation";
 
         }
 
         private void btnArchive_Click(object sender, EventArgs e)
         {
-            MoveUnderline(btnArchive);
-
-            if (archiveWindow == null)
-                archiveWindow = new ArchiveWindow();
-
-            WindowPanelConsultation.Controls.Clear();
-            WindowPanelConsultation.Controls.Add(archiveWindow);
-
+            ShowArchivedConsultations();
+            LabelHeader.Text = "Archived Consultation";
 
         }
 
@@ -66,6 +97,18 @@ namespace Consultation.App.ConsultationManagement
         }
 
         private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            if (LabelHeader.Text == "Active Consultation")
+            {
+                ShowConsultationView();
+            }
+            else if (LabelHeader.Text == "Archived Consultation")
+            {
+                ShowArchivedConsultations();
+            }
+        }
+
+        private void materialCard1_Paint(object sender, PaintEventArgs e)
         {
 
         }
